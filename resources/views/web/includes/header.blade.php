@@ -14,8 +14,8 @@
                             <!-- End Header mobile customize -->
                                     
                             <div class="header-logo-mobile">
-                                <a  href="https://demo.harutheme.com/formota/" title="Formota &#8211; Movie Studios &amp; Filmmakers WordPress theme - Just another WordPress site">
-                                    <img src="{{URL::to('/public')}}/wp-content/uploads/2018/09/logo-black.png" alt="Formota &#8211; Movie Studios &amp; Filmmakers WordPress theme - Just another WordPress site" />
+                                <a  href="{{route('home')}}" title="Meet lasa Ona">
+                                    <img src="{{URL::to('/public/images')}}/logo-black.png" alt="Logo - lasa Ona" />
                                 </a>
                             </div>
                         </div>
@@ -96,17 +96,17 @@
                     <div class="row header-nav-above d-flex justify-content-between">
                         <div class="col-md-2 header-left header-elements align-self-center">
                             <div class="header-logo has-logo-sticky">
-                                <a href="https://demo.harutheme.com/formota/" class="logo-default" title="Formota &#8211; Movie Studios &amp; Filmmakers WordPress theme - Just another WordPress site">
-                                    <img src="{{URL::to('/public')}}/wp-content/uploads/2018/09/logo-white.png" alt="Formota &#8211; Movie Studios &amp; Filmmakers WordPress theme - Just another WordPress site" style="max-height: 80px" />
+                                <a href="{{route('home')}}" class="logo-default" title="Logo - lasa Ona">
+                                    <img src="{{URL::to('/public/images')}}/logo-white-min.png" alt="Logo - lasa Ona" style="max-height: 80px" />
                                 </a>
-                                <a href="https://demo.harutheme.com/formota/" class="logo-black" title="Formota &#8211; Movie Studios &amp; Filmmakers WordPress theme - Just another WordPress site">
-                                    <img src="{{URL::to('/public')}}/wp-content/uploads/2018/09/logo-black.png" alt="Formota &#8211; Movie Studios &amp; Filmmakers WordPress theme - Just another WordPress site" style="max-height: 80px" />
+                                <a href="{{route('home')}}" class="logo-black" title="Logo - lasa Ona">
+                                    <img src="{{URL::to('/public/images')}}/logo-black-min.png" alt="Logo - lasa Ona" style="max-height: 80px" />
                                 </a>
-                                <a href="https://demo.harutheme.com/formota/" class="logo-retina" title="Formota &#8211; Movie Studios &amp; Filmmakers WordPress theme - Just another WordPress site">
-                                    <img src="{{URL::to('/public')}}/wp-content/uploads/2018/09/logo%402x.png" alt="Formota &#8211; Movie Studios &amp; Filmmakers WordPress theme - Just another WordPress site" style="max-height: 80px" />
+                                <a href="{{route('home')}}" class="logo-retina" title="Logo - lasa Ona">
+                                    <img src="{{URL::to('/public/images')}}/logo-black-min.png" alt="Logo - lasa Ona" style="max-height: 80px" />
                                 </a>
-                                    <a href="https://demo.harutheme.com/formota/" class="logo-sticky" title="Formota &#8211; Movie Studios &amp; Filmmakers WordPress theme - Just another WordPress site">
-                                    <img src="{{URL::to('/public')}}/wp-content/uploads/2018/09/logo-white.png" alt="Formota &#8211; Movie Studios &amp; Filmmakers WordPress theme - Just another WordPress site" style="max-height: 40px" />
+                                    <a href="{{route('home')}}" class="logo-sticky" title="Logo - lasa Ona">
+                                    <img src="{{URL::to('/public/images')}}/logo-white-min.png" alt="Logo - lasa Ona" style="max-height: 40px" />
                                 </a>
                             </div>            
                         </div>

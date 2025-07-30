@@ -41028,6 +41028,11 @@ body.parallax-disable .vc_row[data-vc-full-width] {
   background-position: top right;
   background-size: 25% auto;
 }
+.actor-introduce2 {
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: 40% auto;
+}
 
 @media screen and (max-width: 767px) {
   .actor-introduce {
