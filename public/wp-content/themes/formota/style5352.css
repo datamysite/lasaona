@@ -27999,7 +27999,7 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
 }
 
 .introduce-shortcode-wrap.style_1 .introduce-description {
-  margin-left: 30%;
+  margin-left: 19%;
   margin-top: -25%;
   border: 2px solid #e7e7e7;
 }
@@ -28020,7 +28020,7 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
 .introduce-shortcode-wrap.style_1 .introduce-description .introduce-content {
   border: 1px solid #e7e7e7;
   margin: 10px;
-  padding: 8% 6% 5% 45%;
+  padding: 5% 6% 4% 43%;
 }
 
 @media screen and (max-width: 991px) {

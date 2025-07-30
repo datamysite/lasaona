@@ -9,10 +9,10 @@
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper">
                                             <h2 style="text-align: center" class="vc_custom_heading heading_style_14">
-                                                Let's make
+                                                Let’s Redefine
                                             </h2>
                                             <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading lt-spacing-5 heading_style_4">
-                                                GREAT THINGS TOGETHER
+                                                Real Estate curated with art, soul, and intention
                                             </h2>
                                         </div>
                                     </div>
@@ -29,7 +29,7 @@
                                         <div class="wpb_wrapper">
                                             <div class="wpb_text_column wpb_content_element  vc_custom_1531118812608 fs-18 text-color-secondary secondary-font" >
                                                 <div class="wpb_wrapper">
-                                                    <p class="p1" style="text-align: center;"><span class="s1">After a long time, I'm happy to publish my portfolio website. I hope you will like it and feel free to share your feedback with me if you want.</span></p>
+                                                    <p class="p1" style="text-align: center;"><span class="s1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span></p>
 
                                                 </div>
                                             </div>

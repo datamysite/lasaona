@@ -40,19 +40,19 @@
                                 </li>
 
                                 <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                    <a href="{{route('about')}}">About Me</a>
+                                    <a href="">About Me</a>
                                 </li>
 
                                 <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                    <a href="">Lasa`s Picks</a>
+                                    <a href="">Real Estate</a>
                                 </li>
 
                                 <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                    <a href="">Lasa`s World</a>
+                                    <a href="">Music</a>
                                 </li>
 
                                 <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                    <a href="{{route('blogs')}}">Blogs</a><b class="menu-caret"></b>
+                                    <a href="">Blogs</a><b class="menu-caret"></b>
                                     <ul class="sub-menu" style="">
                                         <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home level-1 ">
                                             <a href="">Category 1</a>
@@ -67,7 +67,7 @@
                                 </li>
 
                                 <li id="menu-item-mobile-2816" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                    <a href="{{route('contact')}}">Contact</a>
+                                    <a href="">Contact</a>
                                 </li>
 
                             </ul>                                
@@ -124,22 +124,22 @@
                                         </li>
 
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                            <a href="{{route('about')}}">About Me</a>
+                                            <a href="">About Me</a>
                                             
                                         </li>
 
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                            <a href="">Lasa`s Picks</a>
+                                            <a href="">Real Estate</a>
                                             
                                         </li>
 
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                            <a href="">Lasa`s World</a>
+                                            <a href="">Music</a>
                                             
                                         </li>
 
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                            <a href="{{route('blogs')}}">Blogs</a><b class="menu-caret"></b>
+                                            <a href="">Blogs</a><b class="menu-caret"></b>
                                             <ul class="sub-menu animated menu_fadeInDown" style="">
                                                 <li id="menu-item-1915" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home level-1 ">
                                                     <a href="">Category 1</a>
@@ -153,7 +153,7 @@
                                             </ul>
                                         </li>
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                            <a href="{{route('contact')}}">Contact</a>
+                                            <a href="">Contact</a>
                                             
                                         </li>
                                     </ul>                    

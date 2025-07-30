@@ -120,7 +120,7 @@
                                           data-frame_1="tp:600;e:Strong.easeIn;st:1800;sp:800;sR:1800;"
                                           data-frame_999="o:0;tp:600;st:w;sR:6400;"
                                           style="z-index:12;font-family:'Josefin Sans';"
-                                        >Luxury is a Lifestyle.
+                                        >Art-led real estate and conscious luxury
                                         </rs-layer>
 
                                         <rs-layer

@@ -28,7 +28,7 @@
                                 						<div class="vc_column-inner">
                                 							<div class="wpb_wrapper">
                                 								<h2 style="text-align: left" class="vc_custom_heading heading_style_10">02</h2>
-                                								<h2 style="text-align: center" class="vc_custom_heading vc_custom_1530602768482 heading_style_11">Cast &amp; Crew</h2>
+                                								<h2 style="text-align: center" class="vc_custom_heading vc_custom_1530602768482 heading_style_11">Real Estate</h2>
                                 							</div>
                                 						</div>
                                 					</div>
@@ -44,7 +44,7 @@
                                 							<div class="wpb_wrapper">
 																<div class="wpb_text_column wpb_content_element  fs-18 text-color-secondary secondary-font">
 																	<div class="wpb_wrapper">
-																		<p class="p1" style="text-align: center;"><span class="s1">We make films &amp; drama. Sometimes we win awards or cause controversies. Now flying the flag for the next crop of storytellers.</span></p>
+																		<p class="p1" style="text-align: center;"><span class="s1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>
 
 																	</div>
 																</div>
@@ -67,10 +67,10 @@
                         													<div class="team-item" style="position: absolute; left: 0px; top: 0px;">
 																                <div class="team-content">
 																                    <div class="team-image">
-																                        <img loading="lazy" decoding="async" width="330" height="330" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/cristian-kumar.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/cristian-kumar.jpg 330w, https://demo.harutheme.com/formota/wp-content/uploads/2018/07/cristian-kumar-300x300.jpg 300w, https://demo.harutheme.com/formota/wp-content/uploads/2018/07/cristian-kumar-150x150.jpg 150w" sizes="(max-width: 330px) 100vw, 330px">                        
+																                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property1.png')}}">                        
 																                        <div class="team-meta">
-																                            <h5 class="team-title">Cristian Kumar</h5>
-																                            <p class="team-position">/ Director</p>
+																                            <h5 class="team-title">ABC Building</h5>
+																                            <p class="team-position">/ Penthouse</p>
 																                        </div>
 								                                                    	<ul class="member-socials">
 								                                                            <li class="member-social"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
@@ -84,10 +84,10 @@
 													                        <div class="team-item" style="position: absolute; left: 390px; top: 0px;">
 																                <div class="team-content">
 																                    <div class="team-image">
-																                        <img loading="lazy" decoding="async" width="330" height="330" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/selena-swift.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/selena-swift.jpg 330w, https://demo.harutheme.com/formota/wp-content/uploads/2018/07/selena-swift-300x300.jpg 300w, https://demo.harutheme.com/formota/wp-content/uploads/2018/07/selena-swift-150x150.jpg 150w" sizes="(max-width: 330px) 100vw, 330px">                        
+																                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property2.jpg')}}">                        
 																                        <div class="team-meta">
-									                                                        <h5 class="team-title">Selena Swift</h5>
-									                                                        <p class="team-position">/ Actor</p>
+									                                                        <h5 class="team-title">ABC Building</h5>
+									                                                        <p class="team-position">/ Penthouse</p>
 																                        </div>
 									                                                    <ul class="member-socials">
 								                                                            <li class="member-social"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
@@ -101,10 +101,10 @@
 													                        <div class="team-item" style="position: absolute; left: 780px; top: 0px;">
 																                <div class="team-content">
 																                    <div class="team-image">
-																                        <img loading="lazy" decoding="async" width="330" height="330" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/venus-kalos.jpg" class="attachment-full size-full wp-post-image" alt="" srcset="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/venus-kalos.jpg 330w, https://demo.harutheme.com/formota/wp-content/uploads/2018/07/venus-kalos-300x300.jpg 300w, https://demo.harutheme.com/formota/wp-content/uploads/2018/07/venus-kalos-150x150.jpg 150w" sizes="(max-width: 330px) 100vw, 330px">                        
+																                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property3.jpg')}}">                        
 																                        <div class="team-meta">
-									                                                        <h5 class="team-title">Venus Kalos</h5>
-									                                                        <p class="team-position">/ Actor</p>
+									                                                        <h5 class="team-title">Downtown</h5>
+									                                                        <p class="team-position">/ Villa</p>
 																                        </div>
 								                                                    	<ul class="member-socials">
 								                                                            <li class="member-social"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>

@@ -117,8 +117,13 @@
                                         </div>
                                         <div class="introduce-description">
                                             <div class="introduce-content">
-                                                <div class="description">The Most Talented Young Actress in America. He love what he do since he started doing it and never looked back. Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravida mi purus sit amet erat. Ut dictum nisi massa, vitae pulvinar metus sc</div>
-                                                    <img decoding="async" src="{{URL::to('/public')}}/wp-content/uploads/2018/07/actor_signature.png" alt="JP">
+                                                <div class="description">
+                                                    THE only real estate personality who blends artistic legacy with architectural beauty, La Sauna curates spaces and content that inspire soulful, conscious living.
+                                                    <br><br>
+                                                    Slovak-born La Sauna is a musician turned real estate curator, From performing at 14 to designing atmospheres, she transforms emotion into music—and spaces into art.
+
+                                                </div>
+                                                    <img decoding="async" src="{{URL::to('/public')}}/images/lasa_signature.png" alt="JP">
                                             </div>
                                         </div>
                                     </div>            
