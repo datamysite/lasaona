@@ -1,0 +1,11 @@
+.striped-background{
+    background-color: #000000;
+}
+.image-background{
+    background: url('../images/dark-bg.jpg');
+    background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.7);
+}
+.text-dark{
+    color: #000000 !important;
+}
