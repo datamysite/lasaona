@@ -9,3 +9,13 @@
 .text-dark{
     color: #000000 !important;
 }
+.description{
+    font-family:'Libre Baskerville';
+}
+
+p, p > *{
+    font-family:'Libre Baskerville';
+}
+.vc_custom_heading{
+    font-family: "Playfair Display";
+}
