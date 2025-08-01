@@ -17,12 +17,13 @@ Route::get('/update-sitemap', function () {
 
 Route::namespace('App\Http\Controllers\web')->group(function(){
     Route::get('/', 'WebController@index')->name('home');
-    Route::get('/kasturijha', 'WebController@kasturijha');
-    Route::get('/lol', 'WebController@lol');
-
-
     Route::get('/about-me', 'WebController@about')->name('about');
     Route::get('/contact-us', 'WebController@contact')->name('contact');
+
+    //Real-Estate
+    Route::get('/real-estate', 'WebController@realEstate')->name('real-estate');
+    Route::get('/real-estate-detail', 'WebController@realEstateDetail')->name('real-estate.detail');
+
 
     //Blogs
     Route::get('/blogs', 'BlogController@index')->name('blogs');

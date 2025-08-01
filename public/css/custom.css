@@ -16,6 +16,40 @@
 p, p > *{
     font-family:'Libre Baskerville';
 }
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .vc_custom_heading{
     font-family: "Playfair Display";
+}
+.vc_custom_1533616074133 {
+    padding-top: 25% !important;
+    padding-bottom: 25% !important;
+    background-image: url(../images/about-me-bg-1.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.enquiry-form h3 {
+    font-size: 46px !important;
+    color: #333333 !important;
+}
+.enquiry-form {
+    background-color: #d8b069;
+    padding: 6px 14px;
+}
+.enquiry-form p {
+    color: #fff;
+    line-height: 21px;
+}
+.related-heading {
+    font-size: 48px;
+    font-weight: 700;
+    position: relative;
+    text-align: center;
+}
+.related-heading span {
+    font-weight: 400;
+    font-style: italic;
 }

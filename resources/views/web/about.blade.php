@@ -1,124 +1,303 @@
 @extends('web.includes.master')
+
 @section('content')
 
-<section  class="header">
-        
-        @include('web.includes.header')
+<main class="haru-page">
+    <div class="container clearfix">
+        <div class="row clearfix">
+            <div class="page-content col-md-12  col-sm-12 col-xs-12">
+                <div class="page-wrapper">
+                    <div class="page-inner clearfix">          
+                        <div id="post-2460" class="post-2460 page type-page status-publish hentry clearfix">
+                            <div class="entry-content">
+                                <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1533616074133 vc_row-has-fill" style="position: relative; left: -367.5px; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading fs-100 vc_custom_1534822900281 heading_style_4"><small>Meet</small> Lasa Ona</h2>
+                                                                <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading heading_style_1">Singer | Real Estate</h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="vc_row-full-width vc_clearfix"></div>
 
-        <div class="sub-header-div text-center" style="background-image: url('{{URL::to('/public/images/home-bg.png')}}');">
-            <div class="sub-header-content">
-                <h1 class="text-white">About LOL – Let’s Off Leash</h1>
-                <br>
-                <p class="text-center"><strong>Where freedom meets storytelling</strong>, Let’s Off Leash is a space where real voices are heard and untold stories come to life. We go beyond entertainment—sharing honest, impactful narratives that inspire empathy, awareness, and change</p>
-            </div>
-        </div>
-</section>
+                                @include('web.includes.elements.about-section')
 
-    <div class="container-fluid fh5co-about-us" id="about-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4">
+                                <div class="vc_row-full-width vc_clearfix"></div>
 
-    
+                                <div class="vc_row wpb_row vc_row-fluid vc_custom_1533626661634">
+                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <h2 style="text-align: left" class="vc_custom_heading about-me heading_style_5">
+                                                                    <span class="pre-heading">J.P is a</span> <span class="hightlight-heading">freelancing cinematographer</span> (M.A.) for feature film, documentaries, commercials &amp; music videos.
+                                                                </h2>
+                                                                <div class="wpb_text_column wpb_content_element  vc_custom_1533626628395">
+                                                                    <div class="wpb_wrapper">
+                                                                        <p class="p1"><span class="s1">Suspe ndisse suscipit sagittis leo sit met condimentum estibulum issim Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse suscipit sagittis leo sit met condimentum estibulum issim </span></p>
 
-                    <div class="owl-carousel owl-carousel1 owl-theme">
-                        <div>
-                            <img src="{{URL::to('/')}}/public/images/ab1.png" alt="" class="img-fluid" />
-                        </div>
-                        <div>
-                            <img src="{{URL::to('/')}}/public/images/ab2.png" alt="" class="img-fluid" />
-                        </div>
-                        <div>
-                            <img src="{{URL::to('/')}}/public/images/ab3.png" alt="" class="img-fluid" />
-                        </div>
-                        <div>
-                            <img src="{{URL::to('/')}}/public/images/about3.png" alt="" class="img-fluid" />
-                        </div>
-                        <div>
-                            <img src="{{URL::to('/')}}/public/images/about2.png" alt="" class="img-fluid" />
-                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="button_style_7 vc_btn3-container vc_btn3-left">
+                                                                    <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey" href="#" title="">Contact Now</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">            
+                                                                <div class=" ">
+                                                                    <div class="icon-box-shortcode-wrap style_3 ">
+                                                                        <div class="icon-box-container">
+                                                                            <div class="icon-top">
+                                                                                <div class="icon-wrap">
+                                                                                    <img decoding="async" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/icon-film-product.png" alt="Film Production">
+                                                                                </div>
+                                                                                <div class="icon-title">
+                                                                                        <a href="#" title="" target="_self">
+                                                                                    <h5>Film Production</h5>
+                                                                                        </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="icon-content">
+                                                                                <p class="icon-description">Suspe ndisse suscipit sagittis leo sit met condimentum essum dolor sit amet, consec ndisse suscipit sagittis</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>            
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">            
+                                                                <div class=" ">     
+                                                                    <div class="icon-box-shortcode-wrap style_3 ">
+                                                                        <div class="icon-box-container">
+                                                                            <div class="icon-top">
+                                                                                <div class="icon-wrap">
+                                                                                    <img decoding="async" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/icon-creative-direct.png" alt="Creative Direction">
+                                                                                </div>
+                                                                                <div class="icon-title">
+                                                                                        <a href="#" title="" target="_self">
+                                                                                    <h5>Creative Direction</h5>
+                                                                                        </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="icon-content">
+                                                                                <p class="icon-description">Suspe ndisse suscipit sagittis leo sit met condimentum essum dolor sit amet, consec ndisse suscipit sagittis</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>            
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1533624653503">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">            
+                                                                <div class=" ">
+                                                                    <div class="icon-box-shortcode-wrap style_3 ">
+                                                                        <div class="icon-box-container">
+                                                                            <div class="icon-top">
+                                                                                <div class="icon-wrap">
+                                                                                    <img decoding="async" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/icon-visual-effect.png" alt="Visual Effects">
+                                                                                </div>
+                                                                                <div class="icon-title">
+                                                                                        <a href="#" title="" target="_self">
+                                                                                    <h5>Visual Effects</h5>
+                                                                                        </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="icon-content">
+                                                                                <p class="icon-description">Suspe ndisse suscipit sagittis leo sit met condimentum essum dolor sit amet, consec ndisse suscipit sagittis</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>            
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wpb_column vc_column_container vc_col-sm-6">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">            
+                                                                <div class=" ">
+                                                                    <div class="icon-box-shortcode-wrap style_3 ">
+                                                                        <div class="icon-box-container">
+                                                                            <div class="icon-top">
+                                                                                <div class="icon-wrap">
+                                                                                    <img decoding="async" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/icon-film-services.png" alt="Filming Services">
+                                                                                </div>
+                                                                                <div class="icon-title">
+                                                                                        <a href="#" title="" target="_self">
+                                                                                    <h5>Filming Services</h5>
+                                                                                        </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="icon-content">
+                                                                                <p class="icon-description">Suspe ndisse suscipit sagittis leo sit met condimentum essum dolor sit amet, consec ndisse suscipit sagittis</p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>            
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="vc_row-full-width vc_clearfix"></div>
+
+
+                                <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-parallax="1.5" class="vc_row wpb_row vc_row-fluid vc_custom_1533887730832 vc_row-has-fill vc_general vc_parallax vc_parallax-content-moving">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <h2 style="text-align: center" class="vc_custom_heading vc_custom_1536487831307 heading_style_14">Be wild</h2>
+                                                                <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading text-upper lt-spacing-10 fs-100 vc_custom_1533887648176 heading_style_4">Have fun</h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">  
+                                                                <div class=" ">
+                                                                    <div class="single-video-shortcode-wrapper style_2 ">
+                                                                        <div class="video-content">
+                                                                            <div class="video-image">
+                                                                                <div class="video-icon">
+                                                                                    <a href="javascript:;" class="view-video-button" data-id="2781" data-player="none" data-server="vimeo"></a>
+                                                                                </div>
+                                                                                <h3 class="video-title"><a href="https://demo.harutheme.com/formota/video/just-like-you/">Just Like You</a></h3>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="vc_row-full-width vc_clearfix"></div>
+
+                                <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1530603206608 vc_row-has-fill" style="position: relative; left: -367.5px; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">
+                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                        <div class="vc_column-inner">
+                                            <div class="wpb_wrapper">
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <h2 style="text-align: left" class="vc_custom_heading heading_style_10 text-dark">02</h2>
+                                                                <h2 style="text-align: center" class="vc_custom_heading vc_custom_1530602768482 heading_style_11 text-dark">Instagram</h2>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-2">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper"></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wpb_column vc_column_container vc_col-sm-8">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper">
+                                                                <div class="wpb_text_column wpb_content_element  fs-18 text-color-secondary secondary-font">
+                                                                    <div class="wpb_wrapper">
+                                                                        <p class="p1" style="text-align: center;"><span class="s1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="wpb_column vc_column_container vc_col-sm-2">
+                                                        <div class="vc_column-inner">
+                                                            <div class="wpb_wrapper"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                    <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C9-GurQqjRB/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C9-GurQqjRB/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C9-GurQqjRB/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Lasa Ona (@lasaonamusic)</a></p></div></blockquote>
+                                                        <script async src="//www.instagram.com/embed.js"></script>
+                                                    </div>
+
+                                                    <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C7pD9zBSsOt/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C7pD9zBSsOt/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C7pD9zBSsOt/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Lasa Ona (@lasaonamusic)</a></p></div></blockquote>
+                                                        <script async src="//www.instagram.com/embed.js"></script>
+                                                    </div>
+
+                                                    <div class="wpb_column vc_column_container vc_col-sm-4">
+                                                        <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C9-Dwe6Kkki/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C9-Dwe6Kkki/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C9-Dwe6Kkki/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Lasa Ona (@lasaonamusic)</a></p></div></blockquote>
+                                                        <script async src="//www.instagram.com/embed.js"></script>
+                                                    </div>
+
+                                                </div>
+                                                <br><br>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               <div class="vc_row-full-width vc_clearfix"></div>
+                            </div>
+                        </div>                    
                     </div>
                 </div>
-                <div class="col-lg-8">
-                    <div class="about-us-content">
-                        <h2>Our Journey: How LOL Junction Was Born</h2>
-                        <p style="padding-left: 22px;">
-                            LOL – "Let’s Off Leash" is more than a story podcast—it’s a storytelling movement rooted in empathy, curiosity, and freedom. Founded by Kasturi Jha, an Indian female podcaster, the idea came from a deep desire to give space to voices often ignored—both animal and human.
-                            <br><br>
-                            What started as a personal passion turned into a global platform, now home to over 250K loyal followers and 30K+ YouTube subscribers. Through her mic, Kasturi has built LOL Junction into a comedy podcast and story archive, filled with heartwarming human stories, heroic animal stories, and real talk from experts around the world.
-                            <br><br>
-                            Each episode on LOL follows a powerful narrative arc: Problem = Insight = Solution. Whether it’s a street dog rescue in India or a biologist uncovering climate truths, every story aims to educate, entertain, and inspire action.
-                        </p>
-                        <a href="https://www.youtube.com/@LetsOffLeash" class="read-more" target="_blank">Visit Channel</a>
-                    </div>
-
-
-                </div>
             </div>
         </div>
     </div>
+</main>
 
+@endsection
 
-
-    <div class="container-fluid fh5co-news container-stiped">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <img src="{{URL::to('/public/about1.png')}}" width="100%" alt="What we talk about">
-                </div>
-
-                <div class="col-md-7 text-left">
-                    <h2 class="text-left">What We Talk About:</h2>
-                    <p class="sub-heading">Real People. Real Animals. Real Talk.</p>
-                    <p>LOL covers a wide range of themes across the podcast culture, blending comedy podcast moments with raw, impactful narratives. Our topics range from:</p>
-                    <ul class="about-ul">
-                        <li>
-                            <strong>Pet podcasts</strong> filled with dog and cat rescue stories
-                        </li>
-                        <li>
-                            <strong>Lifestyle and wellness episodes</strong> with veterinarians and healers
-                        </li>
-                        <li>
-                            <strong>Entertainment podcast interviews</strong> with everyday heroes
-                        </li>
-                        <li>
-                            Deep-dives into <strong>real talk</strong> on environmental change and human rights
-                        </li>
-                    </ul>
-                    <p>
-                        We’ve featured over 20 extraordinary guests: <strong>veterinarians, animal rescuers, scientists,</strong> and <strong>storytellers,</strong> all sharing what it means to live and work for a better world. These voices help fuel our <strong>LOL Junction</strong> mission—to let stories breathe, and <strong>let people and animals off the leash</strong> of judgment, stigma, or silence.
-                        <br><br>
-                        Whether you love funny pet antics, meaningful interviews, or crave an <strong>inspiring podcast</strong> on your morning walk, LOL is the <strong>audio show</strong> you’ve been waiting for.
-                    </p>
-                </div>
-            </div>
-            <br>
-        </div>
-    </div>
-
-
-
-    <div class="container-fluid fh5co-news">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 text-left">
-                    <h2 class="text-left">Why It Matters:</h2>
-                    <p class="sub-heading">Building a Global Storytelling Community</p>
-                    <p>At LOL – Let’s Off Leash, storytelling is our tool for transformation. We’re not here to just make noise; we’re here to make impact. Our global reach spans communities in India, the UAE, the U.S., and beyond. With every download, every listen, and every share—you become part of something bigger.
-                        <br><br>
-                    We believe in the power of stories to heal, bridge gaps, and amplify truth. That’s why every episode is carefully crafted to build <strong>podcast engagement</strong>, nurture connections, and encourage solutions through storytelling. Whether you're a <strong>pet lover</strong>, a <strong>podcast listener</strong>, or someone looking for real, relatable content—LOL welcomes you.
-                        <br><br>
-                    Join the conversation. Explore the bond between animals and humans. And above all, <strong>let’s off leash together</strong>.</p>
-                    <br>
-                    <a href="https://www.youtube.com/@LetsOffLeash" class="read-more" target="_blank">Visit Channel</a>
-                </div>
-
-                <div class="col-md-6">
-                    <img src="{{URL::to('/public/about2.png')}}" width="100%" alt="What we talk about">
-                </div>
-
-            </div>
-            <br>
-        </div>
-    </div>
+@section('footer')
+    @include('web.includes.footer')
 @endsection

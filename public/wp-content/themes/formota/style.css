@@ -4466,13 +4466,11 @@ body.layout-float .header-1 .haru-header-nav-wrap {
 .contact-form textarea {
   background-color: #F5F5F5;
   border: 1px solid #F5F5F5;
-  margin-bottom: 12px;
+  margin-bottom: 30px;
   padding: 10px 15px;
   width: 100%;
 }
-.contact-form textarea{
-  margin-bottom: 0px !important;
-}
+
 .contact-form input[type="text"]::-moz-placeholder,
 .contact-form input[type="email"]::-moz-placeholder,
 .contact-form input[type="number"]::-moz-placeholder,
@@ -4850,8 +4848,8 @@ body.layout-float .header-1 .haru-header-nav-wrap {
   width: 100%;
   height: 100%;
   background-color: #D8B069;
-  -webkit-mask-image: url(assets/images/bg-heading-10.svg);
-  mask-image: url(assets/images/bg-heading-10.svg);
+  -webkit-mask-image: url(../formota/assets/images/bg-heading-10.svg);
+  mask-image: url(../formota/assets/images/bg-heading-10.svg);
 }
 
 .vc_custom_heading.heading_style_11 {
@@ -5744,7 +5742,7 @@ body.header-over-slideshow .haru-content-404 .page-content {
 }
 
 .header-1 .haru-header-nav-wrap .header-nav-above {
-  height: 60px;
+  height: 105px;
 }
 
 .header-1 .haru-header-nav-wrap .header-nav-above .header-left {
@@ -5764,7 +5762,7 @@ body.header-over-slideshow .haru-content-404 .page-content {
 }
 
 .header-1 .haru-header-nav-wrap .header-nav-above .header-center .header-navigation .menu-wrap .haru-main-menu > li > a {
-  line-height: 65px;
+  line-height: 105px;
   padding-top: 0;
   padding-bottom: 0;
 }
@@ -9674,8 +9672,8 @@ body.admin-bar .haru-canvas-sidebar-wrap {
   position: absolute;
   background-color: #7e7e7e;
   background-repeat: no-repeat;
-  -webkit-mask-image: url(assets/images/navicon.svg);
-  mask-image: url(assets/images/navicon.svg);
+  -webkit-mask-image: url(../formota/assets/images/navicon.svg);
+  mask-image: url(../formota/assets/images/navicon.svg);
   background-size: cover;
   width: 21px;
   height: 15px;
@@ -9749,8 +9747,8 @@ body.admin-bar .haru-canvas-sidebar-wrap {
   display: inline-block;
   background-color: #7e7e7e;
   background-repeat: no-repeat;
-  -webkit-mask-image: url(assets/images/navicon.svg);
-  mask-image: url(assets/images/navicon.svg);
+  -webkit-mask-image: url(../formota/assets/images/navicon.svg);
+  mask-image: url(../formota/assets/images/navicon.svg);
   background-size: cover;
   width: 21px;
   height: 15px;
@@ -10585,7 +10583,21 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
   position: relative;
 }
 
-
+#haru-footer-main.footer-2 .subscribe-default .subscribe-submit:after, #haru-footer-main.footer-3 .subscribe-default .subscribe-submit:after {
+  color: #D8B069;
+  content: "\f474";
+  font-family: Ionicons;
+  font-size: 34px;
+  line-height: 1;
+  position: absolute;
+  left: 50%;
+  top: -5px;
+  z-index: 0;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
 
 #haru-footer-main.footer-2 .subscribe-default .subscribe-submit input[type="submit"], #haru-footer-main.footer-3 .subscribe-default .subscribe-submit input[type="submit"] {
   border: none;
@@ -10780,7 +10792,7 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
   font-family: Ionicons;
   color: #fff;
   position: absolute;
-  right: 22px;
+  right: 3px;
   top: 50%;
   -webkit-transform: translateY(-55%);
   -ms-transform: translateY(-55%);
@@ -14359,9 +14371,7 @@ li.product .product-actions .quickview a, li.type-product .product-actions .quic
 }
 
 .archive-product-header .haru-shop-filter-menu li span {
-      margin-right: -10px;
-    border: 1px solid;
-    padding: 2px 14px;
+  margin-right: 10px;
 }
 
 .archive-product-header .haru-shop-filter-menu li a {
@@ -17581,7 +17591,7 @@ body .pp_woocommerce .pp_content_container {
 }
 
 body .pp_woocommerce .pp_content_container .pp_loaderIcon {
-  background: url(assets/images/ajax-loader.gif) center no-repeat !important;
+  background: url(../formota/assets/images/ajax-loader.gif) center no-repeat !important;
   width: 50px;
   height: 50px;
   margin: 0;
@@ -21339,16 +21349,14 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-      filter: grayscale(0);
 }
 
 .images-gallery-shortcode-wrap.slick_2 .images-list .image-item .slide-item {
   padding: 0 50px;
-  opacity: .8;
+  opacity: .2;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
-      filter: grayscale(1);
 }
 
 @media screen and (max-width: 991px) {
@@ -21450,7 +21458,6 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
   color: #fff;
   letter-spacing: 2.5px;
   padding-top: 70px;
-  padding-bottom: 55px;
   text-align: center;
 }
 
@@ -27992,7 +27999,7 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
 }
 
 .introduce-shortcode-wrap.style_1 .introduce-description {
-  margin-left: 19%;
+  margin-left: 30%;
   margin-top: -25%;
   border: 2px solid #e7e7e7;
 }
@@ -28013,7 +28020,7 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
 .introduce-shortcode-wrap.style_1 .introduce-description .introduce-content {
   border: 1px solid #e7e7e7;
   margin: 10px;
-  padding: 5% 6% 4% 43%;
+  padding: 8% 6% 5% 45%;
 }
 
 @media screen and (max-width: 991px) {
@@ -28192,8 +28199,8 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
   height: 32px;
   background-color: #D8B069;
   background-repeat: no-repeat;
-  -webkit-mask-image: url(assets/images/quote-sign.svg);
-  mask-image: url(assets/images/quote-sign.svg);
+  -webkit-mask-image: url(../formota/assets/images/quote-sign.svg);
+  mask-image: url(../formota/assets/images/quote-sign.svg);
 }
 
 .text-label-shortcode-wrap.style_2 .text-label-content .label-title {
@@ -30893,8 +30900,8 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
   content: "";
   background-color: #D8B069;
   background-repeat: no-repeat;
-  -webkit-mask-image: url(assets/images/quote-sign.svg);
-  mask-image: url(assets/images/quote-sign.svg);
+  -webkit-mask-image: url(../formota/assets/images/quote-sign.svg);
+  mask-image: url(../formota/assets/images/quote-sign.svg);
   width: 40px;
   height: 32px;
   color: #D8B069;
@@ -31115,8 +31122,8 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
   content: "";
   background-color: #D8B069;
   background-repeat: no-repeat;
-  -webkit-mask-image: url(assets/images/quote-sign-2.svg);
-  mask-image: url(assets/images/quote-sign-2.svg);
+  -webkit-mask-image: url(../formota/assets/images/quote-sign-2.svg);
+  mask-image: url(../formota/assets/images/quote-sign-2.svg);
   line-height: 1;
   position: absolute;
   width: 60px;
@@ -31350,8 +31357,8 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
   content: "";
   background-color: #D8B069;
   background-repeat: no-repeat;
-  -webkit-mask-image: url(assets/images/quote-sign-2.svg);
-  mask-image: url(assets/images/quote-sign-2.svg);
+  -webkit-mask-image: url(../formota/assets/images/quote-sign-2.svg);
+  mask-image: url(../formota/assets/images/quote-sign-2.svg);
   line-height: 1;
   position: absolute;
   width: 60px;
@@ -39386,8 +39393,8 @@ body.haru-mobile .video-mediaelement-unmute {
   content: "";
   background-color: #D8B069;
   background-repeat: no-repeat;
-  -webkit-mask-image: url(assets/images/quote-sign-3.svg);
-  mask-image: url(assets/images/quote-sign-3.svg);
+  -webkit-mask-image: url(../formota/assets/images/quote-sign-3.svg);
+  mask-image: url(../formota/assets/images/quote-sign-3.svg);
   width: 40px;
   height: 35px;
   color: #D8B069;
@@ -40201,8 +40208,8 @@ body.haru-mobile .video-mediaelement-unmute {
   content: "";
   background-color: #D8B069;
   background-repeat: no-repeat;
-  -webkit-mask-image: url(assets/images/quote-sign-3.svg);
-  mask-image: url(assets/images/quote-sign-3.svg);
+  -webkit-mask-image: url(../formota/assets/images/quote-sign-3.svg);
+  mask-image: url(../formota/assets/images/quote-sign-3.svg);
   width: 40px;
   height: 35px;
   color: #D8B069;
@@ -41020,11 +41027,6 @@ body.parallax-disable .vc_row[data-vc-full-width] {
   background-repeat: no-repeat;
   background-position: top right;
   background-size: 25% auto;
-}
-.actor-introduce2 {
-  background-repeat: no-repeat;
-  background-position: top right;
-  background-size: 40% auto;
 }
 
 @media screen and (max-width: 767px) {

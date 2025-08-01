@@ -1,177 +1,127 @@
-<footer id="haru-footer-main" class="footer-actor">
-        <div class="container clearfix">
-            <div data-vc-full-width="true" data-vc-full-width-init="false" data-overlay-color="rgba(0,0,0,0.7)" class="vc_row wpb_row vc_row-fluid vc_custom_1531118945978 vc_row-has-fill overlay-bg-vc-wapper">
-                <div class="wpb_column vc_column_container vc_col-sm-12">
-                    <div class="vc_column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <h2 style="text-align: center" class="vc_custom_heading heading_style_14">
-                                                Let’s Redefine
-                                            </h2>
-                                            <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading lt-spacing-5 heading_style_4">
-                                                Real Estate curated with art, soul, and intention
-                                            </h2>
+<footer id="haru-footer-main" class="footer-3 striped-background">
+    <div class="container clearfix">
+        <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1529569201088 vc_row-has-fill" style="position: relative; left: -367.5px; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+                <div class="vc_column-inner">
+                    <div class="wpb_wrapper">
+                        <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1534389529799">
+                            <div class="haru-col-sm-6 wpb_column vc_column_container vc_col-sm-4">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_single_image wpb_content_element vc_align_left  vc_custom_1602603975665">
+                                            <figure class="wpb_wrapper vc_figure">
+                                                <div class="vc_single_image-wrapper   vc_box_border_grey"><img width="200" height="30" src="{{URL::to('/public/images/logo-white-min.png')}}" sizes="(max-width: 160px) 100vw, 160px"></div>
+                                            </figure>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-2">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper"></div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-8">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_text_column wpb_content_element  vc_custom_1531118812608 fs-18 text-color-secondary secondary-font" >
-                                                <div class="wpb_wrapper">
-                                                    <p class="p1" style="text-align: center;"><span class="s1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span></p>
 
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-2">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1531118871423">
-                                <div class="wpb_column vc_column_container vc_col-sm-1">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper"></div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-10">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">                        
-                                            <div class=" ">
-                                                <div class="clients-shortcode-wrap carousel ">
-                                                    <div class="haru-carousel clients-list owl-carousel owl-theme"
-                                                        data-items="5"
-                                                        data-items-tablet="3"
-                                                        data-items-mobile="2"
-                                                        data-margin="20"
-                                                        data-autoplay="false"
-                                                        data-slide-duration="6000"
-                                                        data-loop="false"
-                                                    >
-                                                        <div class="item-carousel">
-                                                            <div class="client-item style_1">
-                                                                <a href="#" target="_self">
-                                                                    <img src="{{URL::to('/public')}}/wp-content/uploads/2018/06/logo-jeevika.png" alt="Jeevika">
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="item-carousel">
-                                                            <div class="client-item style_1">
-                                                                <img src="{{URL::to('/public')}}/wp-content/uploads/2018/06/logo-achtungberlin.png" alt="Achtung Berlin">
-                                                            </div>
-                                                        </div>
-                                                        <div class="item-carousel">
-                                                            <div class="client-item style_1">
-                                                                <img src="{{URL::to('/public')}}/wp-content/uploads/2018/06/logo-encounter.png" alt="Encounter">
-                                                            </div>
-                                                        </div>
-                                                        <div class="item-carousel">
-                                                            <div class="client-item style_1">
-                                                                <img src="{{URL::to('/public')}}/wp-content/uploads/2018/06/logo-selection.png" alt="Official Selection">
-                                                            </div>
-                                                        </div>
-                                                        <div class="item-carousel">
-                                                            <div class="client-item style_1">
-                                                                <img src="{{URL::to('/public')}}/wp-content/uploads/2018/06/logo-sedona.png" alt="Sedona">
-                                                            </div>
-                                                        </div>
-                                                        <div class="item-carousel">
-                                                            <div class="client-item style_1">
-                                                                <img src="{{URL::to('/public')}}/wp-content/uploads/2018/06/logo-encounter.png" alt="Encounter">
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>            
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="wpb_column vc_column_container vc_col-sm-1">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1531118663045">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">
-                                            <div class="wpb_text_column wpb_content_element " >
-                                                <div class="wpb_wrapper">
-                                                    <script>
-                                                        (function() {
-                                                            window.mc4wp = window.mc4wp || {
-                                                                listeners: [],
-                                                                forms: {
-                                                                  on: function(evt, cb) {
-                                                                    window.mc4wp.listeners.push(
-                                                                      {
-                                                                        event   : evt,
-                                                                        callback: cb
-                                                                      }
-                                                                    );
-                                                                  }
-                                                                }
-                                                            }
-                                                        })();
-                                                    </script>
-                                                    <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-36" method="post" data-id="36" data-name="Subscribe Default" >
-                                                        <div class="mc4wp-form-fields">
-                                                            <div class="subscribe-default">
-                                                                <div class="subscribe-email">
-                                                                    <input type="email" name="EMAIL" placeholder="Subscribe to our newsletter" required />
-                                                                </div>
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <p>THE only real estate personality who blends artistic legacy with architectural beauty, La Sauna curates spaces and content that inspire soulful, conscious living.</p>
 
-                                                                <div class="subscribe-submit">
-                                                                    <input type="submit" value="Subscribe" />
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <label style="display: none !important;">
-                                                            Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" />
-                                                        </label>
-                                                        <input type="hidden" name="_mc4wp_timestamp" value="1753790461" />
-                                                        <input type="hidden" name="_mc4wp_form_id" value="36" />
-                                                        <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
-                                                        <div class="mc4wp-response"></div>
-                                                    </form><!-- / Mailchimp for WordPress Plugin -->
-                                                </div>
                                             </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="haru-col-sm-6 wpb_column vc_column_container vc_col-sm-2">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">
+                                        <h2 style="color: #ffffff;text-align: left" class="vc_custom_heading heading_style_1">Links</h2>                        
+                                        <div class="  ">
+                                            <div class="footer-link-shortcode-wrap style_2 ">
+                                                <div class="footer-link-content">
+                                                    <ul class="link-list">
+                                                        <li>
+                                                            <a href="#" target="_self">About Me</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="#" target="_self">Real Estate</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="#" target="_self">Music</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="#" target="_self">Blogs</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="haru-col-sm-6 wpb_column vc_column_container vc_col-sm-2">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">
+                                        <h2 style="color: #ffffff;text-align: left" class="vc_custom_heading heading_style_1">Categories</h2>                        
+                                        <div class="  ">
+                                            <div class="footer-link-shortcode-wrap style_2 ">
+                                                <div class="footer-link-content">
+                                                    <ul class="link-list">
+                                                        <li>
+                                                            <a href="#" target="_self">Category 1</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="#" target="_self">Category 2</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="#" target="_self">Category 3</a>
+                                                        </li>
+                                                                                                            <li>
+                                                            <a href="#" target="_self">Category 4</a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="haru-col-sm-6 wpb_column vc_column_container vc_col-sm-4">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">
+                                        <h2 style="color: #ffffff;text-align: left" class="vc_custom_heading heading_style_1">Newsletter</h2>                        
+                                        <div class="  ">
+                                            <div class="footer-contact-shortcode-wrap style_1 ">
+                                                <div class="footer-contact-content">
+                                                    <ul class="contact-information">
+                                                        <li>We can't wait to see you.</li>
+                                                        <li>
+                                                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-36" method="post" data-id="36" data-name="Subscribe Default">
+                                                                <div class="mc4wp-form-fields">
+                                                                    <div class="subscribe-default">
+                                                                        <div class="subscribe-email">
+                                                                            <input type="email" name="EMAIL" placeholder="Subscribe to our newsletter" required="">
+                                                                        </div>
+
+                                                                        <div class="subscribe-submit">
+                                                                            <input type="submit" value="Subscribe">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </form>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>          
+                                        </div>
+                                        <div class="  ">
+                                                        
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="vc_row-full-width vc_clearfix"></div>
-            <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533887970791 vc_row-has-fill">
-                <div class="wpb_column vc_column_container vc_col-sm-12">
-                    <div class="vc_column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                <div class="wpb_column vc_column_container vc_col-sm-12">
-                                    <div class="vc_column-inner">
-                                        <div class="wpb_wrapper">                        
-                                            <div class="  ">
-                                                <div class="footer-social-shortcode-wrap style_2 ">
+                        <br>
+                        <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1529569677333">
+                            <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">                        
+                                        <div class="  ">
+                                            <div class="footer-link-shortcode-wrap style_3 ">
+                                                <div class="footer-social-shortcode-wrap style_3 ">
                                                     <div class="footer-social-content">
-                                                        <ul class="social-list align-center">
+                                                        <ul class="social-list align-left">
                                                             <li>
                                                                 <a href="#" target="_self"><i class="fa fa-facebook"></i></a>
                                                             </li>
@@ -182,16 +132,23 @@
                                                                 <a href="#" target="_self"><i class="fa fa-instagram"></i></a>
                                                             </li>
                                                                                                                 <li>
-                                                                <a href="#" target="_self"><i class="fa fa-linkedin-square"></i></a>
+                                                                <a href="#" target="_self"><i class="fa fa-youtube-play"></i></a>
                                                             </li>
                                                                                                                 <li>
-                                                                <a href="#" target="_self"><i class="fa fa-skype"></i></a>
+                                                                <a href="#" target="_self"><i class="fa fa-vimeo"></i></a>
                                                             </li>
                                                         </ul>
                                                     </div>
-                                                </div>            
-                                            </div>
+                                                </div>
+                                            </div>            
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wpb_column vc_column_container vc_col-sm-6">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">
+                                        <h2 style="font-size: 15px;color: #7e7e7e;text-align: right" class="vc_custom_heading fw-400 vc_custom_1640425005626 default">© {{date('Y')}} meetlasaona.com. All Right Reserved.</h2>
                                     </div>
                                 </div>
                             </div>
@@ -199,6 +156,7 @@
                     </div>
                 </div>
             </div>
-            <div class="vc_row-full-width vc_clearfix"></div>    
         </div>
-    </footer>
+        <div class="vc_row-full-width vc_clearfix"></div>    
+    </div>
+</footer>

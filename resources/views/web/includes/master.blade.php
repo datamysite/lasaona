@@ -24,7 +24,8 @@
     <meta name="twitter:card" content="summary_large_image"/>
 
     @include('web.includes.style')
-  
+    @yield('addStyle')
+    
 </head>
 
 <body class="page-template-default page page-id-2051 theme-formota woocommerce-no-js layout-wide header-over-slideshow wpb-js-composer js-comp-ver-6.9.0 vc_responsive">
@@ -42,7 +43,7 @@
             </div>
             <!-- Close HARU Content Main -->
 
-            @include('web.includes.footer')
+            @yield('footer')
         </div>
     
 

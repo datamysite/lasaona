@@ -303,6 +303,7 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="vc_row-full-width vc_clearfix"></div>
 
 
@@ -377,4 +378,8 @@
     </div>
 </main>  
 
+@endsection
+
+@section('footer')
+	@include('web.includes.footer-home')
 @endsection
