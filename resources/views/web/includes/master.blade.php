@@ -6,21 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="icon" type="image/x-icon" href="{{URL::to('/public/images/favicon.png')}}">
+
     <meta property="og:locale" content="en_US"/>
-    <meta property="og:site_name" content="Formota - Movie Studios &amp; Filmmakers WordPress theme"/>
-    <meta property="og:title" content="Home 9"/>
-    <meta property="og:url" content="https://demo.harutheme.com/formota/home-9/"/>
+    <meta property="og:site_name" content="Meet lasa Ona"/>
+    <meta property="og:title" content="Meet Lasa Ona"/>
+    <meta property="og:url" content="https://meetlasaona.com"/>
     <meta property="og:type" content="article"/>
-    <meta property="og:description" content="Home 9"/>
+    <meta property="og:description" content="Lasa Ona"/>
    
-    <meta itemprop="name" content="Home 9"/>
-    <meta itemprop="headline" content="Home 9"/>
-    <meta itemprop="description" content="Home 9"/>
-    <meta itemprop="author" content="admin"/>
+    <meta itemprop="name" content="Lasa Ona"/>
+    <meta itemprop="headline" content="Lasa Ona"/>
+    <meta itemprop="description" content="Lasa Ona"/>
+    <meta itemprop="author" content="Lasa Ona"/>
     
-    <meta name="twitter:title" content="Home 9"/>
-    <meta name="twitter:url" content="https://demo.harutheme.com/formota/home-9/"/>
-    <meta name="twitter:description" content="Home 9"/>
+    <meta name="twitter:title" content="Meet Lasa Ona"/>
+    <meta name="twitter:url" content="https://meetlasaona.com"/>
+    <meta name="twitter:description" content="Lasa Ona"/>
     <meta name="twitter:card" content="summary_large_image"/>
 
     @include('web.includes.style')
