@@ -106,24 +106,26 @@
                                                         </div>
                                                         <form action="/formota/contact-us-2/#wpcf7-f2606-p2594-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
                                                             <div class="contact-form">
-                                                                <div class="contact-name">
+                                                                
+                                                                <div class="contact-subject">
                                                                     <div>
-                                                                        <span class="wpcf7-form-control-wrap your-name">
-                                                                            <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your name *">
+                                                                        <span class="wpcf7-form-control-wrap your-subject">
+                                                                            <input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Your Name">
                                                                         </span>
                                                                     </div>
                                                                 </div>
-                                                                <div class="contact-email">
+
+                                                                <div class="contact-subject">
                                                                     <div>
-                                                                        <span class="wpcf7-form-control-wrap your-email">
-                                                                            <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Your email *">
+                                                                        <span class="wpcf7-form-control-wrap your-subject">
+                                                                            <input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Your Phone">
                                                                         </span>
                                                                     </div>
                                                                 </div>
                                                                 <div class="contact-subject">
                                                                     <div>
                                                                         <span class="wpcf7-form-control-wrap your-subject">
-                                                                            <input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Subject">
+                                                                            <input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Your Email">
                                                                         </span>
                                                                     </div>
                                                                 </div>
@@ -280,6 +282,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                <br><br>
                             </div>
                         </div>
                     </div>
