@@ -12,15 +12,13 @@
 @endsection
 @section('content')
 
-<div id="haru-content-main" class="clearfix" bis_skin_checked="1">
-            
+<div id="haru-content-main" class="clearfix" bis_skin_checked="1">       
     <main class="haru-page">
         <div class="container clearfix" bis_skin_checked="1">
             <div class="row clearfix" bis_skin_checked="1">
                 <div class="page-content col-md-12  col-sm-12 col-xs-12" bis_skin_checked="1">
                     <div class="page-wrapper" bis_skin_checked="1">
                         <div class="page-inner clearfix" bis_skin_checked="1">
-                        
                             <div id="post-2594" class="post-2594 page type-page status-publish hentry clearfix" bis_skin_checked="1">
                                 <div class="entry-content" bis_skin_checked="1">
                                     <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding" style="position: relative; left: -367.5px; box-sizing: border-box; width: 1905px; max-width: 1905px;" bis_skin_checked="1">
