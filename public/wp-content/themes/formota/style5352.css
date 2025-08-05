@@ -11166,7 +11166,7 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-content-wrapper .post-detail .post-title {
   margin-top: 0;
-  line-height: 1.4;
+  line-height: 22px;
   font-family: "Playfair Display";
 }
 
@@ -11178,7 +11178,7 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-content-wrapper .post-detail .post-title a {
   color: #333333;
-  font-size: 34px;
+  font-size: 20px;
   font-weight: 400;
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -11211,9 +11211,9 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 }
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-content-wrapper .post-detail .post-meta-info {
-  font-size: 14px;
+  font-size: 11px;
   font-style: italic;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-content-wrapper .post-detail .post-meta-info .post-meta-sticky {
@@ -11229,7 +11229,6 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
   display: inline-block;
   margin-right: 8px;
   padding-right: 15px;
-  border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-content-wrapper .post-detail .post-meta-info .post-meta-author {
@@ -11282,8 +11281,8 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 }
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-content-wrapper .post-detail .post-read-more {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 22px;
+  margin-bottom: 8px;
 }
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-content-wrapper .post-detail .post-read-more .read-more {
@@ -11292,7 +11291,7 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
   border: 1px solid #D8B069;
   color: #333333;
   font-weight: 600;
-  padding: 9px 30px;
+  padding: 5px 25px;
   text-transform: uppercase;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -11626,7 +11625,7 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 .single-content .single-wrapper article .post-meta-wrapper .post-meta-info .post-info {
   font-size: 14px;
   font-style: italic;
-  margin-top: 25px;
+  margin-top: -8px;
 }
 
 .single-content .single-wrapper article .post-meta-wrapper .post-meta-info .post-info .post-meta-sticky {
@@ -11642,7 +11641,6 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
   display: inline-block;
   margin-right: 15px;
   padding-right: 20px;
-  border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 .single-content .single-wrapper article .post-meta-wrapper .post-meta-info .post-info .post-meta-author {
@@ -11691,7 +11689,7 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 }
 
 .single-content .single-wrapper article .post-thumbnail-wrapper {
-  margin-top: 30px;
+  margin-top: 18px;
   position: relative;
 }
 
@@ -13023,8 +13021,8 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 
 .widget-post-thumbnail ul.thumb_left li, .widget-post-thumbnail ul.thumb_right li {
   border-bottom: 1px solid #ededed;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 2px;
+  margin-bottom: 16px;
 }
 
 .widget-post-thumbnail ul.thumb_left li .posts-thumbnail-image, .widget-post-thumbnail ul.thumb_right li .posts-thumbnail-image {
@@ -13038,8 +13036,8 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 .widget-post-thumbnail ul.thumb_left li .posts-thumbnail-content h4, .widget-post-thumbnail ul.thumb_right li .posts-thumbnail-content h4 {
   margin-bottom: 8px;
   margin-top: -5px;
-  font-size: 16px;
-  line-height: 1.6;
+  font-size: 14px;
+  line-height: 18px;
   font-weight: 400;
   font-family: "Playfair Display";
 }

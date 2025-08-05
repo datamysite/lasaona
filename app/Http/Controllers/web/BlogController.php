@@ -21,6 +21,13 @@ class BlogController extends Controller
         return view('web.blogs.index')->with($data);
     }
 
+    public function details(){
+        $data['nav'] = 'blogs';
+        
+        return view('web.blogs.details')->with($data);
+    }
+
+    /*
     public function details($blog_slug){
         $data['nav'] = 'blogs';
         
@@ -33,7 +40,7 @@ class BlogController extends Controller
             return redirect(route('blogs'));
         }
         return view('web.blogs.details')->with($data);
-    }
+    }*/
 
     public function category($slug){
         $data['nav'] = 'blogs';

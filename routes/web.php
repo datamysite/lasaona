@@ -28,7 +28,8 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
     //Blogs
     Route::get('/blogs', 'BlogController@index')->name('blogs');
     Route::get('/blogs/{slug}', 'BlogController@category');
-    Route::get('/{blog_slug}', 'BlogController@details')->name('blogs.detail');
+    Route::get('/blog-detail', 'BlogController@details')->name('blogs.detail');
+    //Route::get('/{blog_slug}', 'BlogController@details')->name('blogs.detail');
 
     //Enquiry
     Route::post('/enquiry', 'EnquiryController@index')->name('enquiry.submit');
