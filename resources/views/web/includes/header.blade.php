@@ -48,7 +48,7 @@
                                 </li>
 
                                 <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                    <a href="">Music</a>
+                                    <a href="{{route('music')}}">Music</a>
                                 </li>
 
                                 <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
@@ -134,7 +134,7 @@
                                         </li>
 
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                            <a href="">Music</a>
+                                            <a href="{{route('music')}}">Music</a>
                                             
                                         </li>
 

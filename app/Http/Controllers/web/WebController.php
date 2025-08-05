@@ -37,6 +37,17 @@ class WebController extends Controller
         return view('web.contact')->with($data);
     }
 
+    public function music(){
+        $data['nav'] = 'contact';
+
+        $data['blogs'] = Blogs::orderBy('created_at', 'desc')->limit(3)->get();
+        $data['updates'] = LatestUpdates::orderBy('created_at', 'desc')->limit(3)->get();
+
+        $data['videos'] = Videos::where('playlist_id', '2')->orderBy('id', 'desc')->limit(9)->get();
+
+        return view('web.music')->with($data);
+    }
+
     //Real - Estate
 
         public function realEstate(){
