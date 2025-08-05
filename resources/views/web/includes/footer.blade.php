@@ -32,16 +32,16 @@
                                                 <div class="footer-link-content">
                                                     <ul class="link-list">
                                                         <li>
-                                                            <a href="#" target="_self">About Me</a>
+                                                            <a href="{{route('about')}}" target="_self">About Me</a>
                                                         </li>
-                                                                                                            <li>
-                                                            <a href="#" target="_self">Real Estate</a>
+                                                        <li>
+                                                            <a href="{{route('real-estate')}}" target="_self">Real Estate</a>
                                                         </li>
-                                                                                                            <li>
-                                                            <a href="#" target="_self">Music</a>
+                                                        <li>
+                                                            <a href="{{route('music')}}" target="_self">Music</a>
                                                         </li>
-                                                                                                            <li>
-                                                            <a href="#" target="_self">Blogs</a>
+                                                        <li>
+                                                            <a href="{{route('blogs')}}" target="_self">Blogs</a>
                                                         </li>
                                                     </ul>
                                                 </div>

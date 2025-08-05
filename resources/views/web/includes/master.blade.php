@@ -70,5 +70,6 @@
         <div class="canvas-mask-overlay"></div>
         
         @include('web.includes.scripts')
+        @yield('addScript')
     </body>
 </html>
