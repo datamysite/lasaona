@@ -67,7 +67,7 @@
                                 </li>
 
                                 <li id="menu-item-mobile-2816" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                    <a href="">Contact</a>
+                                    <a href="{{route('contact')}}">Contact</a>
                                 </li>
 
                             </ul>                                
@@ -153,7 +153,7 @@
                                             </ul>
                                         </li>
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
-                                            <a href="">Contact</a>
+                                            <a href="{{route('contact')}}">Contact</a>
                                             
                                         </li>
                                     </ul>                    

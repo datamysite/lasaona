@@ -1,6 +1,9 @@
 .striped-background{
     background-color: #000000;
 }
+.striped-background-light{
+    background-color: #f8f8f8;
+}
 .image-background{
     background: url('../images/dark-bg.jpg');
     background-size: cover;
@@ -59,4 +62,14 @@ p, p > *{
    -webkit-box-orient: vertical;
    overflow: hidden;
    text-overflow: ellipsis;
+}
+.vc_custom_1533713574279 {
+    padding-top: 2% !important;
+    padding-bottom: 6% !important;
+}
+.vc_custom_1534824417093 {
+    padding-bottom: 5% !important;
+}
+.vc_custom_1534824428717 {
+    padding-bottom: 5% !important;
 }
