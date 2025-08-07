@@ -26,9 +26,20 @@
     <div class="row">
       <div class="col-md-4">
         <div class="form-group">
+          <label>Category</label>
+          <select class="form-control" name="category_id" required>
+            <option value="">Select</option>
+            @foreach ($data['categories'] as $cat)
+            <option value="{{ $cat->id }}" {{ $cat->id == $data->category_id ? 'selected' : '' }} >{{ $cat->name }}</option>
+            @endforeach
+          </select>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
           <label>Blog Author</label>
           <select class="form-control" name="author_id" required>
-            <option value="">Select Blog Author</option>
+            <option value="">Select</option>
             @foreach ($data['authors'] as $author)
             <option value="{{ $author->id }}" {{ $author->id == $data->author_id ? 'selected' : '' }} >{{ $author->name }}</option>
             @endforeach
@@ -36,11 +47,11 @@
         </div>
       </div>
       <div class="col-md-4">
-              <div class="form-group">
-                <label>Reading Time</label>
-                <input type="number" class="form-control" name="read_time" placeholder="Enter reading time in minutes" required value="{{$data->read_time}}">
-              </div>
-            </div>
+        <div class="form-group">
+          <label>Reading Time</label>
+          <input type="number" class="form-control" name="read_time" placeholder="Enter reading time in minutes" required value="{{$data->read_time}}">
+        </div>
+      </div>
     </div>
 
     <div class="row">

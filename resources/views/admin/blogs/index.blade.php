@@ -111,9 +111,26 @@
                 <div class="close-btn">×</div>
               </div>
             </div>
+            <div class="col-md-4 blog-img-alt">
+              <div class="form-group">
+                <label>Image alt:</label>
+                <input type="text" class="form-control" name="banner_alt" required>
+              </div>
+            </div>
           </div>
 
           <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <label>Category</label>
+                <select class="form-control" name="category_id" required>
+                  <option value="">Select</option>
+                  @foreach ($data['categories'] as $cat)
+                  <option value="{{ $cat->id }}">{{ $cat->name }}</option>
+                  @endforeach
+                </select>
+              </div>
+            </div>
             <div class="col-md-4">
               <div class="form-group">
                 <label>Blog Author</label>
@@ -125,17 +142,10 @@
                 </select>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
               <div class="form-group">
                 <label>Reading Time</label>
                 <input type="number" class="form-control" name="read_time" placeholder="Enter reading time in minutes" required>
-              </div>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-4">
-              <div class="form-group">
-                <label>Image alt:</label>
-                <input type="text" class="form-control" name="banner_alt" required>
               </div>
             </div>
           </div>

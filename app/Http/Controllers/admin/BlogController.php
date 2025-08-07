@@ -10,6 +10,7 @@ use App\Models\Faq;
 use App\Models\Author;
 use App\Models\MetaTags;
 use App\Models\BlogTags;
+use App\Models\Categories;
 use Auth;
 
 class BlogController extends Controller
@@ -20,6 +21,7 @@ class BlogController extends Controller
 
         $data['data'] = Blogs::orderBy('id', 'desc')->with('author')->paginate(10);
         $data['authors'] = Author::get();
+        $data['categories'] = Categories::all();
 
         return view('admin.blogs.index', ['data' => $data, 'menu' => 'blogs']);
     }
@@ -266,7 +268,8 @@ class BlogController extends Controller
         $meta_url .= $data->lang.'/blogs/'.$data->slug;
 
         $data['meta_title'] = MetaTags::where('url', $meta_url)->first();
-        
+        $data['categories'] = Categories::all();
+
         $tagArr = array();
         $tags = BlogTags::where('blog_id', $id)->get();
 
