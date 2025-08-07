@@ -73,3 +73,15 @@ p, p > *{
 .vc_custom_1534824428717 {
     padding-bottom: 5% !important;
 }
+.single-content .single-wrapper article .post-thumbnail-wrapper .post-thumbnail img{
+    object-fit: cover;
+    object-position: center;
+    height: 400px;
+    width: 100%;
+}
+.posts-thumbnail-image a img {
+    object-fit: cover;
+    object-position: center;
+    height: 50px;
+    width: 100%;
+}

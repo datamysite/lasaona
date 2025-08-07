@@ -1,8 +1,8 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
   <a href="{{URL::to('/')}}" class="brand-link">
-    <img src="{{URL::to('/public/images/lol-logo.png')}}" alt="DataMySite" class="brand-image img-circle elevation-3" style="opacity: 1">
-    <span class="brand-text font-weight-600"> Let`s off Leash</span>
+    <img src="{{URL::to('/public/images/favicon.png')}}" alt="LasaOna" class="brand-image img-circle elevation-3" style="opacity: 1">
+    <span class="brand-text font-weight-600">Meet Lasa Ona</span>
   </a>
 
   <!-- Sidebar -->
@@ -94,7 +94,7 @@
           </li>
 
 
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a href="{{route('admin.updates')}}" class="nav-link {{$menu == 'updates' ? 'active' : ''}}">
               <i class="nav-icon fas fa-newspaper"></i>
               <p>
@@ -113,7 +113,7 @@
                 &nbsp;&nbsp;YT Videos
               </p>
             </a>
-          </li>
+          </li> -->
 
           <li class="nav-item">
             <a href="{{route('admin.newsletter')}}" class="nav-link {{$menu == 'newsletter' ? 'active' : ''}}">

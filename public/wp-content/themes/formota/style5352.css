@@ -10922,7 +10922,10 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 }
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-thumbnail-wrapper .post-thumbnail .post-thumbnail-overlay img.img-responsive {
-  width: auto;
+  object-fit: cover;
+    object-position: center;
+    height: 225px;
+    width: 100%;
 }
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-thumbnail-wrapper .post-thumbnail .prettyPhoto {
@@ -10955,13 +10958,17 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 }
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-thumbnail-wrapper .post-category {
-  background-color: #fff;
+  background-color: #d8b069;
   font-style: italic;
   padding: 1px 8px;
   position: absolute;
   left: 0;
   bottom: 0;
-  text-transform: uppercase;
+}
+
+.haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-thumbnail-wrapper .post-category a {
+    color: #fff;
+    text-transform: capitalize;
 }
 
 .haru-archive-blog .archive-content .archive-content-layout article .post-wrapper .post-thumbnail-wrapper .owl-nav {
@@ -11781,14 +11788,16 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 }
 
 .single-content .single-wrapper article .post-thumbnail-wrapper .post-meta-category {
-  background-color: #fff;
+  background-color: #D8B069;
   font-style: italic;
   font-size: 12px;
   padding: 1px 8px;
   position: absolute;
   left: 0;
   bottom: 0;
-  text-transform: uppercase;
+}
+.single-content .single-wrapper article .post-thumbnail-wrapper .post-meta-category a{
+  color: #fff;
 }
 
 .single-content .single-wrapper article .post-thumbnail-wrapper .jp-audio .jp-type-playlist .jp-interface .jp-play-pause a:hover {

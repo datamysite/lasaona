@@ -54,15 +54,11 @@
                                 <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
                                     <a href="{{route('blogs')}}">Blogs</a><b class="menu-caret"></b>
                                     <ul class="sub-menu" style="">
-                                        <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home level-1 ">
-                                            <a href="">Category 1</a>
-                                        </li>
-                                        <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page level-1 ">
-                                            <a href="">Category 2</a>
-                                        </li>
-                                        <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page level-1 ">
-                                            <a href="">Category 3</a>
-                                        </li>
+                                        @foreach($blog_categories as $val)
+                                            <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home level-1 ">
+                                                <a href="">{{$val->name}}</a>
+                                            </li>
+                                        @endforeach
                                     </ul>
                                 </li>
 
@@ -141,15 +137,11 @@
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
                                             <a href="{{route('blogs')}}">Blogs</a><b class="menu-caret"></b>
                                             <ul class="sub-menu animated menu_fadeInDown" style="">
-                                                <li id="menu-item-1915" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home level-1 ">
-                                                    <a href="">Category 1</a>
-                                                </li>
-                                                <li id="menu-item-1914" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page level-1 ">
-                                                    <a href="">Category 2</a>
-                                                </li>
-                                                <li id="menu-item-1913" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page level-1 ">
-                                                    <a href="">Category 3</a>
-                                                </li>
+                                                @foreach($blog_categories as $val)
+                                                    <li id="menu-item-1915" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home level-1 ">
+                                                        <a href="">{{$val->name}}</a>
+                                                    </li>
+                                                @endforeach
                                             </ul>
                                         </li>
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">

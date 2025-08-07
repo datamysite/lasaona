@@ -15,7 +15,7 @@
 
   <!-- Preloader -->
   <div class="preloader flex-column justify-content-center align-items-center">
-    <img class="animation__shake" src="{{URL::to('/public')}}/images/lol-logo.png" alt="AdminLTELogo" height="80" width="100">
+    <img class="animation__shake" src="{{URL::to('/public')}}/images/favicon.png" alt="LasaOna Logo" height="80" width="100">
   </div>
 
   <!-- Navbar -->

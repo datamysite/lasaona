@@ -65,7 +65,7 @@ class BlogController extends Controller
 
                 //Meta Title -- Start
 
-                    $meta_url = 'https://letsoffleash.com/'.$data['slug'];
+                    $meta_url = 'https://meetlasaona.com/'.$data['slug'];
 
                     $mt = new MetaTags;
                     $mt->url = $meta_url;
@@ -118,7 +118,7 @@ class BlogController extends Controller
 
             //Meta Title -- Start
 
-                $meta_url = 'https://letsoffleash.com/'.$data['slug'];
+                $meta_url = 'https://meetlasaona.com/'.$data['slug'];
                 $mt = MetaTags::where('url', $meta_url)->first();
                 if(empty($mt->id)){
                     $mt = new MetaTags;

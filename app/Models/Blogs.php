@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 use Auth;
 use App\Models\Author;
 use App\Models\BlogTags;
+use App\Models\Categories;
 
 class Blogs extends Model
 {
@@ -17,6 +18,7 @@ class Blogs extends Model
     public static function create(array $data){
         $b = new Blogs;
         $b->heading = $data['heading'];
+        $b->category_id = $data['category_id'];
         $b->banner_alt = $data['banner_alt'];
         $b->slug = $data['slug'];
         $b->description = $data['description'];
@@ -35,6 +37,7 @@ class Blogs extends Model
     public static function blog_update($id, array $data){
         $b = Blogs::find($id);
         $b->heading = $data['heading'];
+        $b->category_id = $data['category_id'];
         $b->banner_alt = $data['banner_alt'];
         $b->slug = $data['slug'];
         $b->description = $data['description'];
@@ -48,6 +51,10 @@ class Blogs extends Model
 
     public function author(){
         return $this->belongsTo(Author::class, 'author_id', 'id');
+    }
+
+    public function category(){
+        return $this->belongsTo(Categories::class, 'category_id', 'id');
     }
 
     public function tags(){

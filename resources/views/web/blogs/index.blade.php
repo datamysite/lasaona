@@ -46,215 +46,39 @@
                 <div class="archive-content col-md-9  col-sm-12 col-xs-12">
                     <div class="archive-content-layout layout-style-large-image"> 
                         <div class="row">
-                            <article id="post-173" class="large-image col-md-6 col-sm-12 col-xs-12 post-173 post type-post status-publish format-image has-post-thumbnail sticky hentry category-lifestyle tag-director tag-film-maker tag-film-studio post_format-post-format-image clearfix">
-                                <div class="post-wrapper clearfix">
-                                    <div class="post-thumbnail-wrapper">
-                                        <div class="post-thumbnail">
-                                            <a href="" class="post-thumbnail-overlay">
-                                                <img class="img-responsive" src="https://demo.harutheme.com/formota/wp-content/uploads/2017/08/blog-image-3.jpg" alt="How to Edit a Film Score to Best Serve Your Story">
-                                            </a>
-                                        </div>                
-                                        <div class="post-category">
-                                            <a href="" rel="category tag">LifeStyle</a>                
-                                        </div>
-                                    </div>
-                                    <div class="post-content-wrapper">
-                                        <div class="post-detail">
-                                            <h3 class="post-title">
-                                                <a href="" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">How to Edit a Film Score to Best Serve Your Story</a>
-                                            </h3>
-                                            <div class="post-meta-info">
-                                                <div class="post-meta-author">
-                                                    <span class="post-by">by</span>
-                                                    <a href="">admin</a>
-                                                </div>/
-                                                <div class="post-meta-date">December 23, 2021</div>
-                                            </div>
-                                            <div class="post-excerpt two-lines">
-                                                Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, idae gravida mi purus sit amet erat. Ut dictum nisi massa.Maecenas id justo rhoncus, volutpat nunc sit amet, facilisiulum scelerisque...                
-                                            </div>
-                                            <div class="post-read-more">
-                                                <a href="" class="read-more" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">Read more</a>
+                            @foreach($data as $val)
+                                <article id="post-173" class="large-image col-md-6 col-sm-12 col-xs-12 post-173 post type-post status-publish format-image has-post-thumbnail sticky hentry category-lifestyle tag-director tag-film-maker tag-film-studio post_format-post-format-image clearfix">
+                                    <div class="post-wrapper clearfix">
+                                        <div class="post-thumbnail-wrapper">
+                                            <div class="post-thumbnail">
+                                                <a href="{{route('blogs.detail', [$val->slug])}}" target="_blank" class="post-thumbnail-overlay">
+                                                    <img class="img-responsive" src="{{URL::to('public/storage/blogs/'.$val->banner)}}" alt="{{$val->banner_alt}}">
+                                                </a>
+                                            </div>                
+                                            <div class="post-category">
+                                                <a href="{{URL::to('/blogs/'.$val->category->slug)}}" target="_blank" rel="category tag">{{$val->category->name}}</a>                
                                             </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article id="post-173" class="large-image col-md-6 col-sm-12 col-xs-12 post-173 post type-post status-publish format-image has-post-thumbnail sticky hentry category-lifestyle tag-director tag-film-maker tag-film-studio post_format-post-format-image clearfix">
-                                <div class="post-wrapper clearfix">
-                                    <div class="post-thumbnail-wrapper">
-                                        <div class="post-thumbnail">
-                                            <a href="" class="post-thumbnail-overlay">
-                                                <img class="img-responsive" src="https://demo.harutheme.com/formota/wp-content/uploads/2017/08/blog-image-3.jpg" alt="How to Edit a Film Score to Best Serve Your Story">
-                                            </a>
-                                        </div>                
-                                        <div class="post-category">
-                                            <a href="" rel="category tag">LifeStyle</a>                
-                                        </div>
-                                    </div>
-                                    <div class="post-content-wrapper">
-                                        <div class="post-detail">
-                                            <h3 class="post-title">
-                                                <a href="" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">How to Edit a Film Score to Best Serve Your Story</a>
-                                            </h3>
-                                            <div class="post-meta-info">
-                                                <div class="post-meta-author">
-                                                    <span class="post-by">by</span>
-                                                    <a href="">admin</a>
-                                                </div>/
-                                                <div class="post-meta-date">December 23, 2021</div>
-                                            </div>
-                                            <div class="post-excerpt two-lines">
-                                                Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, idae gravida mi purus sit amet erat. Ut dictum nisi massa.Maecenas id justo rhoncus, volutpat nunc sit amet, facilisiulum scelerisque...                
-                                            </div>
-                                            <div class="post-read-more">
-                                                <a href="" class="read-more" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">Read more</a>
+                                        <div class="post-content-wrapper">
+                                            <div class="post-detail">
+                                                <h3 class="post-title">
+                                                    <a href="{{route('blogs.detail', [$val->slug])}}" target="_blank" rel="bookmark">{{$val->heading}}</a>
+                                                </h3>
+                                                <div class="post-meta-info">
+                                                    <div class="post-meta-author">
+                                                        <span class="post-by">by</span>
+                                                        <a href="{{route('blogs.detail', [$val->slug])}}" target="_blank">{{$val->author->name}}</a>
+                                                    </div>/
+                                                    <div class="post-meta-date">{{date('F d, Y', strtotime($val->created_at))}}</div>
+                                                </div>
+                                                <div class="post-excerpt two-lines">
+                                                    {{$val->short_description}}             
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                            </article>
-
-                            <article id="post-173" class="large-image col-md-6 col-sm-12 col-xs-12 post-173 post type-post status-publish format-image has-post-thumbnail sticky hentry category-lifestyle tag-director tag-film-maker tag-film-studio post_format-post-format-image clearfix">
-                                <div class="post-wrapper clearfix">
-                                    <div class="post-thumbnail-wrapper">
-                                        <div class="post-thumbnail">
-                                            <a href="" class="post-thumbnail-overlay">
-                                                <img class="img-responsive" src="https://demo.harutheme.com/formota/wp-content/uploads/2017/08/blog-image-3.jpg" alt="How to Edit a Film Score to Best Serve Your Story">
-                                            </a>
-                                        </div>                
-                                        <div class="post-category">
-                                            <a href="" rel="category tag">LifeStyle</a>                
-                                        </div>
-                                    </div>
-                                    <div class="post-content-wrapper">
-                                        <div class="post-detail">
-                                            <h3 class="post-title">
-                                                <a href="" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">How to Edit a Film Score to Best Serve Your Story</a>
-                                            </h3>
-                                            <div class="post-meta-info">
-                                                <div class="post-meta-author">
-                                                    <span class="post-by">by</span>
-                                                    <a href="">admin</a>
-                                                </div>/
-                                                <div class="post-meta-date">December 23, 2021</div>
-                                            </div>
-                                            <div class="post-excerpt two-lines">
-                                                Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, idae gravida mi purus sit amet erat. Ut dictum nisi massa.Maecenas id justo rhoncus, volutpat nunc sit amet, facilisiulum scelerisque...                
-                                            </div>
-                                            <div class="post-read-more">
-                                                <a href="" class="read-more" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">Read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article id="post-173" class="large-image col-md-6 col-sm-12 col-xs-12 post-173 post type-post status-publish format-image has-post-thumbnail sticky hentry category-lifestyle tag-director tag-film-maker tag-film-studio post_format-post-format-image clearfix">
-                                <div class="post-wrapper clearfix">
-                                    <div class="post-thumbnail-wrapper">
-                                        <div class="post-thumbnail">
-                                            <a href="" class="post-thumbnail-overlay">
-                                                <img class="img-responsive" src="https://demo.harutheme.com/formota/wp-content/uploads/2017/08/blog-image-3.jpg" alt="How to Edit a Film Score to Best Serve Your Story">
-                                            </a>
-                                        </div>                
-                                        <div class="post-category">
-                                            <a href="" rel="category tag">LifeStyle</a>                
-                                        </div>
-                                    </div>
-                                    <div class="post-content-wrapper">
-                                        <div class="post-detail">
-                                            <h3 class="post-title">
-                                                <a href="" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">How to Edit a Film Score to Best Serve Your Story</a>
-                                            </h3>
-                                            <div class="post-meta-info">
-                                                <div class="post-meta-author">
-                                                    <span class="post-by">by</span>
-                                                    <a href="">admin</a>
-                                                </div>/
-                                                <div class="post-meta-date">December 23, 2021</div>
-                                            </div>
-                                            <div class="post-excerpt two-lines">
-                                                Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, idae gravida mi purus sit amet erat. Ut dictum nisi massa.Maecenas id justo rhoncus, volutpat nunc sit amet, facilisiulum scelerisque...                
-                                            </div>
-                                            <div class="post-read-more">
-                                                <a href="" class="read-more" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">Read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article id="post-173" class="large-image col-md-6 col-sm-12 col-xs-12 post-173 post type-post status-publish format-image has-post-thumbnail sticky hentry category-lifestyle tag-director tag-film-maker tag-film-studio post_format-post-format-image clearfix">
-                                <div class="post-wrapper clearfix">
-                                    <div class="post-thumbnail-wrapper">
-                                        <div class="post-thumbnail">
-                                            <a href="" class="post-thumbnail-overlay">
-                                                <img class="img-responsive" src="https://demo.harutheme.com/formota/wp-content/uploads/2017/08/blog-image-3.jpg" alt="How to Edit a Film Score to Best Serve Your Story">
-                                            </a>
-                                        </div>                
-                                        <div class="post-category">
-                                            <a href="" rel="category tag">LifeStyle</a>                
-                                        </div>
-                                    </div>
-                                    <div class="post-content-wrapper">
-                                        <div class="post-detail">
-                                            <h3 class="post-title">
-                                                <a href="" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">How to Edit a Film Score to Best Serve Your Story</a>
-                                            </h3>
-                                            <div class="post-meta-info">
-                                                <div class="post-meta-author">
-                                                    <span class="post-by">by</span>
-                                                    <a href="">admin</a>
-                                                </div>/
-                                                <div class="post-meta-date">December 23, 2021</div>
-                                            </div>
-                                            <div class="post-excerpt two-lines">
-                                                Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, idae gravida mi purus sit amet erat. Ut dictum nisi massa.Maecenas id justo rhoncus, volutpat nunc sit amet, facilisiulum scelerisque...                
-                                            </div>
-                                            <div class="post-read-more">
-                                                <a href="" class="read-more" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">Read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
-
-                            <article id="post-173" class="large-image col-md-6 col-sm-12 col-xs-12 post-173 post type-post status-publish format-image has-post-thumbnail sticky hentry category-lifestyle tag-director tag-film-maker tag-film-studio post_format-post-format-image clearfix">
-                                <div class="post-wrapper clearfix">
-                                    <div class="post-thumbnail-wrapper">
-                                        <div class="post-thumbnail">
-                                            <a href="" class="post-thumbnail-overlay">
-                                                <img class="img-responsive" src="https://demo.harutheme.com/formota/wp-content/uploads/2017/08/blog-image-3.jpg" alt="How to Edit a Film Score to Best Serve Your Story">
-                                            </a>
-                                        </div>                
-                                        <div class="post-category">
-                                            <a href="" rel="category tag">LifeStyle</a>                
-                                        </div>
-                                    </div>
-                                    <div class="post-content-wrapper">
-                                        <div class="post-detail">
-                                            <h3 class="post-title">
-                                                <a href="" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">How to Edit a Film Score to Best Serve Your Story</a>
-                                            </h3>
-                                            <div class="post-meta-info">
-                                                <div class="post-meta-author">
-                                                    <span class="post-by">by</span>
-                                                    <a href="">admin</a>
-                                                </div>/
-                                                <div class="post-meta-date">December 23, 2021</div>
-                                            </div>
-                                            <div class="post-excerpt two-lines">
-                                                Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, idae gravida mi purus sit amet erat. Ut dictum nisi massa.Maecenas id justo rhoncus, volutpat nunc sit amet, facilisiulum scelerisque...                
-                                            </div>
-                                            <div class="post-read-more">
-                                                <a href="" class="read-more" rel="bookmark" title="How to Edit a Film Score to Best Serve Your Story">Read more</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </article>
+                                </article>
+                            @endforeach
                         </div>
 
                         <div class="archive-paging default">
