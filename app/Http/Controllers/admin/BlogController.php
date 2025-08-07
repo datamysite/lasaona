@@ -128,7 +128,7 @@ class BlogController extends Controller
                     $mt->created_by = Auth::guard('admin')->id();
                 }
                 $mt->title = $data['heading'];
-                $mt->keywords = $data['tags'];
+                $mt->keywords = '';
                 $mt->description = $data['short_description'];
                 $mt->created_by = Auth::guard('admin')->id();
                 $mt->save();
