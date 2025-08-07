@@ -86,15 +86,6 @@
     <div class="row">
       <div class="col-md-12">
         <div class="form-group">
-          <label>Tags</label>
-          <input type="text" class="form-control" id="edit-tagsinput" name="tags" value="{{$data->tags}}" data-role="tagsinput" required>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-12">
-        <div class="form-group">
           <label>Description</label>
           <textarea class="form-control" name="description" id="content2" rows="10">{{$data->description}}</textarea>
         </div>
