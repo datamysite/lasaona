@@ -1,0 +1,13 @@
+@media (max-width: 991px) {
+	header.haru-mobile-header .haru-mobile-header-wrap .haru-mobile-header-container .haru-mobile-header-inner .header-logo-mobile img {
+	    max-height: 24px;
+	}
+	.teammember-list {
+	    display: flex;
+	    flex-direction: column;
+	}
+	.blog-list {
+	    display: flex;
+	    flex-direction: column;
+	}
+}

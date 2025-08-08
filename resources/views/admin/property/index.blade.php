@@ -1,5 +1,5 @@
 @extends('admin.layout.main')
-@section('title', 'Latest Updates')
+@section('title', 'Properties')
 @section('content')
 
 <div class="content-wrapper">
@@ -8,12 +8,12 @@
     <div class="container-fluid">
       <div class="row mb-2">
         <div class="col-sm-6">
-          <h1 class="m-0">Latest Updates</h1>
+          <h1 class="m-0">Properties</h1>
         </div><!-- /.col -->
         <div class="col-sm-6">
           <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item"><a href="{{route('admin.dashboard')}}">Home</a></li>
-            <li class="breadcrumb-item active">Latest Updates</li>
+            <li class="breadcrumb-item active">Properties</li>
           </ol>
         </div><!-- /.col -->
       </div><!-- /.row -->
@@ -36,7 +36,7 @@
                   <i class="fas fa-search"></i>
                 </div>
                 <div class="col-md-3">
-                  <a href="javascript:void(0)" class="btn btn-primary pull-right" title="Add Update" data-toggle="modal" data-target="#addBlogFormModal"><i class="fas fa-plus"></i> Add Update</a>
+                  <a href="javascript:void(0)" class="btn btn-primary pull-right" title="Add Property" data-toggle="modal" data-target="#addBlogFormModal"><i class="fas fa-plus"></i> Add Property</a>
                 </div>
               </div>
             </div>
@@ -48,8 +48,8 @@
                 <thead>
                   <tr>
                     <th width="5%">#</th>
-                    <th width="45%">Title</th>
-                    <th width="25%">Link</th>
+                    <th width="40%">Name</th>
+                    <th width="30%">Builder Name</th>
                     <th width="10%" class="text-right">Created at</th>
                     <!-- <th width="10%" class="text-right">Action</th> -->
                     <th class="text-right">Action</th>
@@ -60,8 +60,8 @@
                 <tfoot>
                   <tr>
                     <th>#</th>
-                    <th>Title</th>
-                    <th>Link</th>
+                    <th>Name</th>
+                    <th>Builder Name</th>
                     <th class="text-right">Created at</th>
                     <!-- <th class="text-right">Action</th> -->
                     <th width="20%" class="text-right">Action</th>
@@ -91,45 +91,36 @@
 <div class="modal fade" id="addBlogFormModal">
   <div class="modal-dialog modal-xl">
     <div class="modal-content">
-      <form id="add_blog_form" action="{{route('admin.updates.create')}}">
+      <form id="add_property_form" action="{{route('admin.property.create')}}">
         @csrf
         <div class="modal-header">
-          <h4 class="modal-title">Add Update</h4>
+          <h4 class="modal-title">Add Property</h4>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <div class="row">
-            <div class="col-md-8">
-              <div class="coupon-image-wrapper">
-                <input type="file" name="coupon_image" accept="image/*" required />
-                <div class="close-btn">×</div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-3">
-              <div class="form-group">
-                <label>Reading Time</label>
-                <input type="number" class="form-control" name="read_time" placeholder="Enter reading time in minutes" required>
-              </div>
-            </div>
-            <div class="col-md-1"></div>
-            <div class="col-md-4">
-              <div class="form-group">
-                <label>Image alt:</label>
-                <input type="text" class="form-control" name="banner_alt" required>
-              </div>
-            </div>
-          </div>
-
+          
           <div class="row">
             <div class="col-md-12">
               <div class="form-group">
-                <label>Heading</label>
-                <input type="text" class="form-control blogHeading" name="heading" required>
+                <label>Images</label>
+                <input type="file" class="form-control" name="images[]" multiple required>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Property Name</label>
+                <input type="text" class="form-control" name="name" required>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Builder Name</label>
+                <input type="text" class="form-control" name="builder_name" required>
               </div>
             </div>
           </div>
@@ -139,17 +130,9 @@
               <div class="form-group slug-field">
                 <label>Slug</label>
                 <div class="form-control">
-                  <span>{{URL::to('/')}}/blogs/</span>
+                  <span>{{URL::to('/')}}/real-estate/</span>
                   <input type="text" class="blogSlug" name="slug" required>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <div class="form-group">
-                <label>Short Description</label>
-                <textarea class="form-control" name="short_description" rows="3"></textarea>
               </div>
             </div>
           </div>
@@ -157,11 +140,27 @@
           <div class="row">
             <div class="col-md-12">
               <div class="form-group">
-                <label>Description</label>
-                <textarea class="form-control" name="description" id="content" rows="10"></textarea>
+                <label>Property Map</label>
+                <textarea class="form-control" name="property_map" rows="3"></textarea>
               </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Description</label>
+                <textarea class="form-control" name="description" id="content" rows="3"></textarea>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label>Property Features</label>
+                <textarea class="form-control" name="property_features" id="content2" rows="3"></textarea>
+              </div>
+            </div>
+          </div>
+
         </div>
         <div class="modal-footer justify-content-between">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -177,7 +176,7 @@
 
 
 <div class="modal fade" id="editBlogFormModal">
-  <div class="modal-dialog">
+  <div class="modal-dialog modal-xl">
     <div class="modal-content">
 
     </div>
@@ -215,13 +214,14 @@
     loadUpdates();
 
     make_editor("content");
+    make_editor("content2");
 
     $(document).on('keyup', '.searchBlog', function() {
       var val = $(this).val();
       if (val == '') {
         val = '--empty--';
       }
-      var url = "{{URL::to('/admin/panel/updates/search')}}/" + val;
+      var url = "{{URL::to('/admin/panel/property/search')}}/" + val;
 
       $('#blogsTableBody').html('<tr class="text-center"><td colspan="4"><img src="{{URL::to('/public/loader.gif')}}" height="30px"></td></tr>');
       $.get(url, function(data) {
@@ -267,9 +267,9 @@
     });
 
 
-    $(document).on('submit', "#add_blog_form", function(event) {
+    $(document).on('submit', "#add_property_form", function(event) {
       var form = $(this);
-      var formData = new FormData($("#add_blog_form")[0]);
+      var formData = new FormData($("#add_property_form")[0]);
       //console.log(formData);
       $.ajax({
         type: "POST",
@@ -304,9 +304,9 @@
     });
 
 
-    $(document).on('submit', "#edit_blog_form", function(event) {
+    $(document).on('submit', "#edit_property_form", function(event) {
       var form = $(this);
-      var formData = new FormData($("#edit_blog_form")[0]);
+      var formData = new FormData($("#edit_property_form")[0]);
       //console.log(formData);
       $.ajax({
         type: "POST",
@@ -340,7 +340,7 @@
 
 
 
-    $(document).on('click', '.deleteUpdate', function() {
+    $(document).on('click', '.deleteProperty', function() {
       var id = $(this).data('id');
 
       Swal.fire({
@@ -353,7 +353,7 @@
         confirmButtonText: 'Yes, delete it!'
       }).then((result) => {
         if (result.isConfirmed) {
-          $.get("{{URL::to('/admin/panel/updates/delete')}}/" + id, function(data) {
+          $.get("{{URL::to('/admin/panel/property/delete')}}/" + id, function(data) {
             Toast.fire({
               icon: 'success',
               title: 'Successfully Deleted.'
@@ -365,14 +365,14 @@
     });
 
 
-    $(document).on('click', '.editUpdate', function() {
+    $(document).on('click', '.editProperty', function() {
       var id = $(this).data('id');
       $('#editBlogFormModal .modal-content').html('<img src="{{URL::to('/public/loader.gif')}}" height="50px" style="margin:150px auto;">');
       $('#editBlogFormModal').modal('show');
-      $.get("{{URL::to('/admin/panel/updates/edit')}}/" + id, function(data) {
+      $.get("{{URL::to('/admin/panel/property/edit')}}/" + id, function(data) {
         $('#editBlogFormModal .modal-content').html(data);
-        make_editor("content2");
-        $('#edit-tagsinput').tagsinput();
+        make_editor("content3");
+        make_editor("content4");
       });
     });
 
@@ -386,7 +386,7 @@
     @php $pu = !empty($_GET['page']) ? $_GET['page'] : 0;
     $pu = ($pu == 0 ? '' : '?page='.$pu);
     @endphp
-    var url = "{{route('admin.updates.load').$pu}}";
+    var url = "{{route('admin.property.load').$pu}}";
 
     $('#blogsTableBody').html('<tr class="text-center"><td colspan="4"><img src="{{URL::to('/public/loader.gif')}}" height="30px"></td></tr>');
     $.get(url, function(data) {
@@ -411,19 +411,13 @@
     CKEDITOR.ClassicEditor.create(document.getElementById(ele), {
       toolbar: {
         items: [
-          'exportPDF', 'exportWord', '|',
-          'findAndReplace', 'selectAll', '|',
           'heading', '|',
-          'bold', 'italic', 'strikethrough', 'underline', 'code', 'subscript', 'superscript', 'removeFormat', '|',
+          'bold', 'italic', 'strikethrough', 'underline', '|',
           'bulletedList', 'numberedList', 'todoList', '|',
           'outdent', 'indent', '|',
-          'undo', 'redo',
-          '-',
           'fontSize', 'fontFamily', 'fontColor', 'fontBackgroundColor', 'highlight', '|',
           'alignment', '|',
-          'link', 'insertImage', 'blockQuote', 'insertTable', 'mediaEmbed', 'codeBlock', 'htmlEmbed', '|',
-          'specialCharacters', 'horizontalLine', 'pageBreak', '|',
-          'textPartLanguage', '|',
+          'link', 'insertImage', '|',
           'sourceEditing'
         ],
         shouldNotGroupWhenFull: true

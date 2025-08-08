@@ -19,75 +19,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="wpb_column vc_column_container vc_col-sm-3">
-                        <div class="vc_column-inner">
-                            <div class="wpb_wrapper">                    
-                                <div class=" ">
-                                    <div class="counter-shortcode-wrap style_1 ">
-                                        <div class="gr-counter gr-animated">
-                                            <div class="content-inner">
-                                                <div data-from="0" data-to="1998" class="gr-number-counter">
-                                                    1998            </div>
-                                                <div class="gr-text-default">First starring<br />
-                                    film role</div>
-                                            </div>
-                                        </div>
-                                    </div>            
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="wpb_column vc_column_container vc_col-sm-3">
-                        <div class="vc_column-inner">
-                            <div class="wpb_wrapper">                    
-                                <div class=" ">
-                                    <div class="counter-shortcode-wrap style_1 ">
-                                        <div class="gr-counter gr-animated">
-                                            <div class="content-inner">
-                                                <div data-from="0" data-to="3000" class="gr-number-counter">
-                                                    3000            </div>
-                                                <div class="gr-text-default">Satisfied clients</div>
-                                            </div>
-                                        </div>
-                                    </div>            
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="wpb_column vc_column_container vc_col-sm-3">
-                        <div class="vc_column-inner">
-                            <div class="wpb_wrapper">                    
-                                <div class=" ">
-                                    <div class="counter-shortcode-wrap style_1 ">
-                                        <div class="gr-counter gr-animated">
-                                            <div class="content-inner">
-                                                <div data-from="0" data-to="80" class="gr-number-counter">
-                                                    80            </div>
-                                                <div class="gr-text-default">Feature films</div>
-                                            </div>
-                                        </div>
-                                    </div>            
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="wpb_column vc_column_container vc_col-sm-3">
-                        <div class="vc_column-inner">
-                            <div class="wpb_wrapper">                    
-                                <div class=" ">
-                                    <div class="counter-shortcode-wrap style_1 ">
-                                        <div class="gr-counter gr-animated">
-                                            <div class="content-inner">
-                                                <div data-from="0" data-to="14" class="gr-number-counter">
-                                                    14            </div>
-                                                <div class="gr-text-default">Awards</div>
-                                            </div>
-                                        </div>
-                                    </div>            
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
                 <div class="vc_row wpb_row vc_inner vc_row-fluid">
                     <div class="wpb_column vc_column_container vc_col-sm-12">
@@ -123,7 +54,7 @@
                                                     Slovak-born La Sauna is a musician turned real estate curator, From performing at 14 to designing atmospheres, she transforms emotion into music—and spaces into art.
 
                                                 </div>
-                                                    <img decoding="async" src="{{URL::to('/public')}}/images/lasa_signature.png" alt="JP">
+                                                <img decoding="async" src="{{URL::to('/public')}}/images/lasa_signature.png" alt="JP">
                                             </div>
                                         </div>
                                     </div>            

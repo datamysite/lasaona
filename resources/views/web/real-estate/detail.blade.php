@@ -49,7 +49,7 @@
                                     <div class="images-list slider-for">
                                         <div class="image-item image-col-2">
                                             <div class="slide-item">
-                                                <img decoding="async" src="{{URL::to('/public')}}/images/properties/1.jpg" alt="Themeforest">
+                                                <img decoding="async" src="{{URL::to('/public')}}/images/property1.png" alt="Themeforest">
                                             </div>
                                         </div>
                                         <div class="image-item image-col-2">

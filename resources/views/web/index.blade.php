@@ -63,8 +63,8 @@
 															<div class="wpb_wrapper">  
         														<div class="  ">
                 													<div class="teammember-shortcode-wrap grid ">
-                														<div class="teammember-list padding-15 columns-3" style="position: relative; height: 450px;">
-                        													<div class="team-item" style="position: absolute; left: 0px; top: 0px;">
+                														<div class="teammember-list padding-15 columns-3" style="position: relative;">
+                        													<div class="team-item" style="">
 																                <div class="team-content">
 																                    <div class="team-image">
 																                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property1.png')}}">                        
@@ -81,7 +81,7 @@
 																                    </div>
 																                </div>
 																            </div>
-													                        <div class="team-item" style="position: absolute; left: 390px; top: 0px;">
+													                        <div class="team-item" style="">
 																                <div class="team-content">
 																                    <div class="team-image">
 																                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property2.jpg')}}">                        
@@ -98,7 +98,7 @@
 																					</div>
 																                </div>
 													            			</div>
-													                        <div class="team-item" style="position: absolute; left: 780px; top: 0px;">
+													                        <div class="team-item" style="">
 																                <div class="team-content">
 																                    <div class="team-image">
 																                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property3.jpg')}}">                        
@@ -163,8 +163,8 @@
         													<div class="wpb_wrapper">            
         														<div class=" ">
                     												<div class="blog-shortcode-wrapper masonry ">
-        																<div class="blog-list columns-3" style="position: relative; height: 500px;">
-														                    <article class="blog-item" style="position: absolute; left: 0px; top: 0px;">
+        																<div class="blog-list columns-3" style="position: relative; ">
+														                    <article class="blog-item" style="">
 																                <div class="post-content">
 																                    <div class="post-thumbnail">
 																                        <div class="post-image">
@@ -191,7 +191,7 @@
 																                    </div>
 																                </div>
 																            </article>
-														                    <article class="blog-item" style="position: absolute; left: 390px; top: 0px;">
+														                    <article class="blog-item" style="">
 																                <div class="post-content">
 																                    <div class="post-thumbnail">
 																                        <div class="post-image">
@@ -217,7 +217,7 @@
 																                    </div>
 																                </div>
 																            </article>
-														                    <article class="blog-item" style="position: absolute; left: 780px; top: 0px;">
+														                    <article class="blog-item" style="">
 																                <div class="post-content">
 																                    <div class="post-thumbnail">
 																                        <div class="post-image">

@@ -40,6 +40,7 @@
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <link rel='stylesheet' href='{{URL::to("/public")}}/css/custom.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='{{URL::to("/public")}}/css/responsive.css' type='text/css' media='all' />
 
 <meta name="generator" content="Redux 4.3.12" /><style type="text/css" data-type="vc_shortcodes-custom-css">.vc_custom_1531118945978{padding-top: 5% !important;padding-bottom: 6% !important;background-image: url(public/wp-content/uploads/2018/07/footer-bg-96430.jpg?id=2063) !important;background-position: center !important;background-repeat: no-repeat !important;background-size: cover !important;}.vc_custom_1533887970791{padding-top: 4% !important;padding-bottom: 6% !important;background-color: #000000 !important;}.vc_custom_1531118871423{padding-top: 3% !important;}.vc_custom_1531118663045{padding-top: 6% !important;}.vc_custom_1531118812608{padding-top: 20px !important;padding-right: 6% !important;padding-left: 6% !important;}</style>
   

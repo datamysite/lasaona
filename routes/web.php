@@ -94,16 +94,16 @@ Route::prefix('admin/panel')->namespace('App\Http\Controllers\admin')->group(fun
             });
         });
 
-        //Latest Updates
-        Route::prefix('updates')->group(function () {
+        //Property
+        Route::prefix('property')->group(function () {
 
-            Route::get('/', 'UpdateController@index')->name('admin.updates');
-            Route::get('/load', 'UpdateController@load')->name('admin.updates.load');
-            Route::get('/search/{val}', 'UpdateController@search');
-            Route::post('/create', 'UpdateController@create')->name('admin.updates.create');
-            Route::get('/delete/{id}', 'UpdateController@delete');
-            Route::get('/edit/{id}', 'UpdateController@edit');
-            Route::post('/update', 'UpdateController@update_blog')->name('admin.updates.update');
+            Route::get('/', 'PropertyController@index')->name('admin.property');
+            Route::get('/load', 'PropertyController@load')->name('admin.property.load');
+            Route::get('/search/{val}', 'PropertyController@search');
+            Route::post('/create', 'PropertyController@create')->name('admin.property.create');
+            Route::get('/delete/{id}', 'PropertyController@delete');
+            Route::get('/edit/{id}', 'PropertyController@edit');
+            Route::post('/update', 'PropertyController@update_blog')->name('admin.property.update');
 
         });
 

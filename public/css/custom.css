@@ -85,3 +85,9 @@ p, p > *{
     height: 50px;
     width: 100%;
 }
+.teammember-list {
+    display: flex;
+}
+.blog-list {
+    display: flex;
+}
