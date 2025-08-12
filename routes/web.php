@@ -20,16 +20,17 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
     Route::get('/about-me', 'WebController@about')->name('about');
     Route::get('/contact-me', 'WebController@contact')->name('contact');
     Route::get('/music', 'WebController@music')->name('music');
+    Route::get('/privacy-policy', 'WebController@privacy')->name('privacy');
+    Route::get('/terms-and-conditions', 'WebController@terms')->name('terms');
 
     //Real-Estate
     Route::get('/real-estate', 'WebController@realEstate')->name('real-estate');
-    Route::get('/real-estate-detail', 'WebController@realEstateDetail')->name('real-estate.detail');
+    Route::get('/real-estate/{slug}', 'WebController@realEstateDetail')->name('real-estate.detail');
 
 
     //Blogs
     Route::get('/blogs', 'BlogController@index')->name('blogs');
-    Route::get('/blogs/{slug}', 'BlogController@category');
-    //Route::get('/blog-detail', 'BlogController@details')->name('blogs.detail');
+    Route::get('/blogs/Categories/{slug}', 'BlogController@category')->name('blog.category');
     Route::get('/blog/{slug}', 'BlogController@details')->name('blogs.detail');
 
     //Enquiry

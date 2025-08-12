@@ -136,23 +136,25 @@
                                         >Meet Lasa Ona 
                                         </rs-layer>
 
-                                        <rs-layer
-                                          id="slider-17-slide-47-layer-11" 
-                                          class="rev-btn"
-                                          data-type="button"
-                                          data-color="rgba(255,255,255,1)"
-                                          data-xy="x:c;y:t,t,t,m;yo:789px,789px,789px,294px;"
-                                          data-text="s:14;l:14;ls:1px;fw:600;a:inherit;"
-                                          data-rsp_bd="off"
-                                          data-padding="t:16;r:32;b:16;l:32;"
-                                          data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;"
-                                          data-frame_0="tp:600;"
-                                          data-frame_1="tp:600;st:2800;sp:1600;sR:2800;"
-                                          data-frame_999="o:0;tp:600;st:w;sR:4600;"
-                                          data-frame_hover="c:#000;bgc:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;sp:0;"
-                                          style="z-index:14;background-color:rgba(0,0,0,0.75);font-family:'Josefin Sans';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"
-                                        >CONTACT ME NOW 
-                                        </rs-layer>
+                                        <a href="{{route('contact')}}">
+                                          <rs-layer
+                                            id="slider-17-slide-47-layer-11" 
+                                            class="rev-btn"
+                                            data-type="button"
+                                            data-color="rgba(255,255,255,1)"
+                                            data-xy="x:c;y:t,t,t,m;yo:789px,789px,789px,294px;"
+                                            data-text="s:14;l:14;ls:1px;fw:600;a:inherit;"
+                                            data-rsp_bd="off"
+                                            data-padding="t:16;r:32;b:16;l:32;"
+                                            data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;"
+                                            data-frame_0="tp:600;"
+                                            data-frame_1="tp:600;st:2800;sp:1600;sR:2800;"
+                                            data-frame_999="o:0;tp:600;st:w;sR:4600;"
+                                            data-frame_hover="c:#000;bgc:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;sp:0;"
+                                            style="z-index:14;background-color:rgba(0,0,0,0.75);font-family:'Josefin Sans';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"
+                                          >CONTACT ME NOW 
+                                          </rs-layer>
+                                        </a>
                                       </rs-slide>
                                     
                                       <rs-slide style="position: absolute;" data-key="rs-48" data-title="Slide" data-thumb="//demo.harutheme.com/formota/wp-content/uploads/2018/07/slide-bg-92-100x50.jpg" data-anim="ms:600;" data-in="o:0;" data-out="a:false;">
@@ -226,6 +228,26 @@
                                           style="z-index:10;font-family:'Josefin Sans';"
                                         >REAL-ESTATE
                                         </rs-layer>
+
+                                        <a href="{{route('music')}}">
+                                          <rs-layer
+                                            id="slider-17-slide-47-layer-11" 
+                                            class="rev-btn"
+                                            data-type="button"
+                                            data-color="rgba(255,255,255,1)"
+                                            data-xy="x:c;y:t,t,t,m;yo:789px,789px,789px,294px;"
+                                            data-text="s:14;l:14;ls:1px;fw:600;a:inherit;"
+                                            data-rsp_bd="off"
+                                            data-padding="t:16;r:32;b:16;l:32;"
+                                            data-border="bos:solid;boc:#ffffff;bow:1px,1px,1px,1px;"
+                                            data-frame_0="tp:600;"
+                                            data-frame_1="tp:600;st:2800;sp:1600;sR:2800;"
+                                            data-frame_999="o:0;tp:600;st:w;sR:4600;"
+                                            data-frame_hover="c:#000;bgc:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;sp:0;"
+                                            style="z-index:14;background-color:rgba(0,0,0,0.75);font-family:'Josefin Sans';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"
+                                          >Check out my latest Single 
+                                          </rs-layer>
+                                        </a>
                                       </rs-slide>
                                     </rs-slides>
                                   </rs-module>

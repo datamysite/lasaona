@@ -32,9 +32,6 @@
                                                 <div class="footer-link-content">
                                                     <ul class="link-list">
                                                         <li>
-                                                            <a href="{{route('about')}}" target="_self">About Me</a>
-                                                        </li>
-                                                        <li>
                                                             <a href="{{route('real-estate')}}" target="_self">Real Estate</a>
                                                         </li>
                                                         <li>
@@ -43,6 +40,12 @@
                                                         <li>
                                                             <a href="{{route('blogs')}}" target="_self">Blogs</a>
                                                         </li>
+                                                        <li>
+                                                            <a href="{{route('privacy')}}" target="_self">Privacy Policy</a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="{{route('terms')}}" target="_self">Terms & Conditions</a>
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>            
@@ -50,7 +53,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="haru-col-sm-6 wpb_column vc_column_container vc_col-sm-2">
+                            <div class="haru-col-sm-6 wpb_column vc_column_container vc_col-sm-3">
                                 <div class="vc_column-inner">
                                     <div class="wpb_wrapper">
                                         <h2 style="color: #ffffff;text-align: left" class="vc_custom_heading heading_style_1">Categories</h2>                        
@@ -58,18 +61,11 @@
                                             <div class="footer-link-shortcode-wrap style_2 ">
                                                 <div class="footer-link-content">
                                                     <ul class="link-list">
-                                                        <li>
-                                                            <a href="#" target="_self">Category 1</a>
-                                                        </li>
-                                                                                                            <li>
-                                                            <a href="#" target="_self">Category 2</a>
-                                                        </li>
-                                                                                                            <li>
-                                                            <a href="#" target="_self">Category 3</a>
-                                                        </li>
-                                                                                                            <li>
-                                                            <a href="#" target="_self">Category 4</a>
-                                                        </li>
+                                                        @foreach($blog_categories as $val)
+                                                            <li>
+                                                                <a href="{{route('blog.category', $val->slug)}}" target="_self">{{$val->name}}</a>
+                                                            </li>
+                                                        @endforeach
                                                     </ul>
                                                 </div>
                                             </div>            
@@ -77,7 +73,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="haru-col-sm-6 wpb_column vc_column_container vc_col-sm-4">
+                            <div class="haru-col-sm-6 wpb_column vc_column_container vc_col-sm-3">
                                 <div class="vc_column-inner">
                                     <div class="wpb_wrapper">
                                         <h2 style="color: #ffffff;text-align: left" class="vc_custom_heading heading_style_1">Newsletter</h2>                        

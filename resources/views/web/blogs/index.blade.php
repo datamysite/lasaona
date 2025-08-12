@@ -1,4 +1,9 @@
 @extends('web.includes.master')
+@section('metaAddition')
+@if(!empty($nofollow))
+    <meta name="robots" content="noindex, follow">
+@endif
+@endsection
 @section('addStyle')
     <style>
         .haru-page-title-section .haru-breadcrumb-wrapper {
@@ -81,15 +86,7 @@
                             @endforeach
                         </div>
 
-                        <div class="archive-paging default">
-                            <ul class="page-numbers">
-                                <li><span aria-current="page" class="page-numbers current">1</span></li>
-                                <li><a class="page-numbers" href="https://demo.harutheme.com/formota/blog/page/2/">2</a></li>
-                                <li><span class="page-numbers dots">…</span></li>
-                                <li><a class="page-numbers" href="https://demo.harutheme.com/formota/blog/page/10/">10</a></li>
-                                <li><a class="next page-numbers" href="https://demo.harutheme.com/formota/blog/page/2/">Next</a></li>
-                            </ul>
-                        </div>    
+                        {!! $data->withQueryString()->links('pagination::default') !!}   
                     </div>
                 </div>
                 
@@ -104,7 +101,7 @@
                         </form>
                     </aside>
                     <aside id="media_image-2" class="widget widget_media_image">
-                        <img width="300" height="165" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/banner-81-300x165.jpg" class="image wp-image-2016  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/banner-81-300x165.jpg 300w, https://demo.harutheme.com/formota/wp-content/uploads/2018/07/banner-81.jpg 400w" sizes="(max-width: 300px) 100vw, 300px">
+                        <img width="300" height="165" src="{{URL::to('/public/images/gallery/5.jpg')}}" class="image wp-image-2016  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="{{URL::to('/public/images/gallery/5.jpg')}} 300w, {{URL::to('/public/images/gallery/5.jpg')}} 400w" sizes="(max-width: 300px) 100vw, 300px">
                     </aside>
                     <aside id="haru-banner-2" class="widget widget-banner">
                         <h4 class="widget-title"><span>Categories</span></h4>            

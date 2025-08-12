@@ -8,6 +8,11 @@
             padding-bottom: 2%;
             margin-bottom: 1%;
         }
+        .vc_custom_1531122077430 {
+            padding-top: 2% !important;
+            padding-bottom: 1% !important;
+            background-image: url("{{URL::to('public/images/lasa-about-bg.png')}}") !important;
+        }
     </style>
 @endsection
 @section('content')
@@ -48,140 +53,59 @@
 
                                     <div class="vc_row-full-width vc_clearfix" bis_skin_checked="1"></div>
 
-                                    <div class="haru-single-director" bis_skin_checked="1">
-                                        <div class="full-width clearfix" bis_skin_checked="1">
-                                            <!-- Single content -->
-                                            <div class="single-content" bis_skin_checked="1">
-                                                <div class="single-wrapper" bis_skin_checked="1">
-                                                    <article id="post-49" class="post-49 haru_director type-haru_director status-publish has-post-thumbnail hentry director_category-harutheme clearfix">
-                                                        <div class="post-wrapper" bis_skin_checked="1">
-                                                           
-                                                            <!-- ACTOR STORY -->
-                                                            <div class="single-director-story" bis_skin_checked="1">
-                                                                <div class="container" bis_skin_checked="1">
-                                                                    <div class="row director-description" bis_skin_checked="1">
-                                                                        <div class="col-md-7 col-sm-7" bis_skin_checked="1">
-                                                                            <div class="description-detail" bis_skin_checked="1">
-                                                                                <div class="director-story" bis_skin_checked="1">
-                                                                                    <p>Nullam imperdiet, sem at fringilla lobortis, sem nibh fringilla nibh, id gravidrus sit amet erat. Aenean nec nisi quis nisi venenatis dignissim in at sapien. Etiam eu libero vestibulum ante finibus hendrerit. Donec ac risus consectetur lorem volutpat tempus et sed sem.</p>
-                                                                                    <p>Proin mo eales tie scelerisque tortor et imperdiet. Vestibulum tempor ut enim commodo ec ac risus con condim entum ec ac risus con&nbsp;<span class="s1">nonummy nibh euismod a qui officia deserunt mollit ani. Rulpa qui officia deserunt mollit anim id est laboru Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod a qui officia deserunt mollit ani. Aim id est laboruLorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod a qui officia deserunt mollit ani. Rulpa qui officia deserunt mollit anim</span></p>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="director-share" bis_skin_checked="1">
-                                                                                <div class="post-social-share" bis_skin_checked="1">
-                                                                                    <div class="social-share-wrapper" bis_skin_checked="1">
-                                                                                        <ul class="social-share">
-                                                                                            <li class="social-label">
-                                                                                                Share:                 
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                <a onclick="window.open('https://www.facebook.com/sharer.php?u=https%3A%2F%2Fdemo.harutheme.com%2Fformota%2Fdirector%2Fchristian-king%2F', 'sharer', 'toolbar=0,status=0,width=620,height=280');" href="javascript:;">
-                                                                                                    <i class="fa fa-facebook"></i>
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                <a onclick="popUp=window.open('http://twitter.com/share?text=Christian+King&amp;url=https%3A%2F%2Fdemo.harutheme.com%2Fformota%2Fdirector%2Fchristian-king%2F','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript:;">
-                                                                                                    <i class="ti-twitter-alt"></i>
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                <a href="javascript:;" onclick="popUp=window.open('https://plus.google.com/share?url=https%3A%2F%2Fdemo.harutheme.com%2Fformota%2Fdirector%2Fchristian-king%2F','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;">
-                                                                                                    <i class="ti-google"></i>
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                <a onclick="popUp=window.open('http://linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fdemo.harutheme.com%2Fformota%2Fdirector%2Fchristian-king%2F&amp;title=Christian+King','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript:;">
-                                                                                                    <i class="ti-linkedin"></i>
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                <a onclick="popUp=window.open('http://www.tumblr.com/share/link?url=https%3A%2F%2Fdemo.harutheme.com%2Fformota%2Fdirector%2Fchristian-king%2F&amp;name=Christian+King&amp;description=Nullam+imperdiet%2C+sem+at+fringilla+lobortis%2C+sem+nibh+fringilla+nibh%2C+id+gravidrus+sit+amet+erat.+Aenean+nec+nisi+quis+nisi+venenatis+dignissim+in+at+sapien.+Etiam+eu+libero+vestibulum+ante+finibus+hendrerit.+Donec+ac+risus+consectetur+lorem+volutpat+tempus+et+sed+sem.+Proin+mo+eales+tie+scelerisque+tortor+et+imperdiet.+Vestibulum+tempor+ut+enim+commodo+%5B%26hellip%3B%5D','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript:;">
-                                                                                                    <i class="ti-tumblr-alt"></i>
-                                                                                                </a>
-                                                                                            </li>
-                                                                                            <li>
-                                                                                                <a onclick="popUp=window.open('http://pinterest.com/pin/create/button/?url=https%3A%2F%2Fdemo.harutheme.com%2Fformota%2Fdirector%2Fchristian-king%2F&amp;description=Christian+King&amp;media=https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-member-3.jpg','sharer','scrollbars=yes,width=800,height=400');popUp.focus();return false;" href="javascript:;">
-                                                                                                    <i class="ti-pinterest-alt"></i>
-                                                                                                </a>
-                                                                                            </li>
-                                                                                        </ul>
-                                                                                </div>
-                                                                            </div>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-md-5 col-sm-5" bis_skin_checked="1">
-                                                                            <div class="director-testimonial" bis_skin_checked="1">The Most Talented Young Actress in America. He love what he do since he started doing it and never looked back. </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
+                                    <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid actor-introduce2 vc_custom_1531122077430 vc_row-has-fill">
+                                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                                            <div class="vc_column-inner">
+                                                <div class="wpb_wrapper">
+                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                            <div class="vc_column-inner">
+                                                                <div class="wpb_wrapper">                        
+                                                                    <div class="haru-single-director" bis_skin_checked="1">
+                                                                        <div class="full-width clearfix" bis_skin_checked="1">
+                                                                            <!-- Single content -->
+                                                                            <div class="single-content" bis_skin_checked="1">
+                                                                                <div class="single-wrapper" bis_skin_checked="1">
+                                                                                    <article id="post-49" class="post-49 haru_director type-haru_director status-publish has-post-thumbnail hentry director_category-harutheme clearfix">
+                                                                                        <div class="post-wrapper" bis_skin_checked="1">
+                                                                                           
+                                                                                            <!-- ACTOR STORY -->
+                                                                                            <div class="single-director-story" bis_skin_checked="1">
+                                                                                                <div class="container" bis_skin_checked="1">
+                                                                                                    <div class="row director-description" bis_skin_checked="1">
+                                                                                                        <div class="col-md-7 col-sm-7" bis_skin_checked="1">
+                                                                                                            <div class="description-detail" bis_skin_checked="1">
+                                                                                                                <div class="director-story" bis_skin_checked="1">
+                                                                                                                    <p>
+                                                                                                                        LasaOna’s musical journey began at 14, rooted in her Slovakian heritage — a place of contrast: tradition and rebellion, folklore and soul. Born between two frequencies — one grounded in jazz and emotion, the other in silence and introspection — her upbringing sparked curiosity and a poetic sensibility. Driven by feelings often unnamed, she turned them into music. 
+                                                                                                                        <br><br>
+                                                                                                                        As a songwriter and stage performer, Lucia blends her multicultural background into soulful, evocative performances that deeply resonate. Her music goes beyond entertainment, creating a purposeful connection that evolves with intention and depth.
+
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                        <div class="col-md-5 col-sm-5" bis_skin_checked="1">
+                                                                                                            <div class="director-testimonial" bis_skin_checked="1">LasaOna aims to create music that holds emotion and beauty, leaving a lasting impression long after it ends.</div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
 
 
-                                                            <!-- SINGLE ACTOR GALLERY -->
-                                                            <div class="single-director-gallery" bis_skin_checked="1">
-                                                                <div class="container" bis_skin_checked="1">
-                                                                    <div class="gallery-heading" bis_skin_checked="1">
-                                                                        <h3 class="gallery-title"><span>Photo </span>Gallery</h3>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="director-gallery" bis_skin_checked="1">
-                                                                    <div class="container" bis_skin_checked="1">
-                                                                        <div class="director-images clearfix" style="position: relative; height: 575px;" bis_skin_checked="1">
-                                                                            <div class="image-item" style="position: absolute; left: 0px; top: 0px;" bis_skin_checked="1">
-                                                                                <div class="image-wrap" bis_skin_checked="1">
-                                                                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-1.jpg" alt="single-gallery-1">
-                                                                                    <a class="single-gallery-popup" href="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-1.jpg"><i class="ion-ios-plus-empty"></i>View More</a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="image-item" style="position: absolute; left: 287px; top: 0px;" bis_skin_checked="1">
-                                                                                <div class="image-wrap" bis_skin_checked="1">
-                                                                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-2.jpg" alt="single-gallery-2">
-                                                                                    <a class="single-gallery-popup" href="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-2.jpg"><i class="ion-ios-plus-empty"></i>View More</a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="image-item" style="position: absolute; left: 575px; top: 0px;" bis_skin_checked="1">
-                                                                                <div class="image-wrap" bis_skin_checked="1">
-                                                                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-4.jpg" alt="single-gallery-4">
-                                                                                    <a class="single-gallery-popup" href="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-4.jpg"><i class="ion-ios-plus-empty"></i>View More</a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="image-item" style="position: absolute; left: 862px; top: 0px;" bis_skin_checked="1">
-                                                                                <div class="image-wrap" bis_skin_checked="1">
-                                                                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-3.jpg" alt="single-gallery-3">
-                                                                                    <a class="single-gallery-popup" href="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-3.jpg"><i class="ion-ios-plus-empty"></i>View More</a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="image-item" style="position: absolute; left: 0px; top: 287px;" bis_skin_checked="1">
-                                                                                <div class="image-wrap" bis_skin_checked="1">
-                                                                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-5.jpg" alt="single-gallery-5">
-                                                                                    <a class="single-gallery-popup" href="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-5.jpg"><i class="ion-ios-plus-empty"></i>View More</a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="image-item" style="position: absolute; left: 287px; top: 287px;" bis_skin_checked="1">
-                                                                                <div class="image-wrap" bis_skin_checked="1">
-                                                                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-6.jpg" alt="single-gallery-6">
-                                                                                    <a class="single-gallery-popup" href="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-6.jpg"><i class="ion-ios-plus-empty"></i>View More</a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="image-item" style="position: absolute; left: 575px; top: 287px;" bis_skin_checked="1">
-                                                                                <div class="image-wrap" bis_skin_checked="1">
-                                                                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-7.jpg" alt="single-gallery-7">
-                                                                                    <a class="single-gallery-popup" href="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-7.jpg"><i class="ion-ios-plus-empty"></i>View More</a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="image-item" style="position: absolute; left: 862px; top: 287px;" bis_skin_checked="1">
-                                                                                <div class="image-wrap" bis_skin_checked="1">
-                                                                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-8.jpg" alt="single-gallery-8">
-                                                                                    <a class="single-gallery-popup" href="https://demo.harutheme.com/formota/wp-content/uploads/2018/06/single-gallery-8.jpg"><i class="ion-ios-plus-empty"></i>View More</a>
+                                                                                            <!-- SINGLE ACTOR GALLERY -->
+                                                                                            @include('web.includes.elements.photo-gallery')
+                                        
+                                                                                        </div>
+                                                                                    </article>                
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
                                                             </div>
-        
                                                         </div>
-                                                    </article>                
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
@@ -189,110 +113,82 @@
 
                                     <div class="vc_row-full-width vc_clearfix" bis_skin_checked="1"></div>
 
-                                    <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-parallax="1.5" class="vc_row wpb_row vc_row-fluid vc_custom_1533887730832 vc_row-has-fill vc_general vc_parallax vc_parallax-content-moving">
-                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                            <div class="vc_column-inner">
-                                                <div class="wpb_wrapper">
-                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                            <div class="vc_column-inner">
-                                                                <div class="wpb_wrapper">
-                                                                    <h2 style="text-align: center" class="vc_custom_heading vc_custom_1536487831307 heading_style_14">Be wild</h2>
-                                                                    <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading text-upper lt-spacing-10 fs-100 vc_custom_1533887648176 heading_style_4">Have fun</h2>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                            <div class="vc_column-inner">
-                                                                <div class="wpb_wrapper">  
-                                                                    <div class=" ">
-                                                                        <div class="single-video-shortcode-wrapper style_2 ">
-                                                                            <div class="video-content">
-                                                                                <div class="video-image">
-                                                                                    <div class="video-icon">
-                                                                                        <a href="javascript:;" class="view-video-button" data-id="2781" data-player="none" data-server="vimeo"></a>
-                                                                                    </div>
-                                                                                    <h3 class="video-title"><a href="https://demo.harutheme.com/formota/video/just-like-you/">Just Like You</a></h3>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+
+                                    @include('web.includes.elements.music-section')
 
                                     <div class="vc_row-full-width vc_clearfix"></div>
 
-
-                                    <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1530603206608 vc_row-has-fill" style="position: relative; left: -367.5px; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">
-                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                            <div class="vc_column-inner">
-                                                <div class="wpb_wrapper">
-                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                            <div class="vc_column-inner">
-                                                                <div class="wpb_wrapper">
-                                                                    <h2 style="text-align: left" class="vc_custom_heading heading_style_10 text-dark">04</h2>
-                                                                    <h2 style="text-align: center" class="vc_custom_heading vc_custom_1530602768482 heading_style_11 text-dark">Instagram</h2>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-2">
-                                                            <div class="vc_column-inner">
-                                                                <div class="wpb_wrapper"></div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="wpb_column vc_column_container vc_col-sm-8">
-                                                            <div class="vc_column-inner">
-                                                                <div class="wpb_wrapper">
-                                                                    <div class="wpb_text_column wpb_content_element  fs-18 text-color-secondary secondary-font">
-                                                                        <div class="wpb_wrapper">
-                                                                            <p class="p1" style="text-align: center;"><span class="s1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</span></p>
-
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="wpb_column vc_column_container vc_col-sm-2">
-                                                            <div class="vc_column-inner">
-                                                                <div class="wpb_wrapper"></div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                                                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C9-GurQqjRB/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C9-GurQqjRB/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C9-GurQqjRB/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Lasa Ona (@lasaonamusic)</a></p></div></blockquote>
-                                                            <script async src="//www.instagram.com/embed.js"></script>
-                                                        </div>
-
-                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                                                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C7pD9zBSsOt/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C7pD9zBSsOt/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C7pD9zBSsOt/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Lasa Ona (@lasaonamusic)</a></p></div></blockquote>
-                                                            <script async src="//www.instagram.com/embed.js"></script>
-                                                        </div>
-
-                                                        <div class="wpb_column vc_column_container vc_col-sm-4">
-                                                            <blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/p/C9-Dwe6Kkki/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/C9-Dwe6Kkki/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/C9-Dwe6Kkki/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Lasa Ona (@lasaonamusic)</a></p></div></blockquote>
-                                                            <script async src="//www.instagram.com/embed.js"></script>
-                                                        </div>
-
-                                                    </div>
-                                                    <br><br>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @include('web.includes.elements.instagram')
 
                                     <div class="vc_row-full-width vc_clearfix"></div>
+
+                                    <!-- Content -->
+
+                                        <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
+                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Lucia’s Musical Odyssey — Meet Lasa Ona</strong></span></span>
+                                        </p>
+                                        <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
+                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Lucia’s musical journey began at the tender age of 14</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, rooted deeply in her Slovakian heritage — a land where&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">tradition dances with rebellion</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> and&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">folklore hums with soul</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">. Raised between two contrasting frequencies — one steeped in jazz and emotion, the other flowing with silence and introspection — her upbringing ignited a quiet curiosity and poetic sensibility. It was this delicate tension that inspired Lucia to transform unnamed feelings into heartfelt melodies.</span></span>
+                                        </p>
+                                        <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
+                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">As a&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>songwriter and stage performer</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, Lucia seamlessly blends her multicultural background into&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>soulful, evocative performances</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> that resonate on a deeper level. Her music transcends mere entertainment; it's designed to&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>forge purposeful connections</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, evolving with grace, intention, and emotional sincerity.</span></span>
+                                        </p>
+                                        <hr>
+                                        <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
+                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Why Lucia Stands Out — More Than Just a Musical Act</strong></span></span>
+                                        </p>
+                                        <ul>
+                                            <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Emotion Meets Beauty</strong></span></span>
+                                                <br>
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Lucia's compositions cradle your heart with emotional resonance and delicate beauty, ensuring her music lingers long after the final note fades.</span></span>
+                                            </li>
+                                            <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Tailored for Dubai’s Audiences</strong></span></span>
+                                                <br>
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Whether you're seeking&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">“book music artists Dubai”</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> or&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">“music artists for events in Dubai”</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, Lucia brings an evocative, soulful presence that transforms any event into a meaningful experience.</span></span>
+                                            </li>
+                                            <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Versatile Event Performer</strong></span></span>
+                                                <br>
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">From&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">corporate galas</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> to&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">private soirées</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, Lucia excels as one of the premier&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">“singers for events UAE”</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> and&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">“Musicians for private events Dubai”</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, offering a performance that’s both refined and authentic.</span></span>
+                                            </li>
+                                            <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Celebrity-Level Talent for Hire</strong></span></span>
+                                                <br>
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Need a memorable live performance? Lucia ranks among&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">“celebrity singers for hire UAE”</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, delivering standout vocal storytelling for VIPs, influencers, and high-profile gatherings.</span></span>
+                                            </li>
+                                        </ul>
+                                        <hr>
+                                        <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
+                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Perfect For</strong></span></span>
+                                        </p>
+                                        <ul>
+                                            <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Music Artists for Events in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: Enliven your corporate functions and celebrations with Lucia’s heartfelt artistry.</span></span>
+                                            </li>
+                                            <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Singers for Hire Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: Illuminate your private events with Lucia’s soulful charm and stage mastery.</span></span>
+                                            </li>
+                                            <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
+                                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Corporate Entertainers UAE</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">: Add depth and emotion to your brand’s events with Lucia’s powerful lyrical storytelling.</span></span>
+                                            </li>
+                                        </ul>
+                                        <hr>
+                                        <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
+                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Experience Lucia — More Than Just Music</strong></span></span>
+                                        </p>
+                                        <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
+                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">When you book Lucia, you're not just hiring a performer — you're inviting an emotionally vibrant, culturally rich storyteller onto your stage. Her music carries&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">beauty that echoes</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> and&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">emotion that endures</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, long after the lights dim.</span></span>
+                                        </p>
+                                        <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
+                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Contact us</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> to explore booking Lucia for your next event in Dubai or across the UAE — and let her music create the unforgettable connection your audience deserves.</span></span>
+                                            <br>
+                                            &nbsp;
+                                        </p>
+                                    
+                                    <!-- Content -->
+
                                 </div>
                             </div>                    
                         </div>
@@ -307,4 +203,8 @@
 
 @section('footer')
     @include('web.includes.footer')
+@endsection
+@section('addScript')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{URL::to('/public/js/lightbox.js')}}"></script>
 @endsection

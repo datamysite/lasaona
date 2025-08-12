@@ -4687,7 +4687,7 @@ body.layout-float .header-1 .haru-header-nav-wrap {
 
 .vc_custom_heading.heading_style_5.about-me {
   font-family: "Playfair Display";
-  font-size: 34px;
+  font-size: 30px;
   text-transform: none;
 }
 
@@ -10738,7 +10738,7 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
   background: none;
   border: none;
   font-size: 15px;
-  padding: 0 10px 0 60px;
+  padding: 0 10px 0 45px;
   line-height: 47px;
   text-transform: uppercase;
   width: 100%;
@@ -25680,6 +25680,7 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
+  background-color: transparent;
 }
 
 @media screen and (max-width: 991px) {
@@ -25742,6 +25743,8 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
 
 .single-video-shortcode-wrapper.style_2 .video-content .video-image .video-title {
   text-align: center;
+  color: #fff;
+    margin-top: 25px;
 }
 
 .single-video-shortcode-wrapper.style_2 .video-content .video-image .video-title a {
@@ -29270,7 +29273,7 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
 }
 
 .blog-shortcode-wrapper.grid .blog-list .blog-item .post-meta, .blog-shortcode-wrapper.masonry .blog-list .blog-item .post-meta {
-  padding: 20px 30px;
+  padding: 10px 10px;
 }
 
 @media screen and (max-width: 991px) {
@@ -29292,8 +29295,10 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
 
 .blog-shortcode-wrapper.grid .blog-list .blog-item .post-title, .blog-shortcode-wrapper.masonry .blog-list .blog-item .post-title {
   margin-top: 10px;
-  font-weight: normal;
-  line-height: 1.4;
+  line-height: 26px;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
 
 .blog-shortcode-wrapper.grid .blog-list .blog-item .post-title a, .blog-shortcode-wrapper.masonry .blog-list .blog-item .post-title a {
@@ -29432,7 +29437,7 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
 }
 
 .blog-shortcode-wrapper .blog-shortcode-paging {
-  padding-top: 3%;
+  padding-top: 0%;
 }
 
 .blog-shortcode-wrapper .blog-shortcode-paging.default {
@@ -30850,7 +30855,7 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
 }
 
 .teammember-shortcode-wrap.grid .team-item .team-image .member-socials li a {
-  font-size: 0;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.5);
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;

@@ -29,7 +29,7 @@
                                         <div class="wpb_wrapper">
                                             <div class="wpb_text_column wpb_content_element  vc_custom_1531118812608 fs-18 text-color-secondary secondary-font" >
                                                 <div class="wpb_wrapper">
-                                                    <p class="p1" style="text-align: center;"><span class="s1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</span></p>
+                                                    <p class="p1" style="text-align: center;"><span class="s1">Crafting meaningful spaces where every detail reflects artistry, passion, and purpose — redefining luxury living beyond expectations.</span></p>
 
                                                 </div>
                                             </div>
@@ -42,7 +42,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1531118871423">
+                            <!-- <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1531118871423">
                                 <div class="wpb_column vc_column_container vc_col-sm-1">
                                     <div class="vc_column-inner">
                                         <div class="wpb_wrapper"></div>
@@ -105,7 +105,7 @@
                                         <div class="wpb_wrapper"></div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="vc_row wpb_row vc_inner vc_row-fluid vc_custom_1531118663045">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">

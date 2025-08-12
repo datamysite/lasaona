@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Blogs;
 use App\Models\LatestUpdates;
 use App\Models\Videos;
+use App\Models\Properties;
 
 class WebController extends Controller
 {
@@ -14,8 +15,11 @@ class WebController extends Controller
         $data['nav'] = 'home';
         $data['blogs'] = Blogs::orderBy('created_at', 'desc')->limit(3)->get();
         $data['updates'] = LatestUpdates::orderBy('created_at', 'desc')->limit(3)->get();
+        
+        $data['properties'] = Properties::all();
 
         $data['videos'] = Videos::where('playlist_id', '2')->orderBy('id', 'desc')->limit(9)->get();
+        
         return view('web.index')->with($data);
     }
 
@@ -58,7 +62,7 @@ class WebController extends Controller
             $data['videos'] = Videos::where('playlist_id', '2')->orderBy('id', 'desc')->limit(9)->get();
             return view('web.real-estate.index')->with($data);
         }
-        public function realEstateDetail(){
+        public function realEstateDetail($slug){
             $data['nav'] = 'real-estate';
             $data['blogs'] = Blogs::orderBy('created_at', 'desc')->limit(3)->get();
             $data['updates'] = LatestUpdates::orderBy('created_at', 'desc')->limit(3)->get();
@@ -66,4 +70,21 @@ class WebController extends Controller
             $data['videos'] = Videos::where('playlist_id', '2')->orderBy('id', 'desc')->limit(9)->get();
             return view('web.real-estate.detail')->with($data);
         }
+
+
+
+
+    public function privacy(){
+        $data['nav'] = 'privacy';
+
+
+        return view('web.privacy')->with($data);
+    }
+
+    public function terms(){
+        $data['nav'] = 'terms';
+
+
+        return view('web.terms')->with($data);
+    }
 }

@@ -108,6 +108,7 @@
                                                             <div class="vc_column-inner" bis_skin_checked="1">
                                                                 <div class="wpb_wrapper" bis_skin_checked="1">
                                                                     <h2 style="text-align: left" class="vc_custom_heading fw-700 fs-34 vc_custom_1534824428717 heading_style_13">Info &amp; Collaborations</h2>    
+                                                                    <p>For all information, media inquiries, and collaboration opportunities, connect with us to explore meaningful partnerships and create exceptional experiences together.</p>
                                                                     <div class="  " bis_skin_checked="1">
                                                                         <div class="footer-contact-shortcode-wrap style_2 " bis_skin_checked="1">
                                                                             <div class="footer-contact-content" bis_skin_checked="1">
@@ -115,22 +116,17 @@
                                                                                     <li>
                                                                                         <span class="contact-icon fa fa-map-marker"></span>
                                                                                         <span class="contact-label">Address</span>
-                                                                                        <span class="contact-description">491 Schiller Garden Suite 591</span>
-                                                                                    </li>
-                                                                                                <li>
-                                                                                        <span class="contact-icon fa fa-phone"></span>
-                                                                                        <span class="contact-label">Phone</span>
-                                                                                        <span class="contact-description">(212) 555-0110</span>
+                                                                                        <span class="contact-description">Dubai, United Arab Emirates</span>
                                                                                     </li>
                                                                                                 <li>
                                                                                         <span class="contact-icon fa fa-envelope"></span>
                                                                                         <span class="contact-label">Email</span>
-                                                                                        <span class="contact-description">harutheme@formota.com</span>
+                                                                                        <span class="contact-description">info@meetlasaona.com</span>
                                                                                     </li>
                                                                                                 <li>
                                                                                         <span class="contact-icon fa fa-life-ring"></span>
                                                                                         <span class="contact-label">Support</span>
-                                                                                        <span class="contact-description">Professional 24/7</span>
+                                                                                        <span class="contact-description">Working Hours</span>
                                                                                     </li>
                                                                                 </ul>
                                                                             </div>
@@ -180,7 +176,7 @@
                                                             <div class="vc_column-inner">
                                                                 <div class="wpb_wrapper">
                                                                     <h2 class="related-heading"><span>You may also </span>like this</h2>
-                                                                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                                                    <p class="text-center">Beyond by Omniyat, Muraba Properties, and Eywa’s European boutique developer redefine Dubai luxury, blending architectural artistry, cultural resonance, and innovation to craft sophisticated, wellness-focused residences along iconic locations like the Dubai Water Canal.</p>
                                                                 </div>
                                                             </div>
                                                         </div>
