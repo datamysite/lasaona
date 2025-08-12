@@ -56,7 +56,7 @@
                                     <ul class="sub-menu" style="">
                                         @foreach($blog_categories as $val)
                                             <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home level-1 ">
-                                                <a href="">{{$val->name}}</a>
+                                                <a href="{{route('blog.category', $val->slug)}}">{{$val->name}}</a>
                                             </li>
                                         @endforeach
                                     </ul>
@@ -139,7 +139,7 @@
                                             <ul class="sub-menu animated menu_fadeInDown" style="">
                                                 @foreach($blog_categories as $val)
                                                     <li id="menu-item-1915" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home level-1 ">
-                                                        <a href="">{{$val->name}}</a>
+                                                        <a href="{{route('blog.category', $val->slug)}}">{{$val->name}}</a>
                                                     </li>
                                                 @endforeach
                                             </ul>

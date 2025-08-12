@@ -30,7 +30,7 @@ Route::namespace('App\Http\Controllers\web')->group(function(){
 
     //Blogs
     Route::get('/blogs', 'BlogController@index')->name('blogs');
-    Route::get('/blogs/Categories/{slug}', 'BlogController@category')->name('blog.category');
+    Route::get('/blogs/categories/{slug}', 'BlogController@category')->name('blog.category');
     Route::get('/blog/{slug}', 'BlogController@details')->name('blogs.detail');
 
     //Enquiry
