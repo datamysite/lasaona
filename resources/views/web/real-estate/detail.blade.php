@@ -22,7 +22,7 @@
             <div class="container">
                 <div class="page-title-inner">
                     <div class="block-center-inner">
-                        <h2>Villa in Downtown</h2>
+                        <h2>{{$data->name}}</h2>
                     </div>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                 <ul class="breadcrumbs">
                     <li><a href="{{route('home')}}" class="home">Home</a></li>
                     <li><a href="{{route('real-estate')}}" class="home">Real Estate</a></li>
-                    <li><span>Villa in Downtown</span></li>
+                    <li><span>{{$data->name}}</span></li>
                 </ul>            
             </div>
         </div>
@@ -45,33 +45,15 @@
                     <div class="vc_column-inner">
                         <div class="wpb_wrapper">                        
                             <div class=" ">
-                                <div class="images-gallery-shortcode-wrap slick_2 " data-columns="2">
+                                <div class="images-gallery-shortcode-wrap slick_2 " data-columns="3">
                                     <div class="images-list slider-for">
+                                        @foreach($data->images as $key => $val)
                                         <div class="image-item image-col-2">
                                             <div class="slide-item">
-                                                <img decoding="async" src="{{URL::to('/public')}}/images/property1.png" alt="Themeforest">
+                                                <img decoding="async" src="{{URL::to('/public/storage/properties/'.$val->image)}}" height="300px" alt="{{$key.' - '.$data->name}}">
                                             </div>
                                         </div>
-                                        <div class="image-item image-col-2">
-                                            <div class="slide-item">
-                                                <img decoding="async" src="{{URL::to('/public')}}/images/properties/2.jpg" alt="Codecanyon">
-                                            </div>
-                                        </div>
-                                        <div class="image-item image-col-2">
-                                            <div class="slide-item">
-                                                <img decoding="async" src="{{URL::to('/public')}}/images/properties/3.jpg" alt="Photodune">
-                                            </div>
-                                        </div>
-                                        <div class="image-item image-col-2">
-                                            <div class="slide-item">
-                                                <img decoding="async" src="{{URL::to('/public')}}/images/properties/4.jpg" alt="Photodune">
-                                            </div>
-                                        </div>
-                                        <div class="image-item image-col-2">
-                                            <div class="slide-item">
-                                                <img decoding="async" src="{{URL::to('/public')}}/images/properties/5.jpg" alt="Photodune">
-                                            </div>
-                                        </div>
+                                        @endforeach
                                     </div>
                                     <div class="slide-count-wrap"></div>
                                 </div>            
@@ -162,77 +144,7 @@
                                                                         </div>
                                                                         <div id="col-description" class="panel-collapse collapse in" aria-expanded="true" style="">
                                                                             <div class="panel-body">
-                                                                                <p>Flash Film  is an award winning creative production company working for various clients and agencies in both New York &amp; LA</p>
-                                                                                <p>Suspe ndisse suscipit sagittis leo sit met condimentum estibulum issim Lorem ipsum dolor sit amet, consectetur cing elit. Suspe ndisse suscipit sagittis leo sit met condimentum estibulum issim Lorem ipsum dolor sit amet, consectetur cing elit. tibulum issim Lorem ipsum dolor sit amet, consectetur Suspe ndisse suscipit sagittis leo sit met condimentum estibulum issim Lorem ipsum dolor...</p> 
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="panel">
-                                                                        <div class="panel-heading">
-                                                                            <h4 class="panel-title">
-                                                                                <a data-toggle="collapse" class="collapsed" data-parent="#accordion-2991721332" href="#col-details" aria-expanded="false">Property Details</a>
-                                                                            </h4>
-                                                                        </div>
-                                                                        <div id="col-details" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
-                                                                            <div class="panel-body">
-                                                                                <table class="table">
-                                                                                    <tr>
-                                                                                        <td>
-                                                                                            Type
-                                                                                        </td>
-                                                                                        <th>
-                                                                                            Villa
-                                                                                        </th>
-                                                                                        <td>
-                                                                                            Purpose
-                                                                                        </td>
-                                                                                        <th>
-                                                                                            For Sale
-                                                                                        </th>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <td>
-                                                                                            Reference no.
-                                                                                        </td>
-                                                                                        <th>
-                                                                                            Bayut - VI35481S
-                                                                                        </th>
-                                                                                        <td>
-                                                                                            Completion
-                                                                                        </td>
-                                                                                        <th>
-                                                                                            Ready
-                                                                                        </th>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <td>
-                                                                                            Furnishing
-                                                                                        </td>
-                                                                                        <th>
-                                                                                            Unfurnished
-                                                                                        </th>
-                                                                                        <td>
-                                                                                            TruCheck™ on
-                                                                                        </td>
-                                                                                        <th>
-                                                                                            1 August 2025
-                                                                                        </th>
-                                                                                    </tr>
-                                                                                    <tr>
-                                                                                        <td>
-                                                                                            Average Rent
-                                                                                        </td>
-                                                                                        <th>
-                                                                                            AED 1,148,794 Yearly
-                                                                                        </th>
-                                                                                        <td>
-                                                                                            Added on
-                                                                                        </td>
-                                                                                        <th>
-                                                                                            23 May 2025
-                                                                                        </th>
-                                                                                    </tr>
-                                                                                </table>  
+                                                                                {!! $data->description !!}
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -244,20 +156,7 @@
                                                                         </div>
                                                                         <div id="col-features" class="panel-collapse collapse" aria-expanded="false" style="height: 0px;">
                                                                             <div class="panel-body">
-                                                                                <p>
-                                                                                    - 4 Bedroom<br>
-                                                                                    - 5 Bathrooms<br>
-                                                                                    - Built up 5200 sq ft<br>
-                                                                                    - Plot Size 8800 sq ft<br>
-                                                                                    - Option to extend plot 1000 sq ft<br>
-                                                                                    - 2 Lounges<br>
-                                                                                    - Closed Kitchen<br>
-                                                                                    - Dining Room<br>
-                                                                                    - Dual Garage<br>
-                                                                                    - Skyline Views<br>
-                                                                                    - Private pool<br>
-                                                                                    - Maids Room
-                                                                                </p>  
+                                                                                {!! $data->property_features !!}  
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -269,7 +168,7 @@
                                                                         </div>
                                                                         <div id="col-maps" class="panel-collapse collapse " aria-expanded="false">
                                                                             <div class="panel-body">
-                                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14441.078484062504!2d55.267705253441314!3d25.194128391916813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682f700cf983%3A0xb5cc58b076c0b904!2sDowntown%20Dubai%20-%20Dubai!5e0!3m2!1sen!2sae!4v1754057494899!5m2!1sen!2sae" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                  
+                                                                                {!! $data->property_map !!}               
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -302,7 +201,7 @@
                             <div class="vc_column-inner">
                                 <div class="wpb_wrapper">
                                     <h2 class="related-heading"><span>You may also </span>like this</h2>
-                                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                    <p class="text-center">Beyond by Omniyat, Muraba Properties, and Eywa’s European boutique developer redefine Dubai luxury, blending architectural artistry, cultural resonance, and innovation to craft sophisticated, wellness-focused residences along iconic locations like the Dubai Water Canal.</p>
                                 </div>
                             </div>
                         </div>
@@ -314,60 +213,47 @@
                                     <div class="  ">
                                         <div class="teammember-shortcode-wrap grid ">
                                             <div class="teammember-list padding-15 columns-3" style="position: relative; height: 450px;">
-                                                <div class="team-item" style="position: absolute; left: 0px; top: 0px;">
-                                                    <div class="team-content">
-                                                        <div class="team-image">
-                                                            <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property1.png')}}">                        
-                                                            <div class="team-meta">
-                                                                <h5 class="team-title">ABC Building</h5>
-                                                                <p class="team-position">/ Penthouse</p>
+                                                @foreach($properties as $val)
+                                                    <div class="team-item" style="">
+                                                        <div class="team-content">
+                                                            <div class="team-image">
+                                                                <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
+                                                                <div class="team-meta">
+                                                                    <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
+                                                                        <h5 class="team-title">{{$val->name}}</h5>
+                                                                        <p class="team-position">/ {{$val->builder_name}}</p>
+                                                                    </a>
+                                                                </div>
+                                                                <ul class="member-socials">
+                                                                    <li class="member-social"><a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">Details</a></li>
+                                                                </ul>
                                                             </div>
-                                                            <ul class="member-socials">
-                                                                <li class="member-social"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                                                                <li class="member-social"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                                                                <li class="member-social"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-                                                                <li class="member-social"><a href="#"><i class="fa fa-youtube"></i>Youtube</a></li>
-                                                            </ul>
                                                         </div>
                                                     </div>
-                                                </div>
-                                                <div class="team-item" style="position: absolute; left: 390px; top: 0px;">
-                                                    <div class="team-content">
-                                                        <div class="team-image">
-                                                            <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property2.jpg')}}">                        
-                                                            <div class="team-meta">
-                                                                <h5 class="team-title">ABC Building</h5>
-                                                                <p class="team-position">/ Penthouse</p>
-                                                            </div>
-                                                            <ul class="member-socials">
-                                                                <li class="member-social"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                                                                <li class="member-social"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                                                                <li class="member-social"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-                                                                <li class="member-social"><a href="#"><i class="fa fa-youtube"></i>Youtube</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="team-item" style="position: absolute; left: 780px; top: 0px;">
-                                                    <div class="team-content">
-                                                        <div class="team-image">
-                                                            <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property3.jpg')}}">                        
-                                                            <div class="team-meta">
-                                                                <h5 class="team-title">Downtown</h5>
-                                                                <p class="team-position">/ Villa</p>
-                                                            </div>
-                                                            <ul class="member-socials">
-                                                                <li class="member-social"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                                                                <li class="member-social"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                                                                <li class="member-social"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-                                                                <li class="member-social"><a href="#"><i class="fa fa-youtube"></i>Youtube</a></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
+                                                @endforeach
                                             </div>
                                         </div>
                                     </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vc_row-full-width vc_clearfix"></div>
+
+    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533714072840 vc_row-has-fill" style="position: relative; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">
+        <div class="wpb_column vc_column_container vc_col-sm-12">
+            <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    {!! $data->long_description !!}
                                 </div>
                             </div>
                         </div>

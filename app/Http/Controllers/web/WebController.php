@@ -64,10 +64,11 @@ class WebController extends Controller
         }
         public function realEstateDetail($slug){
             $data['nav'] = 'real-estate';
-            $data['blogs'] = Blogs::orderBy('created_at', 'desc')->limit(3)->get();
-            $data['updates'] = LatestUpdates::orderBy('created_at', 'desc')->limit(3)->get();
 
-            $data['videos'] = Videos::where('playlist_id', '2')->orderBy('id', 'desc')->limit(9)->get();
+            $data['data'] = Properties::where('slug', $slug)->first();
+
+            $data['properties'] = Properties::orderBy('created_at', 'desc')->limit(3)->get();
+
             return view('web.real-estate.detail')->with($data);
         }
 
