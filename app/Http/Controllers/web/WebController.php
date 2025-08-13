@@ -56,10 +56,13 @@ class WebController extends Controller
 
         public function realEstate(){
             $data['nav'] = 'real-estate';
-            $data['blogs'] = Blogs::orderBy('created_at', 'desc')->limit(3)->get();
-            $data['updates'] = LatestUpdates::orderBy('created_at', 'desc')->limit(3)->get();
+            
+            if(!empty($_GET['page'])){
+                $data['nofollow'] = '1';
+            }
+            
+            $data['properties'] = Properties::orderBy('created_at', 'desc')->paginate(9);
 
-            $data['videos'] = Videos::where('playlist_id', '2')->orderBy('id', 'desc')->limit(9)->get();
             return view('web.real-estate.index')->with($data);
         }
         public function realEstateDetail($slug){

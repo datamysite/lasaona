@@ -1,5 +1,9 @@
 @extends('web.includes.master')
-
+@section('metaAddition')
+@if(!empty($nofollow))
+    <meta name="robots" content="noindex, follow">
+@endif
+@endsection
 @section('content')
 
 <main id="main" class="site-main" role="main">
@@ -34,32 +38,18 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <ul id="haru-shop-filter-menu" class="haru-shop-filter-menu">
-                                        <li class="haru-shop-categories-btn-wrap" data-panel="cat">
-                                            <a href="#categories" class="invert-color">Categories</a>
-                                        </li>
-                                        <li class="haru-shop-search-btn-wrap haru-ajax-search" data-panel="search">
+                                        <!-- <li class="haru-shop-search-btn-wrap haru-ajax-search" data-panel="search">
                                             <a href="#search" id="haru-shop-search-btn" class="invert-color">
                                                 <span><i class="fa fa-search"></i> Search</span>
                                                 <i class="haru-font haru-font-search-alt flip"></i>
                                             </a>
-                                        </li>
+                                        </li> -->
                                     </ul>
                                     <ul id="haru-shop-categories" class="haru-shop-categories">
                                         <li class="current-cat">
-                                            <a href="{{route('real-estate')}}">All</a>
+                                            <h3>Dubai’s Luxury Real Estate — <small>Curated by <strong>Lasa Ona</strong></small></h3>
                                         </li>
-                                        <li class="cat-item-51">
-                                            <span>⁄</span>
-                                            <a href="">Villa</a>
-                                        </li>
-                                        <li class="cat-item-50">
-                                            <span>⁄</span>
-                                            <a href="">Penthouse</a>
-                                        </li>
-                                        <li class="cat-item-54">
-                                            <span>⁄</span>
-                                            <a href="">Mansions</a>
-                                        </li>                                   
+                                                                          
                                     </ul>
                                 </div>
                             </div>
@@ -97,80 +87,44 @@
                                         <div class="  ">
                                             <div class="teammember-shortcode-wrap grid ">
                                                 <div class="teammember-list padding-15" style="position: relative;">
-                                                    <div class="team-item vc_col-sm-4" >
-                                                        <div class="team-content">
-                                                            <div class="team-image">
-                                                                <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property1.png')}}">                        
-                                                                <div class="team-meta">
-                                                                    <h5 class="team-title">ABC Building</h5>
-                                                                    <p class="team-position">/ Penthouse</p>
+                                                    @php $li=1; @endphp
+                                                    @foreach($properties as $val)
+                                                        <div class="team-item" style="">
+                                                            <div class="team-content">
+                                                                <div class="team-image">
+                                                                    <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
+                                                                    <div class="team-meta">
+                                                                        <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
+                                                                            <h5 class="team-title">{{$val->name}}</h5>
+                                                                            <p class="team-position">/ {{$val->builder_name}}</p>
+                                                                        </a>
+                                                                    </div>
+                                                                    <ul class="member-socials">
+                                                                        <li class="member-social"><a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">Details</a></li>
+                                                                    </ul>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                    </div>
-                                                    <div class="team-item vc_col-sm-4">
-                                                        <div class="team-content">
-                                                            <div class="team-image">
-                                                                <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property2.jpg')}}">                        
-                                                                <div class="team-meta">
-                                                                    <h5 class="team-title">ABC Building</h5>
-                                                                    <p class="team-position">/ Penthouse</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="team-item vc_col-sm-4">
-                                                        <div class="team-content">
-                                                            <div class="team-image">
-                                                                <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property3.jpg')}}">                        
-                                                                <div class="team-meta">
-                                                                    <h5 class="team-title">Downtown</h5>
-                                                                    <p class="team-position">/ Villa</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
 
-                                                <div class="teammember-list padding-15" style="position: relative;">
-                                                    <div class="team-item vc_col-sm-4" >
-                                                        <div class="team-content">
-                                                            <div class="team-image">
-                                                                <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property1.png')}}">                        
-                                                                <div class="team-meta">
-                                                                    <h5 class="team-title">ABC Building</h5>
-                                                                    <p class="team-position">/ Penthouse</p>
-                                                                </div>
+                                                        @if($li == 3)
                                                             </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="team-item vc_col-sm-4">
-                                                        <div class="team-content">
-                                                            <div class="team-image">
-                                                                <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property2.jpg')}}">                        
-                                                                <div class="team-meta">
-                                                                    <h5 class="team-title">ABC Building</h5>
-                                                                    <p class="team-position">/ Penthouse</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="team-item vc_col-sm-4">
-                                                        <div class="team-content">
-                                                            <div class="team-image">
-                                                                <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property3.jpg')}}">                        
-                                                                <div class="team-meta">
-                                                                    <h5 class="team-title">Downtown</h5>
-                                                                    <p class="team-position">/ Villa</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
 
+                                                            <div class="teammember-list padding-15" style="position: relative;">
+                                                            @php $li = 1; @endphp
+                                                        @else
+                                                            @php $li++; @endphp
+                                                        @endif
+                                                    @endforeach 
                                                 </div>
                                             </div>
                                         </div>  
                                     </div>
+                                </div>
+
+                            </div>
+                            <div class="archive-content col-md-12  col-sm-12 col-xs-12">
+                                <div class="archive-content-layout layout-style-large-image haru-archive-blog"> 
+                                    {!! $properties->withQueryString()->links('pagination::default') !!}   
                                 </div>
                             </div>
                         </div>

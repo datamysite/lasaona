@@ -14327,7 +14327,7 @@ li.product .product-actions .quickview a, li.type-product .product-actions .quic
 }
 
 .archive-product-header {
-  padding: 20px 0;
+  padding: 0px 0;
 }
 
 .archive-product-header .haru-shop-filter-menu {
@@ -29270,6 +29270,10 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
+  object-fit: cover;
+    object-position: center;
+    height: 200px;
+    width: 100%;
 }
 
 .blog-shortcode-wrapper.grid .blog-list .blog-item .post-meta, .blog-shortcode-wrapper.masonry .blog-list .blog-item .post-meta {

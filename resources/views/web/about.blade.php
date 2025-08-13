@@ -81,10 +81,10 @@
                                                                         <div class="icon-box-container">
                                                                             <div class="icon-top">
                                                                                 <div class="icon-wrap">
-                                                                                    <img decoding="async" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/icon-film-product.png" alt="Film Production">
+                                                                                    <img decoding="async" src="{{URL::to('/public/images/music-icon.png')}}" alt="Music">
                                                                                 </div>
                                                                                 <div class="icon-title">
-                                                                                        <a href="#" title="" target="_self">
+                                                                                        <a href="{{route('music')}}" title="" target="_self">
                                                                                     <h5>Music</h5>
                                                                                         </a>
                                                                                 </div>
@@ -106,10 +106,10 @@
                                                                         <div class="icon-box-container">
                                                                             <div class="icon-top">
                                                                                 <div class="icon-wrap">
-                                                                                    <img decoding="async" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/icon-creative-direct.png" alt="Creative Direction">
+                                                                                    <img decoding="async" src="{{URL::to('/public/images/real-estate-icon.png')}}" alt="Creative Direction">
                                                                                 </div>
                                                                                 <div class="icon-title">
-                                                                                        <a href="#" title="" target="_self">
+                                                                                        <a href="{{route('real-estate')}}" title="" target="_self">
                                                                                     <h5>Real estate</h5>
                                                                                         </a>
                                                                                 </div>
