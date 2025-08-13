@@ -23,7 +23,7 @@ class EnquiryController extends Controller
 
 
         /*$mail = Mailer::sendMail('Thank You for Contacting Us | Letsoffleash', $data['email'], 'DMS', 'web.emails.response', $data);*/
-        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | LasaOna', ['waseem@datamysite.com', 'info@meetlasaona.com'], 'Meet Lasa Ona', 'web.emails.enquiry', $data);
+        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | Meet LasaOna', ['waseem@datamysite.com', 'info@meetlasaona.com'], 'Meet Lasa Ona', 'web.emails.enquiry', $data);
 
 
         $response['success'] = 'success';
