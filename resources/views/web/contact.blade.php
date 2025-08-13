@@ -55,43 +55,48 @@
                                                                             <p role="status" aria-live="polite" aria-atomic="true"></p> 
                                                                             <ul></ul>
                                                                         </div>
-                                                                        <form action="/formota/contact-us-2/#wpcf7-f2606-p2594-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                                                                        <form action="{{route('enquiry.submit')}}" id="enquiry-form" class="wpcf7-form init" >
+                                                                            @csrf
                                                                             <div class="contact-form" bis_skin_checked="1">
                                                                                 <div class="contact-name" bis_skin_checked="1">
                                                                                     <div bis_skin_checked="1">
                                                                                         <span class="wpcf7-form-control-wrap your-name">
-                                                                                            <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" placeholder="Your name *">
+                                                                                            <input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Your name *" required>
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="contact-email" bis_skin_checked="1">
                                                                                     <div bis_skin_checked="1">
                                                                                         <span class="wpcf7-form-control-wrap your-email">
-                                                                                            <input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" placeholder="Your email *">
+                                                                                            <input type="email" name="email" value="" size="40" class=" aside-email wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" placeholder="Your email *" required>
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="contact-subject" bis_skin_checked="1">
                                                                                     <div bis_skin_checked="1">
                                                                                         <span class="wpcf7-form-control-wrap your-subject">
-                                                                                            <input type="text" name="your-subject" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Subject">
+                                                                                            <input type="text" name="subject" value="" size="40" class="wpcf7-form-control wpcf7-text" placeholder="Subject" required>
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="contact-message" bis_skin_checked="1">
                                                                                     <div bis_skin_checked="1">
                                                                                         <span class="wpcf7-form-control-wrap your-message">
-                                                                                            <textarea name="your-message" cols="40" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea>
+                                                                                            <textarea name="description" cols="40" rows="5" class="wpcf7-form-control wpcf7-textarea" placeholder="Message" required></textarea>
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
                                                                                 <div class="contact-submit" bis_skin_checked="1">
                                                                                     <input type="submit" value="Send Message" class="wpcf7-form-control has-spinner wpcf7-submit">
-                                                                                    <span class="wpcf7-spinner"></span>
                                                                                 </div>
                                                                             </div>
 
-                                                                            <div class="wpcf7-response-output" aria-hidden="true" bis_skin_checked="1"></div>
+                                                                            <div class="wpcf7-response-output">
+                                                                                <div class="loading">
+                                                                                    <br>
+                                                                                    <img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader">
+                                                                                </div>
+                                                                            </div>
                                                                         </form>
                                                                     </div>
                                                                 </div>
@@ -267,4 +272,8 @@
 
 @section('footer')
     @include('web.includes.footer')
+@endsection
+@section('addScript')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{URL::to('/public/js/enquiry.js')}}"></script>
 @endsection

@@ -11,7 +11,7 @@ class Mailer
         Mail::send($template, $data, function($message) use ($receiver_email, $receiver_name, $subject) {
              $message->to($receiver_email, $receiver_name)->subject
                 ($subject);
-             $message->from('askforkasturi@letsoffleash.com','LOL - Letsoffleash');
+             $message->from('mail@meetlasaona.com','Meet Lasa Ona');
           });
 
         return true;

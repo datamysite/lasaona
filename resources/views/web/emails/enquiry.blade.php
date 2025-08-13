@@ -25,12 +25,12 @@
             ba
         }
         .header img {
-            max-width: 150px;
+            max-width: 200px;
         }
         .header-title {
             font-size: 24px;
             font-weight: bold;
-            color: #084c47;
+            color: #000000;
             margin-top: 30px;
         }
         .content {
@@ -43,7 +43,7 @@
             font-size: 14px;
             margin-top: 20px;
             color: #ffffff;
-            background-color: #084c47;
+            background-color: #000000;
             padding: 12px 0px;
         }
         a {
@@ -56,13 +56,9 @@
 <body>
     <div class="container">
         <div class="header">
-            <div style="width:100%; background-color: #084c47; padding: 10px;">
+            <div style="width:100%; background-color: #000000; padding: 10px;">
                 
-                <img src="{{URL::to('/')}}/public/images/kj-logo.png" alt="LOL" height="45px" style="margin-top: 10px;" />
-                &nbsp;&nbsp;|&nbsp;&nbsp;
-                <img src="{{URL::to('/')}}/public/images/lol-logo.png" alt="LOL" height="55px" />
-                &nbsp;&nbsp;|&nbsp;&nbsp;
-                <img src="{{URL::to('/')}}/public/images/lol-j-logo.png" alt="LOL" height="50px" />
+                <img src="{{URL::to('/')}}/public/images/logo-white-min.png" alt="LOL" />
             </div>
             <hr>
             <div class="header-title">New Enquiry Received!</div>
@@ -74,14 +70,14 @@
             </p>
             <p style="margin-top:0;">
                 <strong>Name: </strong>{{$name}}<br>
-                <strong>Phone: </strong>{{$phone}}<br>
                 <strong>Email: </strong>{{$email}}<br>
+                <strong>subject: </strong>{{$subject}}<br>
                 <strong>Message:</strong><br>
                 {{$description}}
             </p>
         </div>
         <div class="footer">
-            &copy; {{date('Y')}} Letsoffleash. All Rights Reserved.
+            &copy; {{date('Y')}} MeetLasaOna. All Rights Reserved.
         </div>
     </div>
 </body>

@@ -16,17 +16,22 @@ class EnquiryController extends Controller
         $n = new Enquiry;
         $n->name = $data['name'];
         $n->email = $data['email'];
-        $n->phone = $data['phone'];
+        $n->subject = $data['subject'];
         $n->description = $data['description'];
         $n->save();
 
 
 
         /*$mail = Mailer::sendMail('Thank You for Contacting Us | Letsoffleash', $data['email'], 'DMS', 'web.emails.response', $data);*/
-        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | Letsoffleash', ['waseem@datamysite.com', 'kasturijha@datamysite.com'], 'Letsoffleash', 'web.emails.enquiry', $data);
+        $mail = Mailer::sendMail('#'.$n->id.' - New Inquiry Received! | LasaOna', ['waseem@datamysite.com', 'info@meetlasaona.com'], 'Meet Lasa Ona', 'web.emails.enquiry', $data);
 
 
-        return redirect()->back()->with('success', 'Thank You for Contacting Us!');
+        $response['success'] = 'success';
+        $response['message'] = 'Success! We received your equiry.';
+
+
+
+        return response()->json($response, 200);
 
     }
 }
