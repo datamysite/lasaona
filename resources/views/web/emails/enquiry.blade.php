@@ -58,7 +58,7 @@
         <div class="header">
             <div style="width:100%; background-color: #000000; padding: 10px;">
                 
-                <img src="{{URL::to('/')}}/public/images/logo-white-min.png" alt="LOL" />
+                <img src="{{URL::to('/')}}/public/images/logo-white-min.png" alt="MeetLasaOna" />
             </div>
             <hr>
             <div class="header-title">New Enquiry Received!</div>

@@ -28,7 +28,6 @@ $(document).on("submit", "#enquiry-form", function (event) {
     }
 
     if (isValid) {
-        $(".errors").css({ display: "none" });
         $(".loading").css({display:"block"});
         $.ajax({
             type: "POST",
@@ -44,11 +43,6 @@ $(document).on("submit", "#enquiry-form", function (event) {
                 Toast.fire({
                     icon: "success",
                     title: data.message,
-                });
-
-                window.dataLayer = window.dataLayer || [];
-                window.dataLayer.push({
-                  event: "formSubmitEvent",       // Name of your custom event
                 });
 
                 setTimeout(function () {
