@@ -130,7 +130,34 @@ p, p > *{
 .loading{
     display: none;
 }
+.stream-row {
+    display: flex;
+    justify-content: center;
+}
+.stream-item a {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 12px 14px;
+    border-radius: 7px;
+    align-items: center;
+}
+.stream-item a h3 {
+    font-size: 14px;
+    color: #000;
+}
+.stream-item a .fa-external-link {
+    font-size: 11px;
+}
 
+.stream-item a .fa-spotify {
+    color: #1ed760;
+    font-size: 25px;
+}
+.stream-item a .fa-youtube {
+    color: #ff0000;
+    font-size: 25px;
+}
 
 
 

@@ -143,19 +143,29 @@
                                                                             <div class="footer-social-content" bis_skin_checked="1">
                                                                                 <ul class="social-list align-left">
                                                                                     <li>
-                                                                                        <a href="#" target="_self"><i class="fa fa-facebook"></i></a>
+                                                                                        <a href="https://www.facebook.com/LuciaSkyMusic" target="_blank">
+                                                                                            <i class="fa fa-facebook"></i>
+                                                                                        </a>
                                                                                     </li>
-                                                                                                                                        <li>
-                                                                                        <a href="#" target="_self"><i class="fa fa-twitter"></i></a>
+                                                                                    <li>
+                                                                                        <a href="https://x.com/luciabakde" target="_blank">
+                                                                                            <i class="fa fa-twitter"></i>
+                                                                                        </a>
                                                                                     </li>
-                                                                                                                                        <li>
-                                                                                        <a href="#" target="_self"><i class="fa fa-instagram"></i></a>
+                                                                                    <li>
+                                                                                        <a href="https://www.instagram.com/lasaonamusic" target="_blank">
+                                                                                            <i class="fa fa-instagram"></i>
+                                                                                        </a>
                                                                                     </li>
-                                                                                                                                        <li>
-                                                                                        <a href="#" target="_self"><i class="fa fa-youtube-play"></i></a>
+                                                                                    <li>
+                                                                                        <a href="https://www.linkedin.com/in/lucia-bakde/" target="_blank">
+                                                                                            <i class="fa fa-linkedin-square"></i>
+                                                                                        </a>
                                                                                     </li>
-                                                                                                                                        <li>
-                                                                                        <a href="#" target="_self"><i class="fa fa-vimeo"></i></a>
+                                                                                    <li>
+                                                                                        <a href="https://www.youtube.com/@lasaona" target="_blank">
+                                                                                            <i class="fa fa-youtube"></i>
+                                                                                        </a>
                                                                                     </li>
                                                                                 </ul>
                                                                             </div>
