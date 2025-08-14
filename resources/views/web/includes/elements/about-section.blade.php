@@ -44,7 +44,7 @@
                                                     </svg>
                                                 </div>
                                             </div>
-                                            <img decoding="async" src="{{URL::to('/public/images/about-lasa.png')}}" alt="JP">
+                                            <img decoding="async" src="{{URL::to('/public/images/about-lasa-n1.jpg')}}" width="570px" alt="JP">
                                         </div>
                                         <div class="introduce-description">
                                             <div class="introduce-content">

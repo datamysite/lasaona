@@ -4231,6 +4231,7 @@ body.layout-float .header-1 .haru-header-nav-wrap {
  *-----------------------------------*/
 .haru-page-title-section {
   background-size: cover;
+  background-position: center;
   background-color: #a9a9a9;
   margin-bottom: 40px;
   position: relative;
