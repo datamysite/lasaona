@@ -14,7 +14,7 @@ class BlogController extends Controller
         if(!empty($_GET['page'])){
             $data['nofollow'] = '1';
         }
-        $data['blogCount'] = Blogs::where('status', '1')->count();
+        $data['trending'] = Blogs::where('status', '1')->limit(6)->get();
         $data['data'] = Blogs::where('status', '1')->orderBy('id', 'desc')->paginate(6);
         $data['categories'] = Categories::all();
         //dd($data);

@@ -101,170 +101,50 @@
                         </form>
                     </aside>
                     <aside id="media_image-2" class="widget widget_media_image">
-                        <img width="300" height="165" src="{{URL::to('/public/images/gallery/5.jpg')}}" class="image wp-image-2016  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="{{URL::to('/public/images/gallery/5.jpg')}} 300w, {{URL::to('/public/images/gallery/5.jpg')}} 400w" sizes="(max-width: 300px) 100vw, 300px">
+                        <img width="300" height="165" src="{{URL::to('/public/images/gallery/10.jpg')}}" class="image wp-image-2016  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="{{URL::to('/public/images/gallery/10.jpg')}} 300w, {{URL::to('/public/images/gallery/10.jpg')}} 400w" sizes="(max-width: 300px) 100vw, 300px">
                     </aside>
                     <aside id="haru-banner-2" class="widget widget-banner">
-                        <h4 class="widget-title"><span>Categories</span></h4>            
-                        <div class="banner-widget-wrap style_1">
-                            <div class="banner-content-wrap">
-                                <a href="#" target="_self">
-                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/banner-82.jpg" alt="Categories">
-                                    <div class="banner-content-inner">
-                                        <div class="banner-content">
-                                            <h1 class="banner-title">Interviews</h1>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
+                        <h4 class="widget-title"><span>Categories</span></h4>  
                     </aside>
-                    <aside id="haru-banner-3" class="widget widget-banner">            
-                        <div class="banner-widget-wrap style_1">
-                            <div class="banner-content-wrap">
-                                <a href="#" target="_self">
-                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/banner-83.jpg" alt="">
-                                    <div class="banner-content-inner">
-                                        <div class="banner-content">
-                                            <h1 class="banner-title">Reviews</h1>
+                    @foreach($blog_categories as $val)
+                        <aside class="widget widget-banner">            
+                            <div class="banner-widget-wrap style_1">
+                                <div class="banner-content-wrap">
+                                    <a href="{{route('blog.category', $val->slug)}}" target="_self">
+                                        <img src="{{URL::to('/public/images/categories/'.$val->slug.'.jpg')}}" alt="Category - {{$val->name}}">
+                                        <div class="banner-content-inner">
+                                            <div class="banner-content">
+                                                <h1 class="banner-title">{{$val->name}}</h1>
+                                            </div>
                                         </div>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
-                        </div>
-                    </aside>
-                    <aside id="haru-banner-4" class="widget widget-banner">            
-                        <div class="banner-widget-wrap style_1">
-                            <div class="banner-content-wrap">
-                                <a href="#" target="_self">
-                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/banner-84.jpg" alt="">
-                                    <div class="banner-content-inner">
-                                        <div class="banner-content">
-                                            <h1 class="banner-title">Videos</h1>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </aside>
-                    <aside id="haru-banner-5" class="last-banner widget widget-banner">            
-                        <div class="banner-widget-wrap style_1">
-                            <div class="banner-content-wrap">
-                                <a href="#" target="_self">
-                                    <img src="https://demo.harutheme.com/formota/wp-content/uploads/2018/07/banner-85.jpg" alt="">
-                                    <div class="banner-content-inner">
-                                        <div class="banner-content">
-                                            <h1 class="banner-title">Topics</h1>
-                                        </div>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </aside>
+                        </aside>
+                    @endforeach
+                    <br>
                     <aside id="haru_widget_post_thumbnail-4" class="widget widget-post-thumbnail">
                         <h4 class="widget-title"><span>Trending Posts</span></h4>
                         <ul class="posts-thumbnail-list thumb_right">
-                            <li class="clearfix">
-                                <div class="posts-thumbnail-image">
-                                    <a href="https://demo.harutheme.com/formota/more-green-tree-will-more-healthy/">
-                                        <img width="150" height="150" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/01/single-blog-18-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" title="More green tree will more healthy" decoding="async" loading="lazy">
-                                    </a>
-                                </div>
-                                <div class="posts-thumbnail-content">
-                                    <h4>
-                                        <a href="" title="">
-                                            More green tree will more healthy
+                            @foreach($trending as $val)
+                                <li class="clearfix">
+                                    <div class="posts-thumbnail-image">
+                                        <a href="{{route('blogs.detail', $val->slug)}}">
+                                            <img width="150" height="150" src="{{URL::to('public/storage/blogs/'.$val->banner)}}" alt="{{$val->banner_alt}}" class="attachment-thumbnail size-thumbnail wp-post-image" title="More green tree will more healthy" decoding="async" loading="lazy">
                                         </a>
-                                    </h4>
-                                    <div class="posts-thumbnail-meta">
-                                        <span class="views-count"><i class="fa fa-clock-o"></i>5 days ago</span>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="posts-thumbnail-image">
-                                    <a href="https://demo.harutheme.com/formota/more-green-tree-will-more-healthy/">
-                                        <img width="150" height="150" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/01/single-blog-18-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" title="More green tree will more healthy" decoding="async" loading="lazy">
-                                    </a>
-                                </div>
-                                <div class="posts-thumbnail-content">
-                                    <h4>
-                                        <a href="" title="">
-                                            More green tree will more healthy
-                                        </a>
-                                    </h4>
-                                    <div class="posts-thumbnail-meta">
-                                        <span class="views-count"><i class="fa fa-clock-o"></i>5 days ago</span>
+                                    <div class="posts-thumbnail-content">
+                                        <h4>
+                                            <a href="{{route('blogs.detail', $val->slug)}}" class="two-lines">
+                                                {{$val->heading}}
+                                            </a>
+                                        </h4>
+                                        <div class="posts-thumbnail-meta">
+                                            <span class="views-count"><i class="fa fa-clock-o"></i>{{$val->created_at->diffForhumans()}}</span>
+                                        </div>
                                     </div>
-                                </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="posts-thumbnail-image">
-                                    <a href="https://demo.harutheme.com/formota/more-green-tree-will-more-healthy/">
-                                        <img width="150" height="150" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/01/single-blog-18-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" title="More green tree will more healthy" decoding="async" loading="lazy">
-                                    </a>
-                                </div>
-                                <div class="posts-thumbnail-content">
-                                    <h4>
-                                        <a href="" title="">
-                                            More green tree will more healthy
-                                        </a>
-                                    </h4>
-                                    <div class="posts-thumbnail-meta">
-                                        <span class="views-count"><i class="fa fa-clock-o"></i>5 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="posts-thumbnail-image">
-                                    <a href="https://demo.harutheme.com/formota/more-green-tree-will-more-healthy/">
-                                        <img width="150" height="150" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/01/single-blog-18-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" title="More green tree will more healthy" decoding="async" loading="lazy">
-                                    </a>
-                                </div>
-                                <div class="posts-thumbnail-content">
-                                    <h4>
-                                        <a href="" title="">
-                                            More green tree will more healthy
-                                        </a>
-                                    </h4>
-                                    <div class="posts-thumbnail-meta">
-                                        <span class="views-count"><i class="fa fa-clock-o"></i>5 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="posts-thumbnail-image">
-                                    <a href="https://demo.harutheme.com/formota/more-green-tree-will-more-healthy/">
-                                        <img width="150" height="150" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/01/single-blog-18-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" title="More green tree will more healthy" decoding="async" loading="lazy">
-                                    </a>
-                                </div>
-                                <div class="posts-thumbnail-content">
-                                    <h4>
-                                        <a href="" title="">
-                                            More green tree will more healthy
-                                        </a>
-                                    </h4>
-                                    <div class="posts-thumbnail-meta">
-                                        <span class="views-count"><i class="fa fa-clock-o"></i>5 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="clearfix">
-                                <div class="posts-thumbnail-image">
-                                    <a href="https://demo.harutheme.com/formota/more-green-tree-will-more-healthy/">
-                                        <img width="150" height="150" src="https://demo.harutheme.com/formota/wp-content/uploads/2018/01/single-blog-18-150x150.jpg" class="attachment-thumbnail size-thumbnail wp-post-image" alt="" title="More green tree will more healthy" decoding="async" loading="lazy">
-                                    </a>
-                                </div>
-                                <div class="posts-thumbnail-content">
-                                    <h4>
-                                        <a href="" title="">
-                                            More green tree will more healthy
-                                        </a>
-                                    </h4>
-                                    <div class="posts-thumbnail-meta">
-                                        <span class="views-count"><i class="fa fa-clock-o"></i>5 days ago</span>
-                                    </div>
-                                </div>
-                            </li>
+                                </li>
+                            @endforeach
                         </ul>
                     </aside>               
                 </div>                        
