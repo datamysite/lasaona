@@ -185,11 +185,7 @@
                                                                                                     </div>
                                                                                                 </div>
                                                                                             </div>
-
-
-                                                                                            <!-- SINGLE ACTOR GALLERY -->
-                                                                                            @include('web.includes.elements.photo-gallery')
-                                        
+                                    
                                                                                         </div>
                                                                                     </article>                
                                                                                 </div>
@@ -204,6 +200,13 @@
                                             </div>
                                         </div>
                                     </div>
+
+
+                                    <div class="vc_row-full-width vc_clearfix" bis_skin_checked="1"></div>
+
+                                    <!-- SINGLE ACTOR GALLERY -->
+                                    @include('web.includes.elements.photo-gallery')
+                                                                                            
 
                                     <div class="vc_row-full-width vc_clearfix" bis_skin_checked="1"></div>
 
