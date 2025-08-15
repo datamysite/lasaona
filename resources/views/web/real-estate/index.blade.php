@@ -137,44 +137,8 @@
 
     <div class="vc_row-full-width vc_clearfix"></div>
 
-    <div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-parallax="1.5" class="vc_row wpb_row vc_row-fluid vc_custom_1533887730832 vc_row-has-fill vc_general vc_parallax vc_parallax-content-moving">
-        <div class="wpb_column vc_column_container vc_col-sm-12">
-            <div class="vc_column-inner">
-                <div class="wpb_wrapper">
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <h2 style="text-align: center" class="vc_custom_heading vc_custom_1536487831307 heading_style_14">Be wild</h2>
-                                    <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading text-upper lt-spacing-10 fs-100 vc_custom_1533887648176 heading_style_4">Have fun</h2>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">  
-                                    <div class=" ">
-                                        <div class="single-video-shortcode-wrapper style_2 ">
-                                            <div class="video-content">
-                                                <div class="video-image">
-                                                    <div class="video-icon">
-                                                        <a href="javascript:;" class="view-video-button" data-id="2781" data-player="none" data-server="vimeo"></a>
-                                                    </div>
-                                                    <h3 class="video-title"><a href="https://demo.harutheme.com/formota/video/just-like-you/">Just Like You</a></h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('web.includes.elements.music-section')
+    
     <div class="vc_row-full-width vc_clearfix"></div>
 
 
