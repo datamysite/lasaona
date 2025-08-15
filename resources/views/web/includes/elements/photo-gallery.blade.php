@@ -7,21 +7,6 @@
           <div class="wpb_wrapper">
               
             <div class="single-director-gallery" bis_skin_checked="1">
-              <div class="" bis_skin_checked="1">
-                  <div class="wpb_wrapper">
-                      <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                          <div class="wpb_column vc_column_container vc_col-sm-12">
-                              <div class="vc_column-inner">
-                                  <div class="wpb_wrapper">
-                                      <h2 style="text-align: left" class="vc_custom_heading heading_style_10 text-dark"><i class="fa fa-camera"></i></h2>
-                                      <h2 style="text-align: center" class="vc_custom_heading vc_custom_1530602768482 heading_style_11 text-dark">Photo Gallery</h2>
-                                      <hr>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
               <div class="director-gallery" bis_skin_checked="1">
                   <section class="gallery py-5">
                     <section class="p-0 ">
