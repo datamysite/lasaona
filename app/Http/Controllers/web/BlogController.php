@@ -45,6 +45,8 @@ class BlogController extends Controller
             $data['data'] = Blogs::where('status', '1')->where('category_id', $data['cat']->id)->orderBy('id', 'desc')->paginate(9);
         $data['categories'] = Categories::all();
             //dd($data);
+
+            $data['trending'] = Blogs::where('status', '1')->limit(6)->get();
             return view('web.blogs.index')->with($data);
         }else{
             return redirect(route('blogs'));
