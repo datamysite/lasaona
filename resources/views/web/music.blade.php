@@ -73,7 +73,7 @@
                                                                                         <div class="post-wrapper" bis_skin_checked="1">
                                                                                            
 
-                                                                                            <div class="wpb_wrapper" bis_skin_checked="1"><h2 style="text-align: left" class="vc_custom_heading heading_style_7">Stream On</h2></div>
+                                                                                            <div class="wpb_wrapper" bis_skin_checked="1"><h2 style="text-align: left" class="vc_custom_heading heading_style_7">Listen On</h2></div>
 
                                                                                             <div class="single-director-story" bis_skin_checked="1">
                                                                                                 <div class="container" bis_skin_checked="1">
@@ -206,7 +206,7 @@
 
                                     <!-- SINGLE ACTOR GALLERY -->
                                     @include('web.includes.elements.photo-gallery')
-                                                                                            
+
 
                                     <div class="vc_row-full-width vc_clearfix" bis_skin_checked="1"></div>
 
