@@ -27,7 +27,7 @@
             <div class="container">
                 <div class="page-title-inner">
                     <div class="block-center-inner">
-                        <h2>Blogs</h2>
+                        <h2>{{empty($blog_title) ? 'Blogs' : $blog_title}}</h2>
                     </div>
                 </div>
             </div>
@@ -37,7 +37,12 @@
             <div class="container">
                 <ul class="breadcrumbs">
                     <li><a href="{{route('home')}}" class="home">Home</a></li>
-                    <li><span>Blogs</span></li>
+                    @if(empty($blog_title))
+                        <li><span>Blogs</span></li>
+                    @else
+                        <li><a href="{{route('blogs')}}" class="blogs">Blogs</a></li>
+                        <li><span>{{$blog_title}}</span></li>
+                    @endif
                 </ul>            
             </div>
         </div>
