@@ -2,7 +2,7 @@
 @section('addStyle')
     <style>
         .haru-page-title-section .haru-breadcrumb-wrapper {
-            padding-bottom: 0%;
+            padding-bottom: 2%;
         }
         .haru-page-title-section .haru-page-title-wrapper {
             padding-top: 6%;
@@ -27,7 +27,7 @@
 @section('content')
 
 <main id="main" class="site-main" role="main">
-    <div class="haru-page-title-section" style="background-image: url({{URL::to('/public/images')}}/bg-page-title.jpg);">
+    <div class="haru-page-title-section" style="background-image: url({{URL::to('/public/images')}}/page-bg.jpg);">
         <section class="haru-page-title-wrapper page-title-wrap-bg">
             <div class="container">
                 <div class="page-title-inner">

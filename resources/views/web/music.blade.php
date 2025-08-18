@@ -31,7 +31,7 @@
                                 <div class="entry-content" bis_skin_checked="1">
                                     <div data-vc-full-width="true" data-vc-full-width-init="true" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding" style="position: relative; left: -367.5px; box-sizing: border-box; width: 1905px; max-width: 1905px;" bis_skin_checked="1">
                                         <div class="wpb_column vc_column_container vc_col-sm-12" bis_skin_checked="1">
-                                            <div class="haru-page-title-section" style="background-image: url({{URL::to('/public/images')}}/bg-page-title.jpg);">
+                                            <div class="haru-page-title-section" style="background-image: url({{URL::to('/public/images')}}/page-bg.jpg);">
                                                 <section class="haru-page-title-wrapper page-title-wrap-bg">
                                                     <div class="container">
                                                         <div class="page-title-inner">

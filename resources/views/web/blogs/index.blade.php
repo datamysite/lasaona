@@ -17,12 +17,16 @@
             padding-bottom: 1% !important;
             background-color: #f8f8f8 !important;
         }
+        .haru-page-title-section{
+          padding: 45px 0;
+              margin-bottom: 65px;
+        }
     </style>
 @endsection
 @section('content')
 
 <main id="main" class="site-main" role="main">
-    <div class="haru-page-title-section" style="background-image: url({{URL::to('/public/images')}}/bg-page-title.jpg);">
+    <div class="haru-page-title-section" style="background-image: url({{URL::to('/public/images')}}/page-bg.jpg);">
         <section class="haru-page-title-wrapper page-title-wrap-bg">
             <div class="container">
                 <div class="page-title-inner">

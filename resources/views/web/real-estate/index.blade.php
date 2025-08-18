@@ -7,7 +7,7 @@
 @section('content')
 
 <main id="main" class="site-main" role="main">
-    <div class="haru-page-title-section" style="background-image: url({{URL::to('/public/images')}}/bg-page-title.jpg);">
+    <div class="haru-page-title-section" style="background-image: url({{URL::to('/public/images')}}/page-bg.jpg);">
         <section class="haru-page-title-wrapper page-title-wrap-bg">
             <div class="container">
                 <div class="page-title-inner">
@@ -91,7 +91,9 @@
                                                     @foreach($properties as $val)
                                                         <div class="team-item" style="">
                                                             <div class="team-content">
-                                                                <div class="team-image">
+                                                                <div class="team-image ribbon">
+                                                                    <span class="ribbon1"><span>{{$val->name}}</span></span>
+
                                                                     <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
                                                                     <div class="team-meta">
                                                                         <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">

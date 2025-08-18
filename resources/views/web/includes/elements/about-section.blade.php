@@ -44,7 +44,7 @@
                                                     </svg>
                                                 </div>
                                             </div>
-                                            <img decoding="async" src="{{URL::to('/public/images/about-lasa-n1.jpg')}}" width="570px" alt="LO">
+                                            <img decoding="async" src="{{URL::to('/public/images/about-pic.jpg')}}" width="570px" alt="LO">
                                         </div>
                                         <div class="introduce-description">
                                             <div class="introduce-content">
@@ -52,7 +52,7 @@
 
                                                     THE only real estate personality who blends artistic legacy with architectural beauty, La Sauna curates spaces and content that inspire soulful, conscious living.
                                                     <br><br>
-                                                    Slovak-born La Sauna is a musician turned real estate curator, From performing at 14 to designing atmospheres, she transforms emotion into music—and spaces into art.
+                                                    Slovak-born Lasa Ona is a musician turned real estate curator, From performing at 14 to designing atmospheres, she transforms emotion into music—and spaces into art.
 
                                                 </div>
                                                 <img decoding="async" src="{{URL::to('/public')}}/images/lasa_signature.png" alt="JP">
