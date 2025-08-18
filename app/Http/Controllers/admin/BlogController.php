@@ -67,7 +67,7 @@ class BlogController extends Controller
 
                 //Meta Title -- Start
 
-                    $meta_url = 'https://meetlasaona.com/'.$data['slug'];
+                    $meta_url = 'https://meetlasaona.com/blog/'.$data['slug'];
 
                     $mt = new MetaTags;
                     $mt->url = $meta_url;
@@ -120,7 +120,7 @@ class BlogController extends Controller
 
             //Meta Title -- Start
 
-                $meta_url = 'https://meetlasaona.com/'.$data['slug'];
+                $meta_url = 'https://meetlasaona.com/blog/'.$data['slug'];
                 $mt = MetaTags::where('url', $meta_url)->first();
                 if(empty($mt->id)){
                     $mt = new MetaTags;
@@ -260,12 +260,9 @@ class BlogController extends Controller
         $data['authors'] = Author::get();
         $data['tags'] = '';
         $meta_url = '';
-        if($data->country_id == '1'){
-            $meta_url = 'https://dealsandcouponsmena.ae/';
-        }elseif($data->country_id == '2'){
-            $meta_url = 'https://dealsandcouponsmena.com/';
-        }
-        $meta_url .= $data->lang.'/blogs/'.$data->slug;
+            $meta_url = 'https://meetlasaona.com/';
+        
+        $meta_url .= $data->lang.'/blog/'.$data->slug;
 
         $data['meta_title'] = MetaTags::where('url', $meta_url)->first();
         $data['categories'] = Categories::all();
