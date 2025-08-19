@@ -1,3 +1,4 @@
+@include('web.includes.elements.achivement-section')
 <footer id="haru-footer-main" class="footer-actor">
         <div class="container clearfix">
             <div data-vc-full-width="true" data-vc-full-width-init="false" data-overlay-color="rgba(0,0,0,0.7)" class="vc_row wpb_row vc_row-fluid vc_custom_1531118945978 vc_row-has-fill overlay-bg-vc-wapper">
@@ -160,7 +161,7 @@
                 </div>
             </div>
             <div class="vc_row-full-width vc_clearfix"></div>
-            <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533887970791 vc_row-has-fill">
+            <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid striped-background vc_row-has-fill">
                 <div class="wpb_column vc_column_container vc_col-sm-12">
                     <div class="vc_column-inner">
                         <div class="wpb_wrapper">

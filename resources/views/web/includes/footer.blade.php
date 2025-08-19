@@ -1,3 +1,4 @@
+@include('web.includes.elements.achivement-section')
 <footer id="haru-footer-main" class="footer-3 striped-background">
     <div class="container clearfix">
         <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1529569201088 vc_row-has-fill" style="position: relative; left: -367.5px; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">

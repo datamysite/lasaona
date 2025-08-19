@@ -120,56 +120,40 @@
 
                 // Slick
                 if ($this.hasClass('slick')) {
+                    $this.find('.slider-for').on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
+                        // currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
+                        var i = (currentSlide ? currentSlide : 0) + 1;
+                        $this.find('.slide-count-wrap').text(i + '/' + slick.slideCount);
+                    });
                     $this.find('.slider-for').slick({
-                        slidesToShow: 1,
+                        slidesToShow: 3,
                         slidesToScroll: 1,
                         infinite: true,
                         centerMode: true,
                         centerPadding: '60px',
-                        variableWidth: true,
+                        variableWidth: false,
                         arrows: true,
                         fade: false,
-                        asNavFor: $('.slider-nav', $this),
+                        dotsClass: 'custom_paging',
                         responsive: [{
                                 breakpoint: 1199,
                                 settings: {
+                                    slidesToShow: 3,
                                     variableWidth: false
                                 }
                             },
                             {
                                 breakpoint: 991,
                                 settings: {
+                                    slidesToShow: 2,
                                     variableWidth: false
                                 }
                             },
                             {
                                 breakpoint: 767,
                                 settings: {
+                                    slidesToShow: 1,
                                     variableWidth: false
-                                }
-                            }
-                        ]
-                    });
-                    $this.find('.slider-nav').slick({
-                        slidesToShow: 5,
-                        slidesToScroll: 1,
-                        arrows: true,
-                        asNavFor: $('.slider-for', $this),
-                        dots: false,
-                        infinite: true,
-                        centerMode: true,
-                        centerPadding: '0px',
-                        focusOnSelect: true,
-                        responsive: [{
-                                breakpoint: 991,
-                                settings: {
-                                    slidesToShow: 3
-                                }
-                            },
-                            {
-                                breakpoint: 767,
-                                settings: {
-                                    slidesToShow: 3
                                 }
                             }
                         ]

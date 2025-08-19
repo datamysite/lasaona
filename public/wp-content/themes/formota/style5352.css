@@ -11602,12 +11602,12 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 }
 
 .single-content .single-wrapper {
-  margin-bottom: 80px;
+  margin-bottom: 0px;
 }
 
 @media screen and (max-width: 991px) {
   .single-content .single-wrapper {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 }
 
@@ -33798,7 +33798,7 @@ body .pp_woocommerce .pp_content_container .pp_close:after {
 }
 
 .single-video {
-  padding-bottom: 80px;
+  padding-bottom: 0px;
 }
 
 .single-video.style_1 .single-video-thumbnail, .single-video.style_2 .single-video-thumbnail {
