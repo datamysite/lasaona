@@ -179,55 +179,29 @@
                                           data-type="text"
                                           data-color="#d8b069"
                                           data-rsp_ch="on"
-                                          data-xy="x:l,l,l,c;xo:721px,721px,721px,0;yo:408px,408px,408px,314px;"
+                                          data-xy="x:l,l,l,c;xo:781px,781px,781px,0;yo:308px,308px,308px,314px;"
                                           data-text="s:140,140,140,36;l:170,170,170,48;a:inherit;"
                                           data-frame_0="tp:600;"
                                           data-frame_1="tp:600;e:Strong.easeInOut;st:1000;sp:1600;sR:1000;"
                                           data-frame_999="o:0;tp:600;st:w;sR:6400;"
                                           style="z-index:7;font-family:'Mr Dafoe';font-style:italic;"
-                                        >Lasa Ona
+                                        >Singer
                                         </rs-layer>
 
                                         <rs-layer
-                                          id="slider-17-slide-48-layer-5" 
+                                          id="slider-17-slide-48-layer-4" 
                                           data-type="text"
+                                          data-color="#d8b069"
                                           data-rsp_ch="on"
-                                          data-xy="x:l,l,l,c;xo:798px,798px,798px,-73px;y:t,t,t,m;yo:726px,726px,726px,47px;"
-                                          data-text="s:18,18,18,16;l:18,18,18,16;ls:9px;fw:600;a:inherit;"
+                                          data-xy="x:l,l,l,c;xo:601px,601px,601px,0;yo:508px,508px,508px,214px;"
+                                          data-text="s:140,140,140,36;l:170,170,170,48;a:inherit;"
                                           data-frame_0="tp:600;"
-                                          data-frame_1="tp:600;e:Strong.easeIn;st:1300;sp:800;sR:1300;"
-                                          data-frame_999="o:0;tp:600;st:w;sR:6900;"
-                                          style="z-index:8;font-family:'Josefin Sans';"
-                                        >SINGER
+                                          data-frame_1="tp:600;e:Strong.easeInOut;st:1000;sp:1600;sR:1000;"
+                                          data-frame_999="o:0;tp:600;st:w;sR:6400;"
+                                          style="z-index:7;font-family:'Mr Dafoe';font-style:italic;"
+                                        >Real - Estate
                                         </rs-layer>
 
-                                        <rs-layer
-                                          id="slider-17-slide-48-layer-6" 
-                                          class="tp-shape tp-shapewrapper"
-                                          data-type="shape"
-                                          data-rsp_ch="on"
-                                          data-xy="x:l,l,l,c;xo:926px,926px,926px,83px;y:t,t,t,m;yo:726px,726px,726px,46px;"
-                                          data-text="a:inherit;"
-                                          data-dim="w:2px;h:14px;"
-                                          data-frame_0="tp:600;"
-                                          data-frame_1="tp:600;e:Strong.easeIn;st:1500;sp:800;sR:1500;"
-                                          data-frame_999="o:0;tp:600;st:w;sR:6700;"
-                                          style="z-index:9;background-color:#ababab;"
-                                        > 
-                                        </rs-layer>
-
-                                        <rs-layer
-                                          id="slider-17-slide-48-layer-7" 
-                                          data-type="text"
-                                          data-rsp_ch="on"
-                                          data-xy="x:l,l,l,c;xo:941px,941px,941px,83px;y:t,t,t,m;yo:726px,726px,726px,46px;"
-                                          data-text="s:18,18,18,16;l:18,18,18,16;ls:9px;fw:600;a:inherit;"
-                                          data-frame_0="tp:600;"
-                                          data-frame_1="tp:600;e:Strong.easeIn;st:1700;sp:800;sR:1700;"
-                                          data-frame_999="o:0;tp:600;st:w;sR:6500;"
-                                          style="z-index:10;font-family:'Josefin Sans';"
-                                        >REAL-ESTATE
-                                        </rs-layer>
 
                                         <a href="{{route('music')}}">
                                           <rs-layer

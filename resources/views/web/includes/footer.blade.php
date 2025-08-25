@@ -1,4 +1,3 @@
-@include('web.includes.elements.achivement-section')
 <footer id="haru-footer-main" class="footer-3 striped-background">
     <div class="container clearfix">
         <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1529569201088 vc_row-has-fill" style="position: relative; left: -367.5px; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">
@@ -17,7 +16,7 @@
 
                                         <div class="wpb_text_column wpb_content_element ">
                                             <div class="wpb_wrapper">
-                                                <p>THE only real estate personality who blends artistic legacy with architectural beauty, La Sauna curates spaces and content that inspire soulful, conscious living.</p>
+                                                <p>The only real estate personality who blends artistic legacy with architectural beauty, Lasa Ona curates spaces and content that inspire soulful, conscious living. Slovak-born Lasa Ona is a musician turned real estate curator. From performing on world stages to designing atmospheres, she transforms emotion into music—and spaces into art.</p>
 
                                             </div>
                                         </div>
@@ -122,11 +121,6 @@
                                                             <li>
                                                                 <a href="https://www.facebook.com/LuciaSkyMusic" target="_blank">
                                                                     <i class="fa fa-facebook"></i>
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="https://x.com/luciabakde" target="_blank">
-                                                                    <i class="fa fa-twitter"></i>
                                                                 </a>
                                                             </li>
                                                             <li>

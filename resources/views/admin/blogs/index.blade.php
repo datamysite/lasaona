@@ -212,8 +212,6 @@
 </div>
 @endsection
 @section('addStyle')
-<link rel="stylesheet" href="{{URL::to('/public/plugins/bootstrap-taginput')}}/bootstrap-tagsinput.css" />
-<link rel="stylesheet" href="{{URL::to('/public/plugins/bootstrap-taginput')}}/app.css" />
 <style type="text/css">
   .ck-editor__editable[role="textbox"] {
     /* editing area */
@@ -232,8 +230,6 @@
 </style>
 @endsection
 @section('addScript')
-<script src="{{URL::to('/public/plugins/bootstrap-taginput')}}/bootstrap-tagsinput.js"></script>
-<script src="{{URL::to('/public/plugins/bootstrap-taginput')}}/app.js"></script>
 <script src="https://cdn.ckeditor.com/ckeditor5/35.1.0/super-build/ckeditor.js"></script>
 <script>
   $(function() {
@@ -456,7 +452,7 @@
       list: {
         properties: {
           styles: true,
-          startIndex: true,
+          startIndex: false,
           reversed: true
         }
       },
@@ -524,28 +520,27 @@
         supportAllValues: true
       },
       htmlSupport: {
-        allow: [{
-          name: /.*/,
-          attributes: true,
-          classes: true,
-          styles: true
-        }]
+        allow: [
+          {
+            name: 'a',
+            attributes: [ 'href', 'target', 'rel' ],
+            classes: true,
+            styles: true
+          },
+          {
+            name: /.*/,
+            attributes: true,
+            classes: true,
+            styles: true
+          }
+        ]
       },
       htmlEmbed: {
         showPreviews: true
       },
       link: {
-        decorators: {
-          addTargetToExternalLinks: true,
-          defaultProtocol: 'https://',
-          toggleDownloadable: {
-            mode: 'manual',
-            label: 'Downloadable',
-            attributes: {
-              download: 'file'
-            }
-          }
-        }
+        addTargetToExternalLinks: false,
+        defaultProtocol: 'https://'
       },
       mention: {
         feeds: [{
@@ -572,6 +567,16 @@
         'WProofreader',
       ]
     });
+
+
+    document.addEventListener('focusin', (event) => {
+      const ckEditorEl = event.target.closest('.ck');
+      if (ckEditorEl) {
+        try {
+          event.stopImmediatePropagation();
+        } catch (e) {}
+      }
+    }, true);
   }
 </script>
 @endsection

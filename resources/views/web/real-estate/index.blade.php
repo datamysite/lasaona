@@ -139,16 +139,11 @@
 
     <div class="vc_row-full-width vc_clearfix"></div>
 
-    @include('web.includes.elements.music-section')
-    
-    <div class="vc_row-full-width vc_clearfix"></div>
-
-
 
     <div class="haru-archive-product">
         <div class="container clearfix">
             <div class="row clearfix">    
-                <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="col-md-12 col-sm-12 col-xs-12 let-content">
                         
                         <!-- Content -->
                             <br><br>

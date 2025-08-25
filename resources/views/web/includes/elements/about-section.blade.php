@@ -50,9 +50,9 @@
                                             <div class="introduce-content">
                                                 <div class="description">
 
-                                                    THE only real estate personality who blends artistic legacy with architectural beauty, La Sauna curates spaces and content that inspire soulful, conscious living.
+                                                    The only real estate personality who blends artistic legacy with architectural beauty, Lasa Ona curates spaces and content that inspire soulful, conscious living. 
                                                     <br><br>
-                                                    Slovak-born Lasa Ona is a musician turned real estate curator, From performing at 14 to designing atmospheres, she transforms emotion into music—and spaces into art.
+                                                    Slovak-born Lasa Ona is a musician turned real estate curator. From performing on world stages to designing atmospheres, she transforms emotion into music—and spaces into art.
 
                                                 </div>
                                                 <img decoding="async" src="{{URL::to('/public')}}/images/lasa_signature.png" alt="JP">

@@ -368,3 +368,7 @@ right:50px;}
  animation-duration: .5s; 
  animation-timing-function: ease; 
 }
+
+.let-content li {
+    padding-inline-start: 10px !important;
+}

@@ -129,14 +129,6 @@
                                     </div>
                                 </div>
 
-                                <div class="vc_row-full-width vc_clearfix"></div>
-
-                                @include('web.includes.elements.music-section')
-                                
-                                <div class="vc_row-full-width vc_clearfix"></div>
-
-                                @include('web.includes.elements.instagram')
-
                                <div class="vc_row-full-width vc_clearfix"></div>
                             </div>
                         </div>                    

@@ -1,11 +1,8 @@
 @extends('web.includes.master')
 @section('addStyle')
     <style>
-        .haru-page-title-section .haru-breadcrumb-wrapper {
-            padding-bottom: 0%;
-        }
-        .haru-page-title-section .haru-page-title-wrapper {
-            padding-top: 6%;
+        .haru-page-title-section{
+            margin-bottom: 0px !important;
         }
         .vc_custom_1533714072840 {
             padding-top: 1% !important;
@@ -37,26 +34,34 @@
                 </ul>            
             </div>
         </div>
+    </div>
 
+    <div class="vc_row-full-width vc_clearfix"></div>
 
-        <div class="wpb_wrapper">
-            <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                <div class="wpb_column vc_column_container vc_col-sm-12">
-                    <div class="vc_column-inner">
-                        <div class="wpb_wrapper">                        
-                            <div class=" ">
-                                <div class="images-gallery-shortcode-wrap slick_2 " data-columns="3">
-                                    <div class="images-list slider-for">
-                                        @foreach($data->images as $key => $val)
-                                        <div class="image-item image-col-2">
-                                            <div class="slide-item">
-                                                <img decoding="async" src="{{URL::to('/public/storage/properties/'.$val->image)}}" height="300px" alt="{{$key.' - '.$data->name}}">
+    <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_row-has-fill striped-background" style="">
+        <div class="wpb_column vc_column_container vc_col-sm-12">
+            <div class="vc_column-inner">
+                
+                <div class="wpb_wrapper">
+                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                        <div class="wpb_column vc_column_container vc_col-sm-12">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">                        
+                                    <div class=" ">
+                                        <div class="images-gallery-shortcode-wrap slick_2 " data-columns="3">
+                                            <div class="images-list slider-for">
+                                                @foreach($data->images as $key => $val)
+                                                <div class="image-item image-col-2">
+                                                    <div class="slide-item">
+                                                        <img decoding="async" src="{{URL::to('/public/storage/properties/'.$val->image)}}" height="300px" alt="{{$key.' - '.$data->name}}">
+                                                    </div>
+                                                </div>
+                                                @endforeach
                                             </div>
-                                        </div>
-                                        @endforeach
+                                            <div class="slide-count-wrap"></div>
+                                        </div>            
                                     </div>
-                                    <div class="slide-count-wrap"></div>
-                                </div>            
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -216,7 +221,9 @@
                                                 @foreach($properties as $val)
                                                     <div class="team-item" style="">
                                                         <div class="team-content">
-                                                            <div class="team-image">
+                                                            <div class="team-image ribbon">
+                                                                <span class="ribbon1"><span>{{$val->name}}</span></span>
+                                                                
                                                                 <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
                                                                 <div class="team-meta">
                                                                     <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">

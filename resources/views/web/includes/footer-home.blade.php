@@ -1,4 +1,3 @@
-@include('web.includes.elements.achivement-section')
 <footer id="haru-footer-main" class="footer-actor">
         <div class="container clearfix">
             <div data-vc-full-width="true" data-vc-full-width-init="false" data-overlay-color="rgba(0,0,0,0.7)" class="vc_row wpb_row vc_row-fluid vc_custom_1531118945978 vc_row-has-fill overlay-bg-vc-wapper">
@@ -176,11 +175,6 @@
                                                             <li>
                                                                 <a href="https://www.facebook.com/LuciaSkyMusic" target="_blank">
                                                                     <i class="fa fa-facebook"></i>
-                                                                </a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="https://x.com/luciabakde" target="_blank">
-                                                                    <i class="fa fa-twitter"></i>
                                                                 </a>
                                                             </li>
                                                             <li>
