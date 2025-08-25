@@ -12,6 +12,14 @@ Route::get('/update-sitemap', function () {
     return response()->json($response, 200);
 });
 
+Route::get('/clear-cache', function () {
+    Artisan::call('cache:clear');
+    Artisan::call('route:clear');
+    $response['success'] = 'success';
+    $response['message'] = 'Success! cache Successfully Updated.';
+    
+    return response()->json($response, 200);
+});
 
 //Web
 
