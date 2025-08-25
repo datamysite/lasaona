@@ -18,7 +18,7 @@
     <meta property="og:site_name" content="Meet LasaOna" />
 
     <!-- Image OG Tag -->
-    <meta property="og:image" content="{{empty($og_img) ? URL::to('/public/images/about-me-bg-1.jpg') : $og_img}}" />
+    <meta property="og:image" content="{{empty($og_img) ? URL::to('/public/images/about-pic2.jpg') : $og_img}}" />
     <meta property="og:image:alt" content="Image - {{@$metaTags->title}}{{@$ametaTags['title']}}{{empty($metaTags->title) && empty($ametaTags['title']) ? env('APP_NAME') : ''}}" />
     <meta property="og:image:type" content="image/*" />
     <meta property="og:image:width" content="620" />
@@ -28,7 +28,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="{{@$metaTags->title}}{{@$ametaTags['title']}}{{empty($metaTags->title) && empty($ametaTags['title']) ? env('APP_NAME') : ''}}" />
     <meta name="twitter:description" content="{{@$metaTags->description}}{{@$ametaTags['description']}}" />
-    <meta name="twitter:image" content="{{empty($og_img) ? URL::to('/public/images/about-me-bg-1.jpg') : $og_img}}" />
+    <meta name="twitter:image" content="{{empty($og_img) ? URL::to('/public/images/about-pic2.jpg') : $og_img}}" />
     <meta name="twitter:site" content="@MeetLasaOna" />
 
     <link rel="icon" type="image/x-icon" href="{{URL::to('/public/images/favicon.png')}}">
