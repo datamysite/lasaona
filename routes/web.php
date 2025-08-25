@@ -13,6 +13,7 @@ Route::get('/update-sitemap', function () {
 });
 
 Route::get('/clear-cache', function () {
+    Artisan::call('key:generate');
     Artisan::call('cache:clear');
     Artisan::call('route:clear');
     $response['success'] = 'success';
