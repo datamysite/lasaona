@@ -109,9 +109,9 @@
                             <button type="submit" class="search-submit"><span>Search</span></button>
                         </form>
                     </aside>
-                    <aside id="media_image-2" class="widget widget_media_image">
-                        <img width="300" height="165" src="{{URL::to('/public/images/gallery/10.jpg')}}" class="image wp-image-2016  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="{{URL::to('/public/images/gallery/10.jpg')}} 300w, {{URL::to('/public/images/gallery/10.jpg')}} 400w" sizes="(max-width: 300px) 100vw, 300px">
-                    </aside>
+                   <!--  <aside id="media_image-2" class="widget widget_media_image">
+                        <img width="300" height="165" src="{{URL::to('/public/images/gallery/4.jpg')}}" class="image wp-image-2016  attachment-medium size-medium" alt="" style="max-width: 100%; height: auto;" decoding="async" loading="lazy" srcset="{{URL::to('/public/images/gallery/4.jpg')}} 300w, {{URL::to('/public/images/gallery/4.jpg')}} 400w" sizes="(max-width: 300px) 100vw, 300px">
+                    </aside> -->
                     <aside id="haru-banner-2" class="widget widget-banner">
                         <h4 class="widget-title"><span>Categories</span></h4>  
                     </aside>
