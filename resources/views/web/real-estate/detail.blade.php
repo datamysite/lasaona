@@ -72,7 +72,7 @@
     
     <div class="vc_row-full-width vc_clearfix"></div>
 
-    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_row-has-fill" style="text-align: center; position: relative; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">
+    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_row-has-fill custom-fluid" style="">
         <div class="wpb_column vc_column_container vc_col-sm-12">
             <div class="vc_column-inner">
                 <div class="wpb_wrapper">
@@ -197,7 +197,7 @@
 
     <div class="vc_row-full-width vc_clearfix"></div>
 
-    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533714072840 vc_row-has-fill" style="position: relative; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">
+    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533714072840 vc_row-has-fill custom-fluid" style="">
         <div class="wpb_column vc_column_container vc_col-sm-12">
             <div class="vc_column-inner">
                 <div class="wpb_wrapper">
@@ -217,7 +217,7 @@
                                 <div class="wpb_wrapper">  
                                     <div class="  ">
                                         <div class="teammember-shortcode-wrap grid ">
-                                            <div class="teammember-list padding-15 columns-3" style="position: relative; height: 450px;">
+                                            <div class="teammember-list padding-15 columns-3" style="position: relative;">
                                                 @foreach($properties as $val)
                                                     <div class="team-item" style="">
                                                         <div class="team-content">
@@ -252,7 +252,7 @@
 
     <div class="vc_row-full-width vc_clearfix"></div>
 
-    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533714072840 vc_row-has-fill" style="position: relative; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">
+    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533714072840 vc_row-has-fill custom-fluid" style="">
         <div class="wpb_column vc_column_container vc_col-sm-12">
             <div class="vc_column-inner">
                 <div class="wpb_wrapper">

@@ -170,6 +170,7 @@ p, p > *{
 }
 .ribbon1:after {
   position: absolute;
+  left: 0;
   content: "";
   width: 100%;
   height: 0;
@@ -371,4 +372,13 @@ right:50px;}
 
 .let-content li {
     padding-inline-start: 10px !important;
+}
+.custom-fluid{
+    text-align: center; 
+    position: relative; 
+    box-sizing: border-box; 
+    width: 1905px; 
+    max-width: 1905px; 
+    padding-left: 367.5px; 
+    padding-right: 367.5px;
 }

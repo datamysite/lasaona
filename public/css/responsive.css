@@ -15,4 +15,31 @@
 	    justify-content: center;
 	    flex-direction: column;
 	}
+	#slider-17-slide-47-layer-9 {
+	    letter-spacing: 1px !important;
+	}
+	.footer-social-shortcode-wrap .footer-social-content .social-list.align-left {
+	    text-align: center;
+	}
+	.copyright-footer h2{
+		text-align: center !important;
+	}
+	.custom-fluid {
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .ribbon1{
+    	    right: 38px;
+    }
+    .ribbon1:after {
+	    position: absolute;
+	    left: 0;
+	    bottom: -7px;
+	}
+	.widget_media_image img {
+	    width: 100% !important;
+	}
 }

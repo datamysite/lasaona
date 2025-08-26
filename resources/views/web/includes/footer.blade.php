@@ -146,7 +146,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="wpb_column vc_column_container vc_col-sm-6">
+                            <div class="wpb_column vc_column_container vc_col-sm-6 copyright-footer">
                                 <div class="vc_column-inner">
                                     <div class="wpb_wrapper">
                                         <h2 style="font-size: 15px;color: #7e7e7e;text-align: right" class="vc_custom_heading fw-400 vc_custom_1640425005626 default">© {{date('Y')}} meetlasaona.com. All Right Reserved.</h2>

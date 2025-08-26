@@ -177,7 +177,7 @@
 
 
 
-                                    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533714072840 striped-background-light vc_row-has-fill" style="position: relative; box-sizing: border-box; right: 367.5px; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px;">
+                                    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533714072840 striped-background-light vc_row-has-fill custom-fluid" style="">
                                         <div class="wpb_column vc_column_container vc_col-sm-12">
                                             <div class="vc_column-inner">
                                                 <div class="wpb_wrapper">
@@ -197,58 +197,27 @@
                                                                 <div class="wpb_wrapper">  
                                                                     <div class="  ">
                                                                         <div class="teammember-shortcode-wrap grid ">
-                                                                            <div class="teammember-list padding-15 columns-3" style="position: relative; height: 450px;">
-                                                                                <div class="team-item" style="position: absolute; left: 0px; top: 0px;">
-                                                                                    <div class="team-content">
-                                                                                        <div class="team-image">
-                                                                                            <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property1.png')}}">                        
-                                                                                            <div class="team-meta">
-                                                                                                <h5 class="team-title">ABC Building</h5>
-                                                                                                <p class="team-position">/ Penthouse</p>
+                                                                            <div class="teammember-list padding-15 columns-3" style="position: relative;">
+                                                                                @foreach($properties as $val)
+                                                                                    <div class="team-item" style="">
+                                                                                        <div class="team-content">
+                                                                                            <div class="team-image ribbon">
+                                                                                                <span class="ribbon1"><span>{{$val->name}}</span></span>
+                                                                                                
+                                                                                                <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
+                                                                                                <div class="team-meta">
+                                                                                                    <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
+                                                                                                        <h5 class="team-title">{{$val->name}}</h5>
+                                                                                                        <p class="team-position">/ {{$val->builder_name}}</p>
+                                                                                                    </a>
+                                                                                                </div>
+                                                                                                <ul class="member-socials">
+                                                                                                    <li class="member-social"><a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">Details</a></li>
+                                                                                                </ul>
                                                                                             </div>
-                                                                                            <ul class="member-socials">
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-youtube"></i>Youtube</a></li>
-                                                                                            </ul>
                                                                                         </div>
                                                                                     </div>
-                                                                                </div>
-                                                                                <div class="team-item" style="position: absolute; left: 390px; top: 0px;">
-                                                                                    <div class="team-content">
-                                                                                        <div class="team-image">
-                                                                                            <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property2.jpg')}}">                        
-                                                                                            <div class="team-meta">
-                                                                                                <h5 class="team-title">ABC Building</h5>
-                                                                                                <p class="team-position">/ Penthouse</p>
-                                                                                            </div>
-                                                                                            <ul class="member-socials">
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-youtube"></i>Youtube</a></li>
-                                                                                            </ul>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
-                                                                                <div class="team-item" style="position: absolute; left: 780px; top: 0px;">
-                                                                                    <div class="team-content">
-                                                                                        <div class="team-image">
-                                                                                            <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('/public/images/property3.jpg')}}">                        
-                                                                                            <div class="team-meta">
-                                                                                                <h5 class="team-title">Downtown</h5>
-                                                                                                <p class="team-position">/ Villa</p>
-                                                                                            </div>
-                                                                                            <ul class="member-socials">
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-facebook"></i>Facebook</a></li>
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-twitter"></i>Twitter</a></li>
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-instagram"></i>Instagram</a></li>
-                                                                                                <li class="member-social"><a href="#"><i class="fa fa-youtube"></i>Youtube</a></li>
-                                                                                            </ul>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                </div>
+                                                                                @endforeach
                                                                             </div>
                                                                         </div>
                                                                     </div>  

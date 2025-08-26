@@ -237,7 +237,7 @@
                                     <div class="vc_row-full-width vc_clearfix"></div>
 
                                     <!-- Content -->
-
+                                    <div class=" let-content">
                                         <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
                                             <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Lucia’s Musical Odyssey — Meet Lasa Ona</strong></span></span>
                                         </p>
@@ -300,7 +300,7 @@
                                             <br>
                                             &nbsp;
                                         </p>
-                                    
+                                    </div>
                                     <!-- Content -->
 
                                 </div>
