@@ -189,7 +189,7 @@
                                         </rs-layer>
 
                                         <rs-layer
-                                          id="slider-17-slide-48-layer-4" 
+                                          id="slider-17-slide-48-layer-42" 
                                           data-type="text"
                                           data-color="#d8b069"
                                           data-rsp_ch="on"
@@ -199,7 +199,7 @@
                                           data-frame_1="tp:600;e:Strong.easeInOut;st:1000;sp:1600;sR:1000;"
                                           data-frame_999="o:0;tp:600;st:w;sR:6400;"
                                           style="z-index:7;font-family:'Mr Dafoe';font-style:italic;"
-                                        >Real - Estate
+                                        >Real &nbsp;&nbsp; Estate
                                         </rs-layer>
 
 
