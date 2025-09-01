@@ -174,64 +174,6 @@
                                             </div>
                                         </div>
                                     </div>
-
-
-
-                                    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533714072840 striped-background-light vc_row-has-fill custom-fluid" style="">
-                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                            <div class="vc_column-inner">
-                                                <div class="wpb_wrapper">
-                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                            <div class="vc_column-inner">
-                                                                <div class="wpb_wrapper">
-                                                                    <h2 class="related-heading"><span>You may also </span>like this</h2>
-                                                                    <p class="text-center">Beyond by Omniyat, Muraba Properties, and Eywa’s European boutique developer redefine Dubai luxury, blending architectural artistry, cultural resonance, and innovation to craft sophisticated, wellness-focused residences along iconic locations like the Dubai Water Canal.</p>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                                                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                                                            <div class="vc_column-inner">
-                                                                <div class="wpb_wrapper">  
-                                                                    <div class="  ">
-                                                                        <div class="teammember-shortcode-wrap grid ">
-                                                                            <div class="teammember-list padding-15 columns-3" style="position: relative;">
-                                                                                @foreach($properties as $val)
-                                                                                    <div class="team-item" style="">
-                                                                                        <div class="team-content">
-                                                                                            <div class="team-image ribbon">
-                                                                                                <span class="ribbon1"><span>{{$val->name}}</span></span>
-                                                                                                
-                                                                                                <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
-                                                                                                <div class="team-meta">
-                                                                                                    <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
-                                                                                                        <h5 class="team-title">{{$val->name}}</h5>
-                                                                                                        <p class="team-position">/ {{$val->builder_name}}</p>
-                                                                                                    </a>
-                                                                                                </div>
-                                                                                                <ul class="member-socials">
-                                                                                                    <li class="member-social"><a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">Details</a></li>
-                                                                                                </ul>
-                                                                                            </div>
-                                                                                        </div>
-                                                                                    </div>
-                                                                                @endforeach
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>  
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="vc_row-full-width vc_clearfix" bis_skin_checked="1"></div>
                                 </div>
                             </div>                    
                         </div>
@@ -241,6 +183,66 @@
         </div>
     </main>                        
 </div>
+
+
+
+
+                            <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533714072840 striped-background-light vc_row-has-fill custom-fluid" style="">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <h2 class="related-heading"><span>You may also </span>like this</h2>
+                                                            <p class="text-center">Beyond by Omniyat, Muraba Properties, and Eywa’s European boutique developer redefine Dubai luxury, blending architectural artistry, cultural resonance, and innovation to craft sophisticated, wellness-focused residences along iconic locations like the Dubai Water Canal.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">  
+                                                            <div class="  ">
+                                                                <div class="teammember-shortcode-wrap grid ">
+                                                                    <div class="teammember-list padding-15 columns-3" style="position: relative;">
+                                                                        @foreach($properties as $val)
+                                                                            <div class="team-item" style="">
+                                                                                <div class="team-content">
+                                                                                    <div class="team-image ribbon">
+                                                                                        <span class="ribbon1"><span>{{$val->name}}</span></span>
+                                                                                        
+                                                                                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
+                                                                                        <div class="team-meta">
+                                                                                            <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
+                                                                                                <h5 class="team-title">{{$val->name}}</h5>
+                                                                                                <p class="team-position">/ {{$val->builder_name}}</p>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                        <ul class="member-socials">
+                                                                                            <li class="member-social"><a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">Details</a></li>
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        @endforeach
+                                                                    </div>
+                                                                </div>
+                                                            </div>  
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="vc_row-full-width vc_clearfix" bis_skin_checked="1"></div>
+
 
 @endsection
 

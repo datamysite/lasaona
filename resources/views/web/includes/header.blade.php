@@ -71,13 +71,24 @@
                             <div class="mobile-header-social">
                                 <ul class="header-elements-item header-social-network-wrap">
                                     <li>
-                                        <a href="#" target="_blank"><i class="header-icon ti-twitter-alt"></i></a>
+                                        <a href="https://www.facebook.com/MeetLasaOna" target="_blank">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank"><i class="header-icon ti-facebook"></i></a>
+                                        <a href="https://www.instagram.com/lasaonamusic" target="_blank">
+                                            <i class="fa fa-instagram"></i>
+                                        </a>
                                     </li>
                                     <li>
-                                        <a href="#" target="_blank"><i class="header-icon ti-vimeo-alt"></i></a>
+                                        <a href="https://www.linkedin.com/in/lucia-bakde/" target="_blank">
+                                            <i class="fa fa-linkedin-square"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/@lasaona" target="_blank">
+                                            <i class="fa fa-youtube"></i>
+                                        </a>
                                     </li>
                                 </ul>                    
                             </div>
