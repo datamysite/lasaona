@@ -32,6 +32,8 @@
     <meta name="twitter:site" content="@MeetLasaOna" />
 
     <link rel="icon" type="image/x-icon" href="{{URL::to('/public/images/favicon.png')}}">
+    <link rel="icon" href="{{URL::to('/public/images/favicon.png')}}" sizes="32x32">
+    <link rel="apple-touch-icon" href="{{URL::to('/public/images/favicon.png')}}">
 
     @include('web.includes.style')
     @yield('addStyle')
