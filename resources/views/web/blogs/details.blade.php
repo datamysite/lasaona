@@ -14,6 +14,7 @@
         }
         .haru-page-title-section .haru-page-title-wrapper .page-title-inner .block-center-inner h2{
           font-size: 25px !important;
+          padding-right: 415px;
         }
         .haru-page-title-section{
           padding: 45px 0;
@@ -21,6 +22,14 @@
         }
         .single-content .single-wrapper article .post-thumbnail-wrapper{
             margin-top: 12px;
+        }
+        @media (max-width: 991px) {
+            .haru-page-title-section .haru-page-title-wrapper .page-title-inner .block-center-inner h2{
+              font-size: 15px !important;
+                padding-right: 30px;
+                text-transform: capitalize;
+                line-height: 22px;
+            }
         }
     </style>
 @endsection
