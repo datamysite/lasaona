@@ -171,16 +171,16 @@
                                                                                                             <div class="description-detail" bis_skin_checked="1">
                                                                                                                 <div class="director-story" bis_skin_checked="1">
                                                                                                                     <p>
-                                                                                                                        LasaOna’s musical journey began at 14, rooted in her Slovakian heritage — a place of contrast: tradition and rebellion, folklore and soul. Born between two frequencies — one grounded in jazz and emotion, the other in silence and introspection — her upbringing sparked curiosity and a poetic sensibility. Driven by feelings often unnamed, she turned them into music. 
+                                                                                                                        Lasa Ona’s musical journey began at 14, rooted in her Slovakian heritage — a place of contrast: tradition and rebellion, folklore and soul. Born between two frequencies — one grounded in jazz and emotion, the other in silence and introspection — her upbringing sparked curiosity and a poetic sensibility. Driven by feelings often unnamed, she turned them into music. 
                                                                                                                         <br><br>
-                                                                                                                        As a songwriter and stage performer, Lucia blends her multicultural background into soulful, evocative performances that deeply resonate. Her music goes beyond entertainment, creating a purposeful connection that evolves with intention and depth.
+                                                                                                                        As a songwriter and stage performer, Lasa Ona blends her multicultural background into soulful, evocative performances that deeply resonate. Her music goes beyond entertainment, creating a purposeful connection that evolves with intention and depth.
 
                                                                                                                     </p>
                                                                                                                 </div>
                                                                                                             </div>
                                                                                                         </div>
                                                                                                         <div class="col-md-5 col-sm-5" bis_skin_checked="1">
-                                                                                                            <div class="director-testimonial" bis_skin_checked="1">LasaOna aims to create music that holds emotion and beauty, leaving a lasting impression long after it ends.</div>
+                                                                                                            <div class="director-testimonial" bis_skin_checked="1">Lasa Ona aims to create music that holds emotion and beauty, leaving a lasting impression long after it ends.</div>
                                                                                                         </div>
                                                                                                     </div>
                                                                                                 </div>
