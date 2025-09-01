@@ -126,7 +126,7 @@
                                                                                                 <li>
                                                                                         <span class="contact-icon fa fa-envelope"></span>
                                                                                         <span class="contact-label">Email</span>
-                                                                                        <span class="contact-description">info@meetlasaona.com</span>
+                                                                                        <span class="contact-description"><a href="mailto:info@meetlasaona.com">info@meetlasaona.com</a></span>
                                                                                     </li>
                                                                                      <!--            <li>
                                                                                         <span class="contact-icon fa fa-life-ring"></span>
