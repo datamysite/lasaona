@@ -53,13 +53,13 @@
 
                                 <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
                                     <a href="{{route('blogs')}}">Blogs</a><b class="menu-caret"></b>
-                                    <ul class="sub-menu" style="">
+                                    <!-- <ul class="sub-menu" style="">
                                         @foreach($blog_categories as $val)
                                             <li class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home level-1 ">
                                                 <a href="{{route('blog.category', $val->slug)}}">{{$val->name}}</a>
                                             </li>
                                         @endforeach
-                                    </ul>
+                                    </ul> -->
                                 </li>
 
                                 <li id="menu-item-mobile-2816" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
@@ -136,13 +136,13 @@
 
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
                                             <a href="{{route('blogs')}}">Blogs</a><b class="menu-caret"></b>
-                                            <ul class="sub-menu animated menu_fadeInDown" style="">
+                                            <!-- <ul class="sub-menu animated menu_fadeInDown" style="">
                                                 @foreach($blog_categories as $val)
                                                     <li id="menu-item-1915" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home level-1 ">
                                                         <a href="{{route('blog.category', $val->slug)}}">{{$val->name}}</a>
                                                     </li>
                                                 @endforeach
-                                            </ul>
+                                            </ul> -->
                                         </li>
                                         <li id="menu-item-100" class="haru-menu menu_style_dropdown   menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor menu-item-has-children level-0 ">
                                             <a href="{{route('contact')}}">Contact</a>

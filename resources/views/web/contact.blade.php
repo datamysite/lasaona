@@ -143,7 +143,7 @@
                                                                             <div class="footer-social-content" bis_skin_checked="1">
                                                                                 <ul class="social-list align-left">
                                                                                     <li>
-                                                                                        <a href="https://www.facebook.com/LuciaSkyMusic" target="_blank">
+                                                                                        <a href="https://www.facebook.com/MeetLasaOna" target="_blank">
                                                                                             <i class="fa fa-facebook"></i>
                                                                                         </a>
                                                                                     </li>
