@@ -128,11 +128,11 @@
                                                                                         <span class="contact-label">Email</span>
                                                                                         <span class="contact-description">info@meetlasaona.com</span>
                                                                                     </li>
-                                                                                                <li>
+                                                                                     <!--            <li>
                                                                                         <span class="contact-icon fa fa-life-ring"></span>
                                                                                         <span class="contact-label">Support</span>
                                                                                         <span class="contact-description">Working Hours</span>
-                                                                                    </li>
+                                                                                    </li> -->
                                                                                 </ul>
                                                                             </div>
                                                                         </div>            
