@@ -46,12 +46,13 @@
 		line-height: 148px !important;
 	}
 	.property-images-slide .slide-item span {
-	    position: absolute;
-	    top: 0px;
-	    background-color: #bc984b;
-	    color: #fff;
-	    padding: 2px 10px 2px 8px;
-	    font-size: 10px;
-	    box-shadow: none;
-	}
+        position: absolute;
+        top: auto;
+        bottom: 0;
+        left: 35%;
+        background-color: #bc984b;
+        color: #fff;
+        padding: 2px 11px 2px 11px;
+        font-size: 16px;
+    }
 }
