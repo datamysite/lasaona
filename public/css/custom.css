@@ -382,3 +382,36 @@ right:50px;}
     padding-left: 367.5px; 
     padding-right: 367.5px;
 }
+.let-content h4 {
+    margin-top: 22px;
+}
+.let-content2-show {
+    text-align: center;
+    padding: 70px 0 35px 0;
+    margin-top: -103px;
+    position: relative;
+    background-image: linear-gradient(#ffffff21, #ffffffd1, #fffffff7, #ffffff);
+}
+.let-content2 {
+    height: 335px;
+    overflow: hidden;
+}
+.let-content2-show button {
+    padding: 4px 32px;
+    border: none;
+    color: #d8b069;
+    font-weight: 600;
+}
+
+.property-images-slide .slide-item {
+    position: relative;
+}
+.property-images-slide .slide-item span {
+    position: absolute;
+    top: 40px;
+    background-color: #bc984b;
+    color: #fff;
+    padding: 2px 18px 2px 22px;
+    font-size: 22px;
+        box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
+}

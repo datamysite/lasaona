@@ -11,6 +11,12 @@ var HARU = HARU || {};
 (function ($) {
     "use strict";
 
+
+    $('.read-more').click(function(){
+        $('.let-content2').css({height: "fit-content"});
+        $('.let-content2-show').css({display: "none"});
+    });
+    
     var $window = $(window),
         deviceAgent = navigator.userAgent.toLowerCase(),
         isMobile    = deviceAgent.match(/(iphone|ipod|android|iemobile)/),

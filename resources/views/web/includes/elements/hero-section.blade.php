@@ -152,7 +152,7 @@
                                             data-frame_999="o:0;tp:600;st:w;sR:4600;"
                                             data-frame_hover="c:#000;bgc:#fff;boc:#fff;bor:0px,0px,0px,0px;bos:solid;bow:1px,1px,1px,1px;oX:50;oY:50;sp:0;"
                                             style="z-index:14;background-color:rgba(0,0,0,0.75);font-family:'Josefin Sans';cursor:pointer;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;"
-                                          >CONTACT ME NOW 
+                                          >Enquire
                                           </rs-layer>
                                         </a>
                                       </rs-slide>

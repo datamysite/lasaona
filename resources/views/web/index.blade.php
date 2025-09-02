@@ -1,5 +1,11 @@
 @extends('web.includes.master')
-
+@section('addStyle')
+	<style>
+		.vc_custom_1531118663045 {
+		    padding-top: 2% !important;
+		}
+	</style>
+@endsection
 @section('content')
 
 <main class="haru-page">
@@ -56,22 +62,22 @@
                 														<div class="teammember-list padding-15 columns-3" style="position: relative;">
                 															@foreach($properties as $val)
 	                        													<div class="team-item" style="">
-																	                <div class="team-content">
-																	                    <div class="team-image ribbon">
-																	                    	<span class="ribbon1"><span>{{$val->name}}</span></span>
+	                        														<a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
+																		                <div class="team-content">
+																		                    <div class="team-image ribbon">
+																		                    	<span class="ribbon1"><span>{{$val->name}}</span></span>
 
-																	                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
-																	                        <div class="team-meta">
-																	                        	<a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
-																		                            <h5 class="team-title">{{$val->name}}</h5>
-																		                            <p class="team-position">/ {{$val->builder_name}}</p>
-																		                        </a>
-																	                        </div>
-									                                                    	<ul class="member-socials">
-									                                                            <li class="member-social"><a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">Details</a></li>
-									                                                        </ul>
-																	                    </div>
-																	                </div>
+																		                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
+																		                        <div class="team-meta">
+																			                            <h5 class="team-title">{{$val->name}}</h5>
+																			                            <p class="team-position">/ {{$val->builder_name}}</p>
+																		                        </div>
+										                                                    	<ul class="member-socials">
+										                                                            <li class="member-social">Details</li>
+										                                                        </ul>
+																		                    </div>
+																		                </div>
+																		            </a>
 																	            </div>
 																            @endforeach
                     													</div>

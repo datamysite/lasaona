@@ -90,22 +90,22 @@
                                                     @php $li=1; @endphp
                                                     @foreach($properties as $val)
                                                         <div class="team-item" style="">
-                                                            <div class="team-content">
-                                                                <div class="team-image ribbon">
-                                                                    <span class="ribbon1"><span>{{$val->name}}</span></span>
+                                                            <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
+                                                                <div class="team-content">
+                                                                    <div class="team-image ribbon">
+                                                                        <span class="ribbon1"><span>{{$val->name}}</span></span>
 
-                                                                    <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
-                                                                    <div class="team-meta">
-                                                                        <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
-                                                                            <h5 class="team-title">{{$val->name}}</h5>
-                                                                            <p class="team-position">/ {{$val->builder_name}}</p>
-                                                                        </a>
+                                                                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
+                                                                        <div class="team-meta">
+                                                                                <h5 class="team-title">{{$val->name}}</h5>
+                                                                                <p class="team-position">/ {{$val->builder_name}}</p>
+                                                                        </div>
+                                                                        <ul class="member-socials">
+                                                                            <li class="member-social">Details</li>
+                                                                        </ul>
                                                                     </div>
-                                                                    <ul class="member-socials">
-                                                                        <li class="member-social"><a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">Details</a></li>
-                                                                    </ul>
                                                                 </div>
-                                                            </div>
+                                                            </a>
                                                         </div>
 
                                                         @if($li == 3)
@@ -143,100 +143,100 @@
     <div class="haru-archive-product">
         <div class="container clearfix">
             <div class="row clearfix">    
-                <div class="col-md-12 col-sm-12 col-xs-12 let-content">
+                <div class="col-md-12 col-sm-12 col-xs-12 let-content let-content2">
                         
                         <!-- Content -->
                             <br><br>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Dubai’s Luxury Real Estate — Curated by Meet Lasa Ona</strong></span></span>
+                            <h4>Dubai’s Luxury Real Estate — Curated by Meet Lasa Ona</h4>
+
+                            <p>
+                                Dubai has become a global icon for luxury living, architectural brilliance, and
+                                unmatched lifestyle experiences. At Meet Lasa Ona, we don’t just showcase properties
+                                — we present world-class residences that redefine elegance, comfort, and investment
+                                potential.
+                                <br><br>
+                                From waterfront penthouses to architecturally significant villas, our portfolio includes
+                                some of the best areas to buy in Dubai in 2025, perfect for Dubai Golden Visa
+                                property investment and long-term value appreciation.
                             </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Dubai has become a global icon for&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>luxury living</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, architectural brilliance, and unmatched lifestyle experiences. At&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Meet Lasa Ona</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, we don’t just showcase properties — we present&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>world-class residences</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> that redefine elegance, comfort, and investment potential.</span></span>
+                            
+                            <h4>Beyond by Omniyat — Where Art Meets Architecture</h4>
+
+                            <p>
+                                A vision by the Omniyat Group, Beyond crafts luxury apartments for sale in Dubai
+                                that merge architectural artistry with wellness and timeless design. Each residence
+                                reflects a commitment to extraordinary living experiences, perfect for discerning
+                                buyers who value sophistication and comfort.
+                                <br><br>
+                                Whether you’re looking to buy an apartment in Dubai or explore apartments for sale
+                                in Downtown Dubai, Beyond offers spaces that are as inspiring as they are luxurious.
                             </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">From&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">waterfront penthouses</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> to&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">architecturally significant villas</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, our portfolio includes some of the&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>best areas to buy in Dubai in 2025</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, perfect for&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Dubai Golden Visa property investment</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> and long-term value appreciation.</span></span>
+
+                            <h4>Muraba Properties — Boutique Luxury, Redefined</h4>
+
+                            <p>
+                                Muraba Properties brings Dubai’s boutique luxury vision to life through a collaboration
+                                with RCR Arquitectes, delivering residences that are culturally resonant, rare in
+                                sophistication, and globally admired.
+                                <br><br>
+                                The iconic Muraba Residences stand as a symbol of architectural purity and
+                                understated elegance, making them one of the best investment properties in Dubai.
+                                If you’re exploring villas for sale in Palm Jumeirah or apartments for sale in Dubai
+                                Marina, Muraba’s offerings deserve your attention.
                             </p>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Beyond by Omniyat — Where Art Meets Architecture</strong></span></span>
+
+                            <h4>Eywa — The European Boutique Developer</h4>
+
+                            <p>
+                                Making its debut in Dubai, the European boutique developer behind Eywa introduces
+                                an extraordinary Dubai Water Canal landmark in Business Bay. Blending luxury,
+                                innovation, and elevated residential living, Eywa Dubai delivers homes that redefine the
+                                future of urban luxury.
+                                <br><br>
+                                From Dubai Hills apartments for sale to exclusive townhouses for sale in Dubai,
+                                Eywa’s design philosophy ensures each residence is a statement of lifestyle and
+                                taste.
                             </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">A vision by the&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Omniyat Group</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">,&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Beyond</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> crafts&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>luxury apartments for sale in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> that merge architectural artistry with wellness and timeless design. Each residence reflects a commitment to&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>extraordinary living experiences</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, perfect for discerning buyers who value sophistication and comfort.</span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Whether you’re looking to&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>buy an apartment in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> or explore&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>apartments for sale in Downtown Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">,&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Beyond</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> offers spaces that are as inspiring as they are luxurious.</span></span>
-                            </p>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Muraba Properties — Boutique Luxury, Redefined</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Muraba Properties</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> brings Dubai’s boutique luxury vision to life through a collaboration with&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>RCR Arquitectes</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, delivering residences that are&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>culturally resonant, rare in sophistication, and globally admired</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">.</span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">The iconic&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Muraba Residences</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> stand as a symbol of architectural purity and understated elegance, making them one of the&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>best investment properties in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">. If you’re exploring&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>villas for sale in Palm Jumeirah</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> or&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>apartments for sale in Dubai Marina</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, Muraba’s offerings deserve your attention.</span></span>
-                            </p>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Eywa — The European Boutique Developer</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Making its debut in Dubai, the&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>European boutique developer</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> behind Eywa introduces an extraordinary&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Dubai Water Canal landmark</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> in&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Business Bay</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">. Blending luxury, innovation, and elevated residential living,&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Eywa Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> delivers homes that redefine the future of urban luxury.</span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">From&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Dubai Hills apartments for sale</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> to exclusive&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>townhouses for sale in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, Eywa’s design philosophy ensures each residence is a&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>statement of lifestyle and taste</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">.</span></span>
-                            </p>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Why Invest Through Meet Lasa Ona?</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">As a&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>luxury real estate influencer in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> and&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>top property consultant in the UAE</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, we provide more than just listings. We offer:</span></span>
-                            </p>
-                            <ul>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Tailored Property Recommendations</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> — Matching your lifestyle, goals, and investment strategy.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Market Insights</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> — Backed by the latest&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Dubai real estate market forecast</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> and trends.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Golden Visa Expertise</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> — Helping you navigate&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Dubai Golden Visa property investment</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> with ease.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Exclusive Access</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> — To properties not publicly listed, including&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Muraba Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> and&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Dubai and Beyond Properties</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> developments.</span></span>
-                                </li>
-                            </ul>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Featured Properties &amp; Locations</strong></span></span>
+
+                            <h4>Why Invest with Lasa Ona?</h4>
+
+                            <p>
+                                As a luxury real estate influencer in Dubai and top property consultant in the UAE,
+                                we provide more than just listings. We offer:
                             </p>
                             <ul>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Apartments for Sale in Downtown Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> — Iconic city views and vibrant lifestyle.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Property for Sale in Dubai Marina</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> — Luxury waterfront living at its finest.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Villas for Sale in Palm Jumeirah</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> — World-renowned exclusivity and beach access.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Dubai Hills Apartments for Sale</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> — Perfect blend of greenery, golf, and luxury.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Townhouses for Sale in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> — Family-friendly, modern, and stylish.</span></span>
-                                </li>
+                                
+                                <li><strong>Tailored Property Recommendations</strong> — Matching your lifestyle, goals, and
+                                investment strategy.</li>
+                                <li><strong>Market Insights</strong> — Backed by the latest Dubai real estate market forecast and
+                                trends.</li>
+                                <li><strong>Golden Visa Expertise</strong> — Helping you navigate Dubai Golden Visa property
+                                investment with ease.</li>
+                                <li><strong>Exclusive Access</strong> — To properties not publicly listed, including Muraba Dubai
+                                and Dubai and Beyond Properties developments.</li>
                             </ul>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Your Partner in Luxury Real Estate</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Whether you want to&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>buy property in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, secure a&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Golden Visa</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, or invest in the&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>best areas to buy in Dubai in 2025</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, Meet Lasa Ona connects you with&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>top realtors in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> and exclusive developments like&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Beyond</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">,&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Muraba Properties</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, and&nbsp;</span><i><span style="font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Eywa Business Bay</span></i><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">.</span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Contact us today</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> to explore your next home or investment in Dubai’s thriving real estate market — where luxury meets opportunity.</span></span>
+
+                            <h4>Featured Properties &amp; Locations</h4>
+                            <ul>
+                                <li><strong>Apartments for Sale in Downtown Dubai</strong> — Iconic city views and vibrant
+                                lifestyle.</li>
+                                <li><strong>Property for Sale in Dubai Marina</strong> — Luxury waterfront living at its finest.</li>
+                                <li><strong>Villas for Sale in Palm Jumeirah</strong> — World-renowned exclusivity and beach
+                                access.</li>
+                                <li><strong>Dubai Hills Apartments for Sale</strong> — Perfect blend of greenery, golf, and luxury.</li>
+                                <li><strong>Townhouses for Sale in Dubai</strong> — Family-friendly, modern, and stylish.</li>
+                            </ul>
+
+                            <h4>Your Partner in Luxury Real Estate</h4>
+                            
+                            <p>
+                                Whether you want to buy property in Dubai, secure a Golden Visa, or invest in the
+                                best areas to buy in Dubai in 2025, Meet Lasa Ona connects you with top realtors in
+                                Dubai and exclusive developments like Beyond, Muraba Properties, and Eywa
+                                Business Bay.
+                                <br><br>
+                                Contact us today to explore your next home or investment in Dubai’s thriving real
+                                estate market — where luxury meets opportunity.
                             </p>
                             <p>
                                 <br>
@@ -247,7 +247,11 @@
                         <!-- Content -->
 
                 </div>
+                <div class="col-md-12 col-sm-12 col-xs-12 let-content2-show">
+                    <button type="button" class="read-more">Read more</button>
+                </div>
             </div>
+            <br>
         </div>
     </div>
     

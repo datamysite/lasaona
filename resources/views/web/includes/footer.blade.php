@@ -81,13 +81,13 @@
                                             <div class="footer-contact-shortcode-wrap style_1 ">
                                                 <div class="footer-contact-content">
                                                     <ul class="contact-information">
-                                                        <li>We can't wait to see you.</li>
+                                                        <li>Stay informed with the latest in real estate <br>— subscribe to our newsletter today.</li>
                                                         <li>
                                                             <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-36" method="post" data-id="36" data-name="Subscribe Default">
                                                                 <div class="mc4wp-form-fields">
                                                                     <div class="subscribe-default">
                                                                         <div class="subscribe-email">
-                                                                            <input type="email" name="EMAIL" placeholder="Subscribe to our newsletter" required="">
+                                                                            <input type="email" name="EMAIL" placeholder="Your Email Here" required="">
                                                                         </div>
 
                                                                         <div class="subscribe-submit">

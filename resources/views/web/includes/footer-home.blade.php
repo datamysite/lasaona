@@ -133,7 +133,7 @@
                                                         <div class="mc4wp-form-fields">
                                                             <div class="subscribe-default">
                                                                 <div class="subscribe-email">
-                                                                    <input type="email" name="EMAIL" placeholder="Subscribe to our newsletter" required />
+                                                                    <input type="email" name="EMAIL" placeholder="Your Email Here" required />
                                                                 </div>
 
                                                                 <div class="subscribe-submit">
@@ -147,7 +147,6 @@
                                                         <input type="hidden" name="_mc4wp_timestamp" value="1753790461" />
                                                         <input type="hidden" name="_mc4wp_form_id" value="36" />
                                                         <input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
-                                                        <div class="mc4wp-response"></div>
                                                     </form><!-- / Mailchimp for WordPress Plugin -->
                                                 </div>
                                             </div>
@@ -155,15 +154,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="vc_row-full-width vc_clearfix"></div>
-            <div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid striped-background vc_row-has-fill">
-                <div class="wpb_column vc_column_container vc_col-sm-12">
-                    <div class="vc_column-inner">
-                        <div class="wpb_wrapper">
+
                             <div class="vc_row wpb_row vc_inner vc_row-fluid">
                                 <div class="wpb_column vc_column_container vc_col-sm-12">
                                     <div class="vc_column-inner">
@@ -200,10 +191,12 @@
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div>
             </div>
+
             <div class="vc_row-full-width vc_clearfix"></div>    
         </div>
     </footer>

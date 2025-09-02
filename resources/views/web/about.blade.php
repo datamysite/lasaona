@@ -115,7 +115,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="icon-content">
-                                                                                <p class="icon-description">She advocates exclusively for purpose-led developments that resonate with her values — only projects she would personally choose to invest in and call home.</p>
+                                                                                <p class="icon-description">She advocates exclusively for purpose-led developments that resonate with her values — projects she would personally choose to invest in and call home.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>            

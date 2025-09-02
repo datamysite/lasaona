@@ -10554,7 +10554,7 @@ header.haru-main-header.headroom--unpinned .haru-header-nav-above-wrap {
 #haru-footer-main.footer-2 .subscribe-default .subscribe-email input[type="email"], #haru-footer-main.footer-3 .subscribe-default .subscribe-email input[type="email"] {
   font-size: 14px;
   width: 100%;
-  padding: 10px 0 10px 15px;
+  padding: 1px 0 1px 15px;
   background: none;
   text-align: left;
   -webkit-border-radius: 5px;

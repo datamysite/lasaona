@@ -6,8 +6,8 @@
                     <div class="wpb_column vc_column_container vc_col-sm-12">
                         <div class="vc_column-inner">
                             <div class="wpb_wrapper">
-                                <h2 style="text-align: center" class="vc_custom_heading vc_custom_1536487831307 heading_style_14">Lasa Ona</h2>
-                                <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading text-upper lt-spacing-10 fs-100 vc_custom_1533887648176 heading_style_4">Oomlala</h2>
+                                <h2 style="text-align: center" class="vc_custom_heading vc_custom_1536487831307 heading_style_14">New Music</h2>
+                                <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading text-upper lt-spacing-10 fs-100 vc_custom_1533887648176 heading_style_4">Out Now</h2>
                             </div>
                         </div>
                     </div>
