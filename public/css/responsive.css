@@ -45,4 +45,13 @@
 	#slider-17-slide-48-layer-42{
 		line-height: 148px !important;
 	}
+	.property-images-slide .slide-item span {
+	    position: absolute;
+	    top: 0px;
+	    background-color: #bc984b;
+	    color: #fff;
+	    padding: 2px 10px 2px 8px;
+	    font-size: 10px;
+	    box-shadow: none;
+	}
 }
