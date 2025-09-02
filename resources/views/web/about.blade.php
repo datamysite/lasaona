@@ -19,7 +19,7 @@
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
                                                                 <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading fs-100 vc_custom_1534822900281 heading_style_4"><small>Meet</small> Lasa Ona</h2>
-                                                                <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading heading_style_1">Singer | Real Estate</h2>
+                                                                <h2 style="color: #ffffff;text-align: center" class="vc_custom_heading heading_style_1">Musician | Real Estate</h2>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -60,7 +60,7 @@
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
                                                                 <div class="button_style_7 vc_btn3-container vc_btn3-left">
-                                                                    <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey" href="#" title="">Contact Now</a>
+                                                                    <a class="vc_general vc_btn3 vc_btn3-size-md vc_btn3-shape-rounded vc_btn3-style-modern vc_btn3-color-grey" href="{{route('contact')}}" title="">Contact Now</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -81,7 +81,7 @@
                                                                         <div class="icon-box-container">
                                                                             <div class="icon-top">
                                                                                 <div class="icon-wrap">
-                                                                                    <img decoding="async" src="{{URL::to('/public/images/music-icon.png')}}" alt="Music">
+                                                                                    <img decoding="async" src="{{URL::to('/public/images/music-icon2.png')}}" alt="Music">
                                                                                 </div>
                                                                                 <div class="icon-title">
                                                                                         <a href="{{route('music')}}" title="" target="_self">

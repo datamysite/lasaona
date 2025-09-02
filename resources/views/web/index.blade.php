@@ -45,7 +45,7 @@
                                 							<div class="wpb_wrapper">
 																<div class="wpb_text_column wpb_content_element  fs-18 text-color-secondary secondary-font">
 																	<div class="wpb_wrapper">
-																		<p class="p1 sub-para" style="text-align: center;"><span class="s1">Beyond by Omniyat, Muraba Properties, and Eywa’s European boutique developer redefine Dubai luxury, blending architectural artistry, cultural resonance, and innovation to craft sophisticated, wellness-focused residences along iconic locations like the Dubai Water Canal.</span></p>
+																		<p class="p1 sub-para" style="text-align: center;"><span class="s1">We work with rare developers who embody thoughtful construction and boutique luxury — each project carefully researched and curated for buyers who seek meaningful, lasting value in their homes.</span></p>
 
 																	</div>
 																</div>

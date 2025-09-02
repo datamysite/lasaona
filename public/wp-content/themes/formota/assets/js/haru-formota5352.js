@@ -192,7 +192,8 @@
                             {
                                 breakpoint: 767,
                                 settings: {
-                                    variableWidth: false
+                                    variableWidth: false,
+                                    centerMode: false,
                                 }
                             }
                         ]

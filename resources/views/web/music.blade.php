@@ -275,7 +275,7 @@
 
                                     <!-- Content -->
                                     <div class=" let-content let-content2">
-                                        <h4>Lasa Ona’s Musical Odyssey — Meet Lasa Ona</h4>
+                                        <h4>Lasa Ona’s Musical Odyssey</h4>
                                         
                                         <p>
                                             Lasa Ona’s musical journey began at the tender age of 14, rooted deeply in her

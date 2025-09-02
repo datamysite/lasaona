@@ -12,7 +12,7 @@
                                   <rs-module id="rev_slider_17_1" style="" data-version="6.5.20">
                                     <rs-slides>
                                       <rs-slide style="position: absolute;" data-key="rs-47" data-title="Slide" data-anim="ms:600;" data-in="o:0;" data-out="a:false;">
-                                        <img decoding="async" src="{{URL::to('/public')}}/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Slide" title="Home 9" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//demo.harutheme.com/formota/wp-content/plugins/revslider/public/assets/assets/transparent.png" data-bg="c:#000000;" data-parallax="off" data-no-retina>
+                                        <img decoding="async" src="{{URL::to('/public')}}/images/main-bg.jpg" alt="Slide" title="Home 9" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="{{URL::to('/public')}}/images/main-bg.jpg" data-bg="c:#000000;" data-parallax="off" data-no-retina>
                                           
                                         <rs-layer
                                           id="slider-17-slide-47-layer-2" 
@@ -179,13 +179,13 @@
                                           data-type="text"
                                           data-color="#d8b069"
                                           data-rsp_ch="on"
-                                          data-xy="x:l,l,l,c;xo:781px,781px,781px,0;yo:308px,308px,308px,314px;"
+                                          data-xy="x:l,l,l,c;xo:721px,721px,721px,0;yo:308px,308px,308px,314px;"
                                           data-text="s:140,140,140,36;l:170,170,170,48;a:inherit;"
                                           data-frame_0="tp:600;"
                                           data-frame_1="tp:600;e:Strong.easeInOut;st:1000;sp:1600;sR:1000;"
                                           data-frame_999="o:0;tp:600;st:w;sR:6400;"
                                           style="z-index:7;font-family:'Mr Dafoe';font-style:italic;"
-                                        >Singer
+                                        >Musician
                                         </rs-layer>
 
                                         <rs-layer
@@ -203,7 +203,7 @@
                                         </rs-layer>
 
 
-                                        <a href="{{route('music')}}">
+                                        <a href="{{route('music')}}" class="hero-music-btn">
                                           <rs-layer
                                             id="slider-17-slide-47-layer-11" 
                                             class="rev-btn"

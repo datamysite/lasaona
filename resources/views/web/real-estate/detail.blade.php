@@ -178,6 +178,19 @@
                                                                             </div>
                                                                         </div>
                                                                     </div>
+
+                                                                    <div class="panel">
+                                                                        <div class="panel-heading">
+                                                                            <h4 class="panel-title">
+                                                                                <a data-toggle="collapse" class="collapsed" data-parent="#accordion-2991721332" href="#col-video" aria-expanded="false">Video</a>
+                                                                            </h4>
+                                                                        </div>
+                                                                        <div id="col-video" class="panel-collapse collapse " aria-expanded="false">
+                                                                            <div class="panel-body">
+                                                                                <iframe width="100%" height="360px" src="https://www.youtube.com/embed/8FlebR8KBkM?list=RD8FlebR8KBkM" title="Lasa Ona - Oomlala (Lyric video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>              
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>            
@@ -207,7 +220,7 @@
                             <div class="vc_column-inner">
                                 <div class="wpb_wrapper">
                                     <h2 class="related-heading"><span>You may also </span>like this</h2>
-                                    <p class="text-center">Beyond by Omniyat, Muraba Properties, and Eywa’s European boutique developer redefine Dubai luxury, blending architectural artistry, cultural resonance, and innovation to craft sophisticated, wellness-focused residences along iconic locations like the Dubai Water Canal.</p>
+                                    <p class="text-center">We work with rare developers who embody thoughtful construction and boutique luxury — each project carefully researched and curated for buyers who seek meaningful, lasting value in their homes.</p>
                                 </div>
                             </div>
                         </div>

@@ -43,7 +43,8 @@
 	    width: 100% !important;
 	}
 	#slider-17-slide-48-layer-42{
-		line-height: 148px !important;
+		line-height: 100px !important;
+        width: 178px !important;
 	}
 	.property-images-slide .slide-item span {
         position: absolute;
@@ -55,4 +56,26 @@
         padding: 2px 11px 2px 11px;
         font-size: 16px;
     }
+    .hero-music-btn rs-layer {
+	    margin-top: -135px !important;
+	}
+	#slider-17-slide-48-layer-4 {
+	    margin-left: -10px;
+	}
+	.vc_custom_1531122077430{
+		background-image: none !important;
+	}
+	.images-gallery-shortcode-wrap.slick_2 .slide-count-wrap{
+		    padding-bottom: 14px !important;
+	}
+	.enquiry-form h3{
+		font-size: 36px !important;
+	}
+	.contact-form .contact-submit input{
+		padding: 5px 20px;
+		margin-bottom: 6px;
+	}
+	.enquiry-form{
+		margin-bottom: 16px;
+	}
 }
