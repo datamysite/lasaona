@@ -377,10 +377,10 @@ right:50px;}
     text-align: center; 
     position: relative; 
     box-sizing: border-box; 
-    width: 1905px; 
-    max-width: 1905px; 
-    padding-left: 367.5px; 
-    padding-right: 367.5px;
+    width: 100%; 
+    max-width: 100%; 
+    padding-left: 15%; 
+    padding-right: 15%;
 }
 .let-content h4 {
     margin-top: 22px;
@@ -399,8 +399,9 @@ right:50px;}
 .let-content2-show button {
     padding: 4px 32px;
     border: none;
-    color: #d8b069;
+    color: #fff;
     font-weight: 600;
+    background-color: #d8b069;
 }
 
 .property-images-slide .slide-item {

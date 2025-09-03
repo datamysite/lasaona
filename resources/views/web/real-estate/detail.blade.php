@@ -73,7 +73,7 @@
     
     <div class="vc_row-full-width vc_clearfix"></div>
 
-    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_row-has-fill custom-fluid" style="">
+    <div class="vc_row wpb_row vc_row-fluid vc_row-has-fill container" style="">
         <div class="wpb_column vc_column_container vc_col-sm-12">
             <div class="vc_column-inner">
                 <div class="wpb_wrapper">
@@ -219,50 +219,53 @@
 
     <div class="vc_row-full-width vc_clearfix"></div>
 
-    <div data-vc-full-width="false" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid vc_custom_1533714072840 vc_row-has-fill custom-fluid" style="">
-        <div class="wpb_column vc_column_container vc_col-sm-12">
-            <div class="vc_column-inner">
-                <div class="wpb_wrapper">
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">
-                                    <h2 class="related-heading"><span>You may also </span>like this</h2>
-                                    <p class="text-center">We work with rare developers who embody thoughtful construction and boutique luxury — each project carefully researched and curated for buyers who seek meaningful, lasting value in their homes.</p>
+
+    <div class="container clearfix">
+        <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1529569201088 vc_row-has-fill" style="position: relative; left: -367.5px; box-sizing: border-box; width: 1905px; max-width: 1905px; padding-left: 367.5px; padding-right: 367.5px; background-color: #f8f8f8 !important;">
+            <div class="wpb_column vc_column_container vc_col-sm-12">
+                <div class="vc_column-inner">
+                    <div class="wpb_wrapper">
+                        <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">
+                                        <h2 class="related-heading"><span>You may also </span>like this</h2>
+                                        <p class="text-center">We work with rare developers who embody thoughtful construction and boutique luxury — each project carefully researched and curated for buyers who seek meaningful, lasting value in their homes.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="vc_row wpb_row vc_inner vc_row-fluid">
-                        <div class="wpb_column vc_column_container vc_col-sm-12">
-                            <div class="vc_column-inner">
-                                <div class="wpb_wrapper">  
-                                    <div class="  ">
-                                        <div class="teammember-shortcode-wrap grid ">
-                                            <div class="teammember-list padding-15 columns-3" style="position: relative;">
-                                                @foreach($properties as $val)
-                                                    <div class="team-item" style="">
-                                                        <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
-                                                            <div class="team-content">
-                                                                <div class="team-image ribbon">
-                                                                    <span class="ribbon1"><span>{{$val->name}}</span></span>
-                                                                    
-                                                                    <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
-                                                                    <div class="team-meta">
-                                                                            <h5 class="team-title">{{$val->name}}</h5>
-                                                                            <p class="team-position">/ {{$val->builder_name}}</p>
+                        <div class="vc_row wpb_row vc_inner vc_row-fluid">
+                            <div class="wpb_column vc_column_container vc_col-sm-12">
+                                <div class="vc_column-inner">
+                                    <div class="wpb_wrapper">  
+                                        <div class="  ">
+                                            <div class="teammember-shortcode-wrap grid ">
+                                                <div class="teammember-list padding-15 columns-3" style="position: relative;">
+                                                    @foreach($properties as $val)
+                                                        <div class="team-item" style="">
+                                                            <a href="{{route('real-estate.detail', $val->slug)}}" target="_blank">
+                                                                <div class="team-content">
+                                                                    <div class="team-image ribbon">
+                                                                        <span class="ribbon1"><span>{{$val->name}}</span></span>
+                                                                        
+                                                                        <img loading="lazy" decoding="async" width="330" height="330" src="{{URL::to('public/storage/properties/'.$val->images[0]->image)}}" alt="{{$val->name}}">                        
+                                                                        <div class="team-meta">
+                                                                                <h5 class="team-title">{{$val->name}}</h5>
+                                                                                <p class="team-position">/ {{$val->builder_name}}</p>
+                                                                        </div>
+                                                                        <ul class="member-socials">
+                                                                            <li class="member-social">Details</li>
+                                                                        </ul>
                                                                     </div>
-                                                                    <ul class="member-socials">
-                                                                        <li class="member-social">Details</li>
-                                                                    </ul>
                                                                 </div>
-                                                            </div>
-                                                        </a>
-                                                    </div>
-                                                @endforeach
+                                                            </a>
+                                                        </div>
+                                                    @endforeach
+                                                </div>
                                             </div>
-                                        </div>
-                                    </div>  
+                                        </div>  
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -270,6 +273,7 @@
                 </div>
             </div>
         </div>
+        <div class="vc_row-full-width vc_clearfix"></div>    
     </div>
 
     <div class="vc_row-full-width vc_clearfix"></div>
