@@ -61,11 +61,11 @@
                                                         <div class="vc_column-inner">
                                                             <div class="wpb_wrapper">
                                                                 <h2 style="text-align: left" class="vc_custom_heading about-me heading_style_5">
-                                                                    <span class="hightlight-heading">LasaOna</span> passion for music and design, combined with her multicultural experience, shapes her unique creative perspective.
+                                                                    <span class="hightlight-heading">Lasa Ona</span> passion for music and design, combined with her multicultural experience, shapes her unique creative perspective.
                                                                 </h2>
                                                                 <div class="wpb_text_column wpb_content_element  vc_custom_1533626628395">
                                                                     <div class="wpb_wrapper">
-                                                                        <p class="p1"><span class="s1">LasaOna is a musician and real estate consultant who uses creativity and design insight to deliver exceptional, tailored living spaces that inspire. </span></p>
+                                                                        <p class="p1"><span class="s1">Lasa Ona is a musician and real estate consultant who uses creativity and design insight to deliver exceptional, tailored living spaces that inspire. </span></p>
 
                                                                     </div>
                                                                 </div>
@@ -108,7 +108,7 @@
                                                                                 </div>
                                                                             </div>
                                                                             <div class="icon-content">
-                                                                                <p class="icon-description">LasaOna’s music journey began at 14, evolving into a passion for powerful stage performances and evocative, story-driven songwriting.</p>
+                                                                                <p class="icon-description">Lasa Ona’s music journey began at 14, evolving into a passion for powerful stage performances and evocative, story-driven songwriting.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>            
