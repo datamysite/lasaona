@@ -38,162 +38,105 @@
                             <p>
                                 <meta charset="utf-8">
                             </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Last Updated:</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> 8/12/2025</span></span>
+
+                            <h5>Last Updated: 8/12/2025</h5>
+                            <br><br>
+
+                            <p>
+                                At Meet Lasa Ona (“we,” “our,” “us”), your privacy is our priority. Whether you are exploring real estate projects in Dubai, collaborating with us in the music industry, or engaging with our influencer campaigns, we are committed to safeguarding the information you share with us. This Privacy Policy explains in detail how we collect, use, store, and protect your personal information.
                             </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                &nbsp;
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">At&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Meet Lasa Ona</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">&nbsp;</span></span><span style="background-color:transparent;color:#ff0000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">(“we,” “our,” “us”)</span></span><span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, your privacy is our priority. Whether you are exploring&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>real estate projects in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, collaborating with us in the&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>music industry</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, or engaging with our&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>influencer campaigns</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">, we are committed to safeguarding the information you share with us. This Privacy Policy explains in detail how we collect, use, store, and protect your personal information.</span></span>
-                            </p>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>1. Information We Collect</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">We collect information to provide better services to our visitors, clients, and partners:</span></span>
-                            </p>
+                            <br>
+                            <h5>1. Information We Collect</h5>
+
+                            <p>We collect information to provide better services to our visitors, clients, and partners:</p>
+
                             <ol>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Personal Information</strong></span></span>
+                                <li>
+                                    Personal Information
                                     <ul>
-                                        <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Name, email address, phone number, and contact preferences.</span></span>
-                                        </li>
-                                        <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Any information you submit via inquiry forms, email, or social media channels.</span></span>
-                                        </li>
+                                        <li>Name, email address, phone number, and contact preferences.</li>
+                                        <li>Any information you submit via inquiry forms, email, or social media channels.</li>
                                     </ul>
                                 </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Business-Related Information</strong></span></span>
+                                <li>
+                                    Business-Related Information
                                     <ul>
-                                        <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Project details if you engage us for&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>property marketing in Dubai</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">.</span></span>
-                                        </li>
-                                        <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Event or collaboration details if you work with us in the&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>music industry</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> or&nbsp;</span><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>influencer marketing</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">.</span></span>
-                                        </li>
+                                        <li>Project details if you engage us for property marketing in Dubai.</li>
+                                        <li>Event or collaboration details if you work with us in the music industry or influencer marketing.</li>
                                     </ul>
                                 </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Automatically Collected Information</strong></span></span>
+                                <li>
+                                    Automatically Collected Information
                                     <ul>
-                                        <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">IP address, browser type, device type, and operating system.</span></span>
-                                        </li>
-                                        <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                            <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Pages visited, time spent on site, and referral sources.</span></span>
-                                        </li>
+                                        <li>IP address, browser type, device type, and operating system.</li>
+                                        <li>Pages visited, time spent on site, and referral sources.</li>
                                     </ul>
                                 </li>
                             </ol>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>2. How We Use Your Information</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Your data is used strictly for business-related purposes, including:</span></span>
-                            </p>
+                            <br>
+
+                            <h5>2. How We Use Your Information</h5>
+
+                            <p>Your data is used strictly for business-related purposes, including:</p>
+
                             <ul>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Real Estate Services</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> – Providing property listings, investment advice, and project updates in Dubai.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Music &amp; Entertainment</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> – Coordinating events, artist collaborations, and promotions.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Influencer Marketing</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> – Connecting brands with suitable influencers for targeted campaigns.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Customer Support</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> – Responding to your queries and requests promptly.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>Marketing &amp; Updates</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> – Sending newsletters, event announcements, and promotional offers (only with your consent).</span></span>
-                                </li>
+                                <li>Real Estate Services – Providing property listings, investment advice, and project updates in Dubai.</li>
+                                <li>Music & Entertainment – Coordinating events, artist collaborations, and promotions.</li>
+                                <li>Influencer Marketing – Connecting brands with suitable influencers for targeted campaigns.</li>
+                                <li>Customer Support – Responding to your queries and requests promptly.</li>
+                                <li>Marketing & Updates – Sending newsletters, event announcements, and promotional offers (only with your consent).</li>
                             </ul>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>3. Sharing &amp; Disclosure</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">We do not sell or rent your personal information. However, we may share it in these situations:</span></span>
-                            </p>
+                            <br>
+
+                            <h5>3. Sharing & Disclosure</h5>
+
+                            <p>We do not sell or rent your personal information. However, we may share it in these situations:</p>
                             <ul>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>With Trusted Partners</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> – Real estate developers, music promoters, or brand partners relevant to your inquiry.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>With Service Providers</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> – Companies that assist us with marketing, analytics, and technical support.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>For Legal Compliance</strong></span><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"> – When required by law or legal process.</span></span>
-                                </li>
+                                <li>With Trusted Partners – Real estate developers, music promoters, or brand partners relevant to your inquiry.</li>
+                                <li>With Service Providers – Companies that assist us with marketing, analytics, and technical support.</li>
+                                <li>For Legal Compliance – When required by law or legal process.</li>
                             </ul>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>4. Cookies &amp; Tracking Technologies</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Our website uses cookies, pixels, and analytics tools to:</span></span>
-                            </p>
+                            <br>
+
+                            <h5>4. Cookies & Tracking Technologies</h5>
+
+                            <p>Our website uses cookies, pixels, and analytics tools to:</p>
                             <ul>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Improve site performance.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Personalize your browsing experience.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Track engagement with property listings, event announcements, or influencer content.</span></span>
-                                </li>
+                                <li>Improve site performance.</li>
+                                <li>Personalize your browsing experience.</li>
+                                <li>Track engagement with property listings, event announcements, or influencer content.</li>
                             </ul>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">You can control or disable cookies through your browser settings.</span></span>
-                            </p>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>5. Data Storage &amp; Security</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">We store your data securely using industry-standard encryption and security measures. However, no system is 100% secure, and we cannot guarantee absolute security.</span></span>
-                            </p>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>6. Your Rights</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Depending on your location, you may have rights to:</span></span>
-                            </p>
+                            <p>You can control or disable cookies through your browser settings.</p>
+                            <br>
+
+                            <h5>5. Data Storage & Security</h5>
+
+                            <p>We store your data securely using industry-standard encryption and security measures. However, no system is 100% secure, and we cannot guarantee absolute security.</p>
+                            <br>
+
+                            <h5>6. Your Rights</h5>
+
+                            <p>Depending on your location, you may have rights to:</p>
                             <ul>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Access the personal information we hold about you.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Request corrections or updates.</span></span>
-                                </li>
-                                <li style="margin-bottom:0;margin-top:0;padding-inline-start:48px;">
-                                    <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Request deletion of your personal information.</span></span>
-                                </li>
+                                <li>Access the personal information we hold about you.</li>
+                                <li>Request corrections or updates.</li>
+                                <li>Request deletion of your personal information.</li>
                             </ul>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">Contact us at&nbsp;<strong>info@meetlasaona.com</strong></span></span><span style="background-color:transparent;color:#ff0000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">&nbsp;</span></span><span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">to exercise these rights.</span></span>
-                            </p>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>7. International Data Transfers</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">If you are accessing our services from outside the UAE, your data may be transferred to and processed in countries with different privacy laws.</span></span>
-                            </p>
-                            <hr>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;"><strong>8. Changes to This Privacy Policy</strong></span></span>
-                            </p>
-                            <p style="line-height:1.3900000000000001;margin-bottom:8pt;margin-top:0pt;" dir="ltr">
-                                <span style="background-color:transparent;color:#000000;font-family:Aptos;font-size:12pt;"><span style="font-style:normal;font-variant:normal;font-weight:400;text-decoration:none;vertical-align:baseline;white-space:pre-wrap;">We may update this Privacy Policy to reflect changes in our business or laws. Please check this page periodically.</span></span>
-                            </p>
+                            <p>Contact us at info@meetlasaona.com to exercise these rights.</p>
+                            <br>
+
+                            <h5>7. International Data Transfers</h5>
+
+                            <p>If you are accessing our services from outside the UAE, your data may be transferred to and processed in countries with different privacy laws.</p>
+                            <br>
+
+                            <h5>8. Changes to This Privacy Policy</h5>
+
+                            <p>We may update this Privacy Policy to reflect changes in our business or laws. Please check this page periodically.</p>
+                            <br>
+
+
+
                             <p>
                                 <br>
                                 &nbsp;

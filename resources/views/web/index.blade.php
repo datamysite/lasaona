@@ -4,6 +4,9 @@
 		.vc_custom_1531118663045 {
 		    padding-top: 2% !important;
 		}
+		.vc_custom_1531122077430{
+			padding-top: 0px !important;
+		}
 	</style>
 @endsection
 @section('content')
