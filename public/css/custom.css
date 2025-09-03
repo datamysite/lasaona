@@ -415,3 +415,10 @@ right:50px;}
     font-size: 22px;
         box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.2);
 }
+.accordion-shortcode-content h5 {
+    line-height: 28px;
+}
+.loading2 {
+    mix-blend-mode: multiply;
+    filter: grayscale(1);
+}

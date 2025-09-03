@@ -10,11 +10,6 @@
 	    display: flex;
 	    flex-direction: column;
 	}
-	.stream-row {
-	    display: flex;
-	    justify-content: center;
-	    flex-direction: column;
-	}
 	#slider-17-slide-47-layer-9 {
 	    letter-spacing: 1px !important;
 	}
@@ -46,14 +41,13 @@
 		line-height: 100px !important;
         width: 178px !important;
 	}
-	.property-images-slide .slide-item span {
-        position: absolute;
-        top: auto;
-        bottom: 0;
-        left: 35%;
+	.property-images-slide .slide-item span{
+        position: relative;
+        top: 0px;
+        left: 0;
         background-color: #bc984b;
         color: #fff;
-        padding: 2px 11px 2px 11px;
+        padding: 2px 30px 2px 20px;
         font-size: 16px;
     }
     .hero-music-btn rs-layer {
@@ -76,6 +70,16 @@
 		margin-bottom: 6px;
 	}
 	.enquiry-form{
-		margin-bottom: 16px;
+		margin-bottom: 38px;
+	}
+	.stream-item h3, .stream-item span {
+	    display: none;
+	}
+	.stream-item a {
+	    display: flex;
+	    justify-content: center;
+	}
+	.insta-para{
+		font-size: 14px !important;
 	}
 }

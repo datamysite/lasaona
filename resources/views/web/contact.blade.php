@@ -72,10 +72,21 @@
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div class="contact-subject" bis_skin_checked="1">
+                                                                                <div class="contact-name" bis_skin_checked="1">
                                                                                     <div bis_skin_checked="1">
-                                                                                        <span class="wpcf7-form-control-wrap your-subject">
-                                                                                            <input type="text" name="subject" value="" size="40" class="wpcf7-form-control wpcf7-text" placeholder="Subject" required>
+                                                                                        <span class="wpcf7-form-control-wrap your-name">
+                                                                                            <input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" placeholder="Your Phone *" required>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="contact-email" bis_skin_checked="1">
+                                                                                    <div bis_skin_checked="1">
+                                                                                        <span class="wpcf7-form-control-wrap your-email">
+                                                                                            <select name="subject" class=" aside-email wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required>
+                                                                                                <option value="" selected disabled>Enquiry Type</option>
+                                                                                                <option value="Real Estate">Real Estate</option>
+                                                                                                <option value="Music">Music</option>
+                                                                                            </select>
                                                                                         </span>
                                                                                     </div>
                                                                                 </div>

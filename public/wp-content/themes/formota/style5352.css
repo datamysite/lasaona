@@ -4464,7 +4464,8 @@ body.layout-float .header-1 .haru-header-nav-wrap {
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form input[type="number"],
-.contact-form textarea {
+.contact-form textarea,
+.contact-form select {
   background-color: #F5F5F5;
   border: 1px solid #F5F5F5;
   margin-bottom: 12px;

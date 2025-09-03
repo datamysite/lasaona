@@ -92,7 +92,8 @@
                                                             <p role="status" aria-live="polite" aria-atomic="true"></p> 
                                                             <ul></ul>
                                                         </div>
-                                                        <form action="/formota/contact-us-2/#wpcf7-f2606-p2594-o1" method="post" class="wpcf7-form init" novalidate="novalidate" data-status="init">
+                                                        <form action="{{route('enquiry.submit')}}" id="enquiry-form" class="wpcf7-form init">
+                                                            @csrf
                                                             <div class="contact-form">
                                                                 
                                                                 <div class="contact-subject">
@@ -113,14 +114,15 @@
                                                                 <div class="contact-subject">
                                                                     <div>
                                                                         <span class="wpcf7-form-control-wrap your-subject">
-                                                                            <input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Your Email">
+                                                                            <input type="email" name="email" value="" size="40" class="wpcf7-form-control wpcf7-text aside-email" aria-invalid="false" placeholder="Your Email">
                                                                         </span>
                                                                     </div>
                                                                 </div>
+                                                                <input type="hidden" name="subject" value="Real Estate">
                                                                 <div class="contact-message">
                                                                     <div>
                                                                         <span class="wpcf7-form-control-wrap your-message">
-                                                                            <textarea name="your-message" cols="40" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea>
+                                                                            <textarea name="description" cols="40" rows="5" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message"></textarea>
                                                                         </span>
                                                                     </div>
                                                                 </div>
@@ -129,7 +131,13 @@
                                                                     <span class="wpcf7-spinner"></span>
                                                                 </div>
                                                             </div>
-                                                            <div class="wpcf7-response-output" aria-hidden="true"></div>
+                                                            
+                                                            <div class="wpcf7-response-output">
+                                                                <div class="loading loading2">
+                                                                    <br>
+                                                                    <img src="{{URL::to('/public/loader-gif.gif')}}" width="80px" class="newsletter-loader">
+                                                                </div>
+                                                            </div>
                                                         </form>
                                                     </div>
                                                 </div>
@@ -200,7 +208,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <br><br>
+                                <br>
                             </div>
                         </div>
                     </div>
@@ -291,4 +299,8 @@
 
 @section('footer')
     @include('web.includes.footer')
+@endsection
+@section('addScript')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="{{URL::to('/public/js/enquiry.js')}}"></script>
 @endsection

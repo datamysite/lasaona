@@ -71,7 +71,8 @@
             <p style="margin-top:0;">
                 <strong>Name: </strong>{{$name}}<br>
                 <strong>Email: </strong>{{$email}}<br>
-                <strong>subject: </strong>{{$subject}}<br>
+                <strong>Phone: </strong>{{$phone}}<br>
+                <strong>Enquiry Type: </strong>{{$subject}}<br>
                 <strong>Message:</strong><br>
                 {{$description}}
             </p>

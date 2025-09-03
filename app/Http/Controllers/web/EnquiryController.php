@@ -16,6 +16,7 @@ class EnquiryController extends Controller
         $n = new Enquiry;
         $n->name = $data['name'];
         $n->email = $data['email'];
+        $n->phone = $data['phone'];
         $n->subject = $data['subject'];
         $n->description = $data['description'];
         $n->save();
