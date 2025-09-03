@@ -1,9 +1,12 @@
 @extends('web.includes.master')
 @section('addStyle')
     <style>
+        .vc_custom_1531122077430{
+            padding-top: 0px !important;
+        }
         @media (max-width: 991px) {
             .vc_custom_1533616074133 {
-                padding-top: 7% !important;
+                padding-top: 0px !important;
                 padding-bottom: 7% !important;
             }
             .vc_custom_1533616074133 h2 {
