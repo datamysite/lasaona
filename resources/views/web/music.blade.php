@@ -1,9 +1,9 @@
 @extends('web.includes.master')
 @section('addStyle')
     <style>
-        body {
+        /*body {
             font-size: 16px;
-        }
+        }*/
         .haru-single-director .single-content .single-wrapper article .single-director-gallery .gallery-title {
             padding-bottom: 2%;
             margin-bottom: 1%;
