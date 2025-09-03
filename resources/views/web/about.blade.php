@@ -1,5 +1,20 @@
 @extends('web.includes.master')
-
+@section('addStyle')
+    <style>
+        @media (max-width: 991px) {
+            .vc_custom_1533616074133 {
+                padding-top: 7% !important;
+                padding-bottom: 7% !important;
+            }
+            .vc_custom_1533616074133 h2 {
+                text-align: left !important;
+            }
+            .vc_custom_1533616074133 h2:last-child {
+                font-size: 12px;
+            }
+        }
+    </style>
+@endsection
 @section('content')
 
 <main class="haru-page">
