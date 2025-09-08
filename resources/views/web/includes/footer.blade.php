@@ -124,15 +124,15 @@
                                                                 </a>
                                                             </li>
                                                             <li>
-                                                                <a href="https://www.instagram.com/lasaonamusic" target="_blank">
+                                                                <a href="https://www.instagram.com/lasaonaofficial" target="_blank">
                                                                     <i class="fa fa-instagram"></i>
                                                                 </a>
                                                             </li>
-                                                            <li>
+                                                            <!-- <li>
                                                                 <a href="https://www.linkedin.com/in/lucia-bakde/" target="_blank">
                                                                     <i class="fa fa-linkedin-square"></i>
                                                                 </a>
-                                                            </li>
+                                                            </li> -->
                                                             <li>
                                                                 <a href="https://www.youtube.com/@lasaona" target="_blank">
                                                                     <i class="fa fa-youtube"></i>
