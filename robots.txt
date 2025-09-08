@@ -1,4 +1,20 @@
+# robots.txt for https://meetlasaona.com — optimized for SEO
+
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
-Sitemap: https://letsoffleash.com/sitemap.xml
+Allow: /
+
+Disallow: /admin/
+Disallow: /login/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /thank-you/
+Disallow: /tmp/
+Disallow: /private/
+
+Allow: /assets/
+Allow: /js/
+Allow: /css/
+Allow: /images/
+
+
+Sitemap: https://meetlasaona.com/sitemap.xml
