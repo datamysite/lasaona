@@ -182,7 +182,7 @@
                                 <div class="vc_row-full-width vc_clearfix"></div>
 
 
-                                @include('web.includes.elements.instagram')
+                                @include('web.includes.elements.instagram-home')
 
                                 <div class="vc_row-full-width vc_clearfix"></div>
                             </div>
