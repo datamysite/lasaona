@@ -204,6 +204,47 @@
     </div>
 </main>
 
+   <!-- Article Schema -->
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BlogPosting",
+          "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{$actual_link}}"
+          },
+          "url": "{{$actual_link}}",
+          "headline": "{{$data->heading}}",
+          "description": "{{ $data->short_description }}",
+          "image": "{{URL::to('/public/storage/blogs/'.$data->banner)}}",
+          "author": {
+            "@type": "Person",
+            "name": "Lasa Ona",
+            "url": "https://www.instagram.com/lasaonaofficial"
+          },
+          "publisher": {
+            "@type": "Organization",
+            "name": "Lasa Ona",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://meetlasaona.com/public/images/gallery/1.jpg"
+            },
+            "sameAs": [
+              "https://www.facebook.com/MeetLasaOna",
+              "https://www.instagram.com/lasaonaofficial",
+              "https://www.youtube.com/@lasaona"
+            ]
+          },
+          "articleSection": "{{@$data->category->name}}",
+          "wordcount": "1200",
+          "datePublished": "{{ date('Y-m-d\TH:i:sP', strtotime($data->created_at)) }}",
+          "dateModified": "{{ date('Y-m-d\TH:i:sP', strtotime($data->updated_at)) }}"
+        }
+        </script>
+
+    <!-- Article Schemma -->
+
 @endsection
 
 @section('footer')

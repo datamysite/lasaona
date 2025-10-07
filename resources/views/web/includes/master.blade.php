@@ -95,6 +95,21 @@
             @endif
         @endforeach
 
+
+
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/", 
+          "@type": "BreadcrumbList", 
+          "itemListElement": [{
+            "@type": "ListItem", 
+            "position": 1, 
+            "name": "{{@$ametaTags['title']}}",
+            "item": "{{@$actual_link}}"  
+          }]
+        }
+        </script>
+
         @include('web.includes.scripts')
         @yield('addScript')
     </body>
