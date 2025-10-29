@@ -184,7 +184,11 @@
 
                                 @include('web.includes.elements.instagram-home')
 
+
+                                @include('web.includes.elements.achivement-section')
+                                
                                 <div class="vc_row-full-width vc_clearfix"></div>
+
                             </div>
                         </div>                 
                     </div>

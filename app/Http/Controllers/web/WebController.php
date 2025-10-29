@@ -8,13 +8,14 @@ use App\Models\Blogs;
 use App\Models\LatestUpdates;
 use App\Models\Videos;
 use App\Models\Properties;
+use App\Models\PrCoverage;
 
 class WebController extends Controller
 {
     public function index(){
         $data['nav'] = 'home';
         $data['blogs'] = Blogs::orderBy('created_at', 'desc')->limit(3)->get();
-        $data['updates'] = LatestUpdates::orderBy('created_at', 'desc')->limit(3)->get();
+        $data['updates'] = PrCoverage::orderBy('created_at', 'desc')->limit(3)->get();
         
         $data['properties'] = Properties::all();
 

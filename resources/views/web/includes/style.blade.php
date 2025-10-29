@@ -4,7 +4,6 @@
   <link rel='stylesheet' id='wc-blocks-style-css' href='{{URL::to("/public")}}/wp-content/plugins/woo-gutenberg-products-block/build/wc-blocks-style9733.css?ver=7.4.2' type='text/css' media='all' />
   <link rel='stylesheet' id='jquery-selectBox-css' href='{{URL::to("/public")}}/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox7359.css?ver=1.2.0' type='text/css' media='all' />
   <link rel='stylesheet' id='yith-wcwl-font-awesome-css' href='{{URL::to("/public")}}/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' type='text/css' media='all' />
-  <link rel='stylesheet' id='woocommerce_prettyPhoto_css-css' href='{{URL::to("/public")}}/wp-content/plugins/woocommerce/assets/css/prettyPhoto005e.css?ver=3.1.6' type='text/css' media='all' />
   <link rel='stylesheet' id='yith-wcwl-main-css' href='{{URL::to("/public")}}/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style9e95.css?ver=3.8.0' type='text/css' media='all' />
 
   <link rel='stylesheet' id='jquery-colorbox-css' href='{{URL::to("/public")}}/wp-content/plugins/yith-woocommerce-compare/assets/css/colorbox13ac.css?ver=1.4.21' type='text/css' media='all' />
