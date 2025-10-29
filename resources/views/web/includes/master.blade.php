@@ -35,6 +35,8 @@
     <link rel="icon" href="{{URL::to('/public/images/favicon.png')}}" sizes="32x32">
     <link rel="apple-touch-icon" href="{{URL::to('/public/images/favicon.png')}}">
 
+    @yield('preload')
+
     @include('web.includes.style')
     @yield('addStyle')
 

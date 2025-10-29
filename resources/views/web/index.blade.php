@@ -1,4 +1,12 @@
 @extends('web.includes.master')
+@section('preload')
+	
+	<link rel="preload" as="image" href="{{URL::to('/public')}}/images/main-bg.jpg">
+	<link rel="preload" as="image" href="{{URL::to('/public/images/lasa-ona.png')}}">
+	<link rel="preload" as="image" href="{{URL::to('/public/images/lasa-bg.jpg')}}">
+	<link rel="preload" as="image" href="{{URL::to('/public')}}/wp-content/uploads/2018/07/slide-actor-circle.png">
+
+@endsection
 @section('addStyle')
 	<style>
 		.vc_custom_1531118663045 {

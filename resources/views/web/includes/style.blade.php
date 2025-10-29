@@ -1,12 +1,6 @@
 
   <link rel='stylesheet' id='wp-block-library-css' href='{{URL::to("/public")}}/wp-includes/css/dist/block-library/style.min5352.css?ver=6.4.4' type='text/css' media='all' />
-  <link rel='stylesheet' id='wc-blocks-vendors-style-css' href='{{URL::to("/public")}}/wp-content/plugins/woo-gutenberg-products-block/build/wc-blocks-vendors-style9733.css?ver=7.4.2' type='text/css' media='all' />
-  <link rel='stylesheet' id='wc-blocks-style-css' href='{{URL::to("/public")}}/wp-content/plugins/woo-gutenberg-products-block/build/wc-blocks-style9733.css?ver=7.4.2' type='text/css' media='all' />
-  <link rel='stylesheet' id='jquery-selectBox-css' href='{{URL::to("/public")}}/wp-content/plugins/yith-woocommerce-wishlist/assets/css/jquery.selectBox7359.css?ver=1.2.0' type='text/css' media='all' />
-  <link rel='stylesheet' id='yith-wcwl-font-awesome-css' href='{{URL::to("/public")}}/wp-content/plugins/yith-woocommerce-wishlist/assets/css/font-awesome1849.css?ver=4.7.0' type='text/css' media='all' />
-  <link rel='stylesheet' id='yith-wcwl-main-css' href='{{URL::to("/public")}}/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style9e95.css?ver=3.8.0' type='text/css' media='all' />
-
-  <link rel='stylesheet' id='jquery-colorbox-css' href='{{URL::to("/public")}}/wp-content/plugins/yith-woocommerce-compare/assets/css/colorbox13ac.css?ver=1.4.21' type='text/css' media='all' />
+   
   <link rel='stylesheet' id='js_composer_front-css' href='{{URL::to("/public")}}/wp-content/plugins/js_composer/assets/css/js_composer.mine1b2.css?ver=6.9.0' type='text/css' media='all' />
   <link rel='stylesheet' id='bootstrap-css' href='{{URL::to("/public")}}/wp-content/themes/formota/assets/libraries/bootstrap/css/bootstrap.min5352.css?ver=6.4.4' type='text/css' media='all' />
   <link rel='stylesheet' id='font-awesome-css' href='{{URL::to("/public")}}/wp-content/themes/formota/assets/libraries/fonts-awesome/css/font-awesome.min5352.css?ver=6.4.4' type='text/css' media='all' />
@@ -34,9 +28,6 @@
   <script type="text/javascript" src="{{URL::to('/public')}}/wp-content/plugins/revslider/public/assets/js/rbtools.min8331.js?ver=6.5.18" async id="tp-tools-js"></script>
   <script type="text/javascript" src="{{URL::to('/public')}}/wp-content/plugins/revslider/public/assets/js/rs6.minf225.js?ver=6.5.20" async id="revmin-js"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     
     <link rel='stylesheet' href='{{URL::to("/public")}}/css/custom.css' type='text/css' media='all' />
     <link rel='stylesheet' href='{{URL::to("/public")}}/css/responsive.css' type='text/css' media='all' />

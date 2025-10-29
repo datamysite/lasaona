@@ -157,7 +157,7 @@
                                         </a>
                                       </rs-slide>
                                     
-                                      <rs-slide style="position: absolute;" data-key="rs-48" data-title="Slide" data-thumb="//demo.harutheme.com/formota/wp-content/uploads/2018/07/slide-bg-92-100x50.jpg" data-anim="ms:600;" data-in="o:0;" data-out="a:false;">
+                                      <rs-slide style="position: absolute;" data-key="rs-48" data-title="Slide" data-thumb="{{URL::to('/public/images/lasa-bg.jpg')}}" data-anim="ms:600;" data-in="o:0;" data-out="a:false;">
                                         <img decoding="async" src="{{URL::to('/public')}}/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" title="Home 9" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="{{URL::to('/public/images/lasa-bg.jpg')}}" data-parallax="off" data-panzoom="d:10000;ss:100;se:110;" data-no-retina>
                           
                                         <rs-layer
@@ -171,7 +171,7 @@
                                           data-frame_1="tp:600;sR:10;"
                                           data-frame_999="o:0;tp:600;st:w;sR:8690;"
                                           style="z-index:5;"
-                                        ><img loading="lazy" decoding="async" src="{{URL::to('/public')}}/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="1095" height="1000" data-lazyload="//demo.harutheme.com/formota/wp-content/uploads/2018/07/slide-actor-circle.png" data-no-retina> 
+                                        ><img loading="lazy" decoding="async" src="{{URL::to('/public')}}/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="1095" height="1000" data-lazyload="{{URL::to('/public')}}/wp-content/uploads/2018/07/slide-actor-circle.png" data-no-retina> 
                                         </rs-layer>
 
                                         <rs-layer
