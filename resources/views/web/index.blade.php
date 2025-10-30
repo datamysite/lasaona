@@ -15,6 +15,10 @@
 		.vc_custom_1531122077430{
 			padding-top: 0px !important;
 		}
+		
+		.slick-track{
+		    transform: none !important;
+		}
 	</style>
 @endsection
 @section('content')
