@@ -423,3 +423,8 @@ right:50px;}
     mix-blend-mode: multiply;
     filter: grayscale(1);
 }
+
+
+.slick-track{
+    transform: none !important;
+}
