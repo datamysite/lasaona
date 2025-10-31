@@ -1,13 +1,14 @@
 
 <div class="vc_row-full-width vc_clearfix"></div>
-<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-parallax="1.5" class="vc_row wpb_row vc_row-fluid vc_custom_1533887730832 remove-bg-image vc_row-has-fill vc_general vc_parallax vc_parallax-content-moving">
+<div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-parallax="1.5" class="vc_row wpb_row vc_row-fluid vc_custom_1530603206608 vc_row-has-fill vc_general vc_parallax vc_parallax-content-moving">
     <div class="wpb_wrapper achivement-background">
         <div class="vc_row wpb_row vc_inner vc_row">
             <div class="wpb_column vc_column_container vc_col-sm-12">
                 <div class="vc_column-inner">
                     <div class="wpb_wrapper"> 
-                        <h3 class="realated-title text-center"><span>Lasa  </span>Highlights</h3>
-                        <p class=" text-center">Milestones, Media, and the Moments That Matter— From Center Stage to Closing Deals</p>                       
+                        <h2 style="text-align: left" class="vc_custom_heading heading_style_10 text-dark">05</h2>
+                        <h3 class="vc_custom_heading vc_custom_1530602768482 heading_style_11 text-dark text-center">Highlights</h3>
+                        <p class="p1 sub-para" style="text-align: center;"><span class="s1">Milestones, Media, and the Moments That Matter— From Center Stage to Closing Deals</span></p>                      
                         <div class=" ">
                             <div class="images-gallery-shortcode-wrap slick" data-columns="1">
                                 <div class="images-list slider-for">
