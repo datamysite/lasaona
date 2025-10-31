@@ -107,7 +107,7 @@
                                           data-frame_1="tp:600;e:Strong.easeInOut;st:700;sp:1600;sR:700;"
                                           data-frame_999="o:0;tp:600;st:w;sR:6700;"
                                           style="z-index:11;"
-                                        ><img loading="lazy" decoding="async" src="{{URL::to('/public')}}/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="602" height="939" data-lazyload="{{URL::to('/public/images/lasa-ona.png')}}" data-no-retina> 
+                                        ><img loading="lazy" decoding="async" src="{{URL::to('/public')}}/wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="" class="tp-rs-img rs-lazyload" width="602" height="939" data-lazyload="{{URL::to('/public/images/lasa-ona-min.png')}}" data-no-retina> 
                                         </rs-layer>
 
                                         <rs-layer

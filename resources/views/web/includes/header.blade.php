@@ -15,7 +15,7 @@
                                     
                             <div class="header-logo-mobile">
                                 <a  href="{{route('home')}}" title="Meet lasa Ona">
-                                    <img src="{{URL::to('/public/images')}}/logo-black.png" alt="Logo - lasa Ona" />
+                                    <img src="{{URL::to('/public/images')}}/logo-black-min.png" alt="Logo - lasa Ona" />
                                 </a>
                             </div>
                         </div>
