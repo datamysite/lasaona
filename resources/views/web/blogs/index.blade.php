@@ -21,6 +21,14 @@
           padding: 45px 0;
               margin-bottom: 65px;
         }
+        .col-md-6 {
+            width: 48%;
+        }
+        @media (max-width: 991px) {
+            .col-xs-12 {
+                width: 100% !important;
+            }
+        }
     </style>
 @endsection
 @section('content')
