@@ -19,6 +19,15 @@
 		.slick-track{
 		    transform: none !important;
 		}
+		.slick img {
+		    width: 100%;
+		    height: 285px;
+		    object-fit: cover;
+		}
+		.images-gallery-shortcode-wrap.slick .images-list .image-item.slick-center {
+		    transform: scale(0.9) !important;
+		    -webkit-transform: scale(0.9) !important;
+		}
 	</style>
 @endsection
 @section('content')
