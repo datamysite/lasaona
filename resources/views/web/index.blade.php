@@ -28,6 +28,12 @@
 		    transform: scale(0.9) !important;
 		    -webkit-transform: scale(0.9) !important;
 		}
+		.read-more {
+		    border: 1px solid #b5adad;
+		    border-radius: 5px;
+		    padding: 4px 10px;
+		    margin: auto;
+		}
 	</style>
 @endsection
 @section('content')
@@ -178,11 +184,11 @@
 																	            </article>
 																	        @endforeach
 	                   													</div>
-																		<div class="blog-shortcode-paging load-more">
-            																<a href="{{route('blogs')}}" class="blog-load-more">
-                																View More            
-                															</a>
-                    													</div>
+	                   													<p class="text-center">
+	        																<a href="{{route('blogs')}}" class="read-more">
+	            																View More            
+	            															</a>
+	            														</p>
                 														<br><br><br>
             														</div>
             													</div>
