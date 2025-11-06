@@ -31,6 +31,9 @@
                 line-height: 22px;
             }
         }
+        .post-content li::marker {
+            color: #000;
+        }
     </style>
 @endsection
 @section('content')
